@@ -1,4 +1,4 @@
-baseURL = 'http://askdavidjones.com/'
+baseURL = 'https://thisisdavidjones.github.io'
 languageCode = 'en-us'
 title = 'The website of David Jones'
 theme  = 'david'
