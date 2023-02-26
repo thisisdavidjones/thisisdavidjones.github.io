@@ -62,7 +62,6 @@ html {
         padding: 0 20px 0 10px;
         width: 100px;
         display: flex;
-
         position: absolute;
 
     }
@@ -76,12 +75,13 @@ html {
 article {
     flex: 1 1 auto;
     display: block;
-    margin-left: 130px;
+    margin-left:155px;
     padding-top: 0;
           
 }
 body {
-    max-width: 800px;
+
+    max-width: 1080px;
 }
 
 p {
@@ -96,10 +96,22 @@ p {
     vertical-align: baseline;
 }
 
-p:first-of-type {
-    margin-top: 0rem;
-}
+
 
 h1 {
     margin: 0.75em 0;
+}
+
+
+
+
+@media only screen and (min-width: 650px){
+body {
+    padding: 0 25px 0 10px;
+    margin: 0 auto;
+}
+}
+
+body {
+    max-width: 1080px;
 }
