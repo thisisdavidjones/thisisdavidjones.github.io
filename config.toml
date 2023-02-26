@@ -1,0 +1,23 @@
+baseURL = 'http://askdavidjones.com/'
+languageCode = 'en-us'
+title = 'The website of David Jones'
+theme  = 'david'
+
+[Params]
+    RSSLink = "/index.xml"
+    author = "David Jones" # add your company name
+    github = "" # add your github profile name
+    twitter = "askdavidjones" # add your twitter profile
+    email = "me@thisisdavidjones.com"
+    googlefonts = ["Alegreya", "Alegreya+SC"]
+    fontbody = 'Alegreya'
+    fontcode = 'Fira Mono'
+
+[permalinks]
+    blog     =  "/blog/:year/:month/:slug"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

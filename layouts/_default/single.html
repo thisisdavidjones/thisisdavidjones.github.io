@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ hugo.Generator }}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+        {{ with .Description }}
+        <meta name="description" content="{{ . }}"> {{ end }}
+
+
+        <link href="{{ "/css/tufte.css" | relURL }}" rel="stylesheet" type="text/css">
+        <link href="{{ "/css/latex.css" | relURL }}" rel="stylesheet" type="text/css">
+        <link href="{{ "/css/david.css" | relURL }}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <article>
+        <h1>{{ .Title }}</h1>
+        <section>
+        {{ .Content }}
+    </section>
+    </article>
+    </body>
+</html>
