@@ -4,10 +4,35 @@ menu: main
 weight: -250
 slug: 
 ---
-# This is an H1
-This is the website of David Jones. I very occasionally  write here about anything that interests me, but mostly travel, software and IT, history, art,  and literature.
+This is the website of David Jones. I  occasionally  write here about atravel, software and IT, history, art,  and books, and anything else that interests me.
 
-See the [About Page](/about.html) for information about the design principles behind this site; for information about me, social media links, and contact details see the [Links](/links.html) page. This is a test
+See the [About Page](/about.html) for information about the design principles behind this site; for information about me, social media links, and contact details see the [Links](/links.html) page. 
 
 
-## Thius is an H2
+
+
+## Recent Clippings
+
+{{% section %}}
+- The [**Chapman Stick**](https://en.wikipedia.org/wiki/Chapman_Stick) is an electric musical instrument devised by Emmett Chapman in the early 1970s. A member of the guitar family, the Chapman Stick usually has ten or twelve individually tuned strings and is used to play bass lines, melody lines, chords, or textures
+
+
+- [Why Kyoto Prohibits Bright Colours](https://www.youtube.com/watch?v=KuX3nu4jdo0) - trying to keep a lid on the Tokyoisation of the ancient capital
+
+- [Munsell Colour System](https://en.wikipedia.org/w/index.php?title=Munsell_color_system&oldid=1122563341) - reducing the chroma for those Kyoto colours
+
+
+- Neil Sinhababu's [Possible Girls](https://philpapers.org/archive/SINPG) paper on modal realism. The funniest philosophy paper I've read.
+
+- [Japan to revert to traditional name order](https://www.reuters.com/article/us-japan-names-idUSKCN1VR1LE) - news report from 2019
+
+- [InPraise of Shadows](http://pdf-objects.com/files/In-Praise-of-Shadows-Junichiro-Tanizaki.pdf) by Tanizaki Junichiro (or Junichiro Tanizaki)
+
+- [The Fox Wedding (*Kitsune no Yomeiri*)](https://en.wikipedia.org/wiki/Kitsune_no_yomeiri) and the [fox window (*Kitsune No Mado*)](https://theghostinmymachine.com/2021/08/18/the-most-dangerous-games-the-fox-window-game-or-how-to-see-ghosts/)
+
+{{% /section %}}
+
+
+
+
+
