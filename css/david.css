@@ -5,8 +5,8 @@
 }
 
 .poetry p.poemtitle { font-style: normal; 
-font-weight: bold;
-margin-bottom: 0;
+    font-weight: bold;
+    margin-bottom: 0;
 
 }
 
@@ -26,24 +26,34 @@ margin-bottom: 0;
     background-color: #fcf6e7;
 }
 
-
 .break {
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 0;
     height: 1em;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 49 9' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'%3E%3Cg%3E%3Cpath d='M4.397,4.371c0.06,0.043 -0.2,0.834 -0.901,1.168c-0.879,0.419 -2.405,0.167 -3.139,-1.034c-0.735,-1.203 -0.501,-3.474 2.304,-4.243c2.805,-0.768 4.942,0.301 6.512,1.269c1.569,0.97 5.176,4.208 7.28,5.211c2.104,1.001 4.041,0.768 4.675,0.133c0.635,-0.636 0.417,-2.035 -0.067,-2.438c-0.601,-0.501 -1.269,-0.301 -1.502,-0.134c-0.234,0.167 -0.316,-0.723 0.2,-1.369c0.668,-0.835 2.707,-1.051 3.439,0.568c0.635,1.403 0.234,3.773 -1.97,4.475c-2.003,0.638 -4.442,-0.034 -7.247,-2.137c-2.805,-2.105 -4.708,-3.94 -6.612,-4.509c-1.903,-0.566 -3.409,0.047 -3.941,1.069c-0.433,0.834 -0.012,1.787 0.268,1.936c0.501,0.268 0.568,-0.066 0.701,0.035Z' style='fill:%23040000;fill-rule:nonzero;'/%3E%3Cpath d='M43.793,4.371c-0.06,0.043 0.2,0.834 0.901,1.168c0.879,0.419 2.405,0.167 3.139,-1.034c0.735,-1.203 0.501,-3.474 -2.304,-4.243c-2.805,-0.768 -4.943,0.301 -6.512,1.269c-1.569,0.97 -5.176,4.208 -7.28,5.211c-2.104,1.001 -4.041,0.768 -4.675,0.133c-0.635,-0.636 -0.417,-2.035 0.067,-2.438c0.601,-0.501 1.268,-0.301 1.502,-0.134c0.234,0.167 0.317,-0.723 -0.2,-1.369c-0.668,-0.835 -2.707,-1.051 -3.44,0.568c-0.634,1.403 -0.233,3.773 1.971,4.475c2.003,0.638 4.441,-0.034 7.246,-2.137c2.806,-2.105 4.709,-3.94 6.613,-4.509c1.903,-0.566 3.409,0.047 3.94,1.069c0.434,0.834 0.013,1.787 -0.267,1.936c-0.501,0.268 -0.568,-0.066 -0.701,0.035Z' style='fill:%23040000;fill-rule:nonzero;'/%3E%3C/g%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-html {
-    font-size: 12px;
+section {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top:0;
 }
+
+html {
+    font-size: 13px;
+}
+
 
 /***********/
 /* SIDEBAR */
 /***********/
+main {
+    padding-top: 1rem;
+}
 
 @media only screen and (min-width: 650px)
 {
@@ -51,10 +61,31 @@ html {
         min-height: 100vh;
         display: flex;
         flex-flow: column;
+        padding-top: 1rem;
+ 
     }
 }
 
+#sidebar {
+    font-variant: small-caps;
+    padding: 0 40px 0 10px;
+    width: 100%;
 
+}
+
+#sidebar ul {
+    list-style-type: none; 
+    padding-left: 0;
+
+
+}
+
+#sidebar ul li {
+    display: inline;
+    padding-right: 1rem; 
+    margin-top: 0;
+
+}
 
 @media only screen and (min-width: 650px) {
     #sidebar {
@@ -65,23 +96,27 @@ html {
         position: absolute;
 
     }
+
+
+    #sidebar ul li { 
+        float: none;
+        display: block;    
+    }
 }
 
-#sidebar ul {
-    list-style-type: none;
-    padding-left: 0;
+nav {display: block;}
+
+@media only screen and (min-width: 650px) {
+    header, article {
+    margin-left: 135px;
+    }
 }
 
 article {
     flex: 1 1 auto;
     display: block;
-    margin-left:155px;
-    padding-top: 0;
-          
-}
-body {
-
-    max-width: 1080px;
+    padding-top: 0;    
+    padding: 0rem 0rem; 
 }
 
 p {
@@ -90,7 +125,6 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
     margin-bottom: 1.4rem;
     padding-right: 0;
     vertical-align: baseline;
@@ -100,18 +134,176 @@ p {
 
 h1 {
     margin: 0.75em 0;
+    max-width: 1080px;
 }
 
 
 
 
 @media only screen and (min-width: 650px){
-body {
-    padding: 0 25px 0 10px;
-    margin: 0 auto;
-}
+    body {
+        padding: 0 75px 0 10px;
+        margin: 0 auto;
+    }
 }
 
 body {
-    max-width: 1080px;
+    width: 100%;
 }
+
+
+section  h1 {
+    font-size: 2rem;
+    line-height: 1.125;
+    box-shadow: none;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 0;
+    border-bottom: 1px #000 dotted;
+}
+
+section p, section h1 {
+    width: 65%;
+}
+
+.sidenote, .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -50%;
+    width: 40%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.marginnote * {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    clear:none;
+}
+
+.marginnote::before {
+        counter-increment: marginnoteid; /* Increment the value of section counter by 1 */
+}
+
+
+
+
+.sidenote-number:after, .sidenote:before {
+    font-family: et-book-roman-old-style;
+    position: relative;
+    vertical-align: baseline;
+}
+
+
+
+body {
+    max-width: 85%;
+}
+
+
+section ul {
+    width:100%;
+}
+
+section ul li  {
+ list-style:square;
+ width:90%;
+}
+
+
+.marginwrap {
+
+    float: right;
+    clear: right;
+    margin-right: 2.5%;
+    width: 26%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+    padding-left:0;
+}
+
+.marginwrap *  {
+    width:100%;
+    }
+
+.marginwrap .marginnote {
+    margin-right:0;
+}
+
+.marginwrap .marginnote * {
+    width:100%;
+    max-width: 100%;
+            width:fit-content;
+}
+
+.marginwrap .marginnote blockquote {
+
+    width:fit-content;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.marginwrap .marginnote blockquote * {
+
+        margin-left: 0;
+        margin-right: 0;
+        padding-left:  0;
+        padding-right:  0;
+}
+
+
+
+
+@media (max-width: 760px) {
+
+    .marginwrap {
+        float:left;
+        clear:both;
+        display:block;
+    
+        right : auto;
+
+        width : 65%;
+        z-index : auto;
+        /* basic modern patch */
+
+        width:60%;
+        font-size: 1.4rem;
+    }
+
+    .marginwrap .marginnote {
+        float:left;
+    
+        top:0;
+    }
+        .marginwrap .margin-toggle:checked + .marginnote {
+            left:0;
+        }
+}
+
+
+footnote cite {
+    font-style: italic;
+}
+
+
+blockquote footer {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
