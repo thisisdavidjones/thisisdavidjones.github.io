@@ -18,11 +18,12 @@ slug: seeingoffyuan
 I've been trying my hand at translating Tang-era poems again. This one's by Wang Wei 
 
 
-{{< figure src="http://www.chinese-poems.com/yuant.gif"  
-caption="Original poem in traditional script"
- 
->}}
 
+
+{{< figure src="http://www.chinese-poems.com/yuant.gif"  
+caption="Original in traditional script"
+ class="figimg"
+>}}
 
 And here's my translation:
 
@@ -32,3 +33,5 @@ The dust is dampened by the morning dew
 I buy my friend another cup of wine
 Beyond Yang Pass, good wine and friends are few
 {{% /poetry %}}
+
+

@@ -14,13 +14,9 @@
     </head>
     <body>
         <main>
-        <nav id="sidebar">
-            <ul>
-            <li><a href="/">Site</a></li>
-            <li><a href="/about.html">About</a></li>      
-            <li><a href="/links.html">Links</a></li>     
+        <nav id="sidebar"><ul><li><a href="/">Site</a></li><li><a href="/about/">About</a></li>          
         </ul></nav>
-        <article>{{ if .Title }} <h1>{{ .Title }}</h1>{{end}}{{ .Content }}</article>
+        <article>{{ .Content }}</article>
         </main>
     </body>
 </html>

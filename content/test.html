@@ -1,6 +1,14 @@
 <html>
     <head>
         <style>
+
+            @media only screen and (min-width: 650px){
+                body {
+                    padding: 0 25px 0 10px;
+                    margin: 0 auto;
+                }
+            }
+
             @media only screen and (min-width: 650px)
             {
                 main {
@@ -10,6 +18,26 @@
                 }
             }
 
+            nav {
+                display: block;
+            }
+
+            #sidebar {
+                font-variant: small-caps;
+                padding: 0 40px 0 10px;
+                width: 100%;
+                background-color: #cccccc;
+
+            }
+
+            #sidebar ul {
+                list-style-type: none; overflow: hidden;
+                padding-left: 0;
+            }
+            #sidebar ul li {
+                float: left;
+                padding-right: 1rem;
+            }
 
 
             @media only screen and (min-width: 650px) {
@@ -17,33 +45,60 @@
                     font-variant: small-caps;
                     padding: 0 20px 0 10px;
                     width: 100px;
-                    display: flex;
-                    background-color: aquamarine;
+                    background-color: #ff0099;
                     position: absolute;
-                    border: 1px solid #000000;
+
+                }
+
+                #sidebar ul li {
+                    background-color: #0099ff;    
+                    float: none;
+      
                 }
             }
 
-            .article {
+            @media only screen and (min-width: 650px) {
+
+                header, article {
+                margin-left: 135px;
+
+            }
+
+
+
+
+            article {
                 flex: 1 1 auto;
                 display: block;
-                margin-left: 130px;
-                border: 1px solid #000000;            
+
+                background-color: aqua;
+                max-width: 950px;
+        
+                
             }
+        
+            body {
+                max-width: 1080px;
+
+            }
+
+
+
         </style>
+
     </head>
     <body>
         <main>
-            <div id="sidebar">
+            <nav id="sidebar">
                 Sidebar
                 <ul>
                     <li>one</li>
                     <li>two</li>
                     <li>three</li>
                 </ul>
-            </div>
+            </nav>
 
-            <div class="article">
+            <article>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Cras facilisis ac quam at condimentum. Duis a dictum felis, 
                     vel mattis nibh. Maecenas egestas sodales lectus in fermentum. 
@@ -53,7 +108,33 @@
                      tortor consequat ipsum tincidunt, et gravida sem maximus. Proin pulvinar
                       placerat magna in vehicula. Nullam ac venenatis augue. Duis finibus 
                       nisi a diam efficitur aliquet. Mauris a vestibulum eros.</p>
-    
+
+
+        <style>
+            #mx3{
+                display: none;
+            }
+
+            #mn3:checked   {
+                display: block;
+                float: none;
+                left: 1rem;
+                clear: none;
+                width: 95%;
+                margin: 1rem 2.5%;
+                position: relative;
+                background-color:blue;
+        }</style>
+<p>
+<label for="mn3" class="margin-toggle">⊕</label>
+<input type="checkbox" id="mn3" class="margin-toggle"/>
+</p>
+<div class="marginnote" id="mx3">This is a marginnote</div>
+
+
+Cargo cults are millenarian, pseudo-religious beliefs, rituals and activities that  were first described in late 19th Century Melanesia. And they&rsquo;re a fruitful way of understanding many contemporary situations we find in business.</p>
+
+
                 <p>Vestibulum vestibulum justo ex, quis vulputate nulla 
                     porta quis. Sed quis magna vitae lacus maximus mattis eget 
                     laoreet lacus. Pellentesque at euismod dolor. Cras suscipit
@@ -72,7 +153,7 @@
                 <p>Nunc aliquet velit dignissim ullamcorper porta. Donec ullamcorper ligula at mattis auctor. Aenean pretium dui magna, nec suscipit dui tincidunt at. Aliquam turpis odio, gravida non sollicitudin eu, ornare feugiat sapien. Donec et turpis fermentum, semper ligula eget, lobortis nibh. In vehicula dolor id mauris consequat molestie. Nulla tristique pellentesque turpis vitae dictum. Suspendisse eget lorem vehicula, viverra sapien vitae, dapibus nulla. Cras in tincidunt velit, ac feugiat lectus. Nunc at mattis velit, ac accumsan ante. Duis bibendum, nisi nec finibus gravida, enim dui blandit tortor, ac porttitor magna ex id odio. Phasellus tempus sit amet elit id facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget accumsan felis, sit amet commodo eros.</p>
                 
                 <p>Integer ut orci ullamcorper, cursus turpis non, euismod elit. Nulla accumsan neque nec hendrerit mattis. Integer sagittis arcu nec sem gravida volutpat. Donec posuere augue sed maximus ultrices. Quisque in metus convallis, bibendum risus sit amet, lobortis velit. Nam sapien mi, ullamcorper id nulla et, luctus pharetra augue. Aliquam quis turpis dui.
-            </div>
+                </article>
         </main>
 
         
