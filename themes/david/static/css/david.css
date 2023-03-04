@@ -44,7 +44,7 @@ section {
 }
 
 html {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 
@@ -308,6 +308,33 @@ blockquote footer {
     font-size: 1.3rem;
 }
 
+#pagedates {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+ul#pagedates {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+
+ul#pagedates li {
+    display:inline-block;
+}
+
+  ul#pagedates li::before {
+    float: left;
+  }
+
+  ul#pagedates li:not(:first-child) {
+    margin-top: 0rem;
+  }
+
+  #pagedates li:not(:first-child)::before {
+    content: '\00B7\00A0';
+  }
 
 
 

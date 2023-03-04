@@ -55,6 +55,8 @@ See the [About Page](../about/) for information about the design principles behi
 - [The best metaphor](/thebestmetaphor/)
 
 - [Pronouncing Don Quixote in La mancha](/donquixote/)
+
+- Get rich quick with the [Banach-Tarski Paradox](/stem/banachtarski/)
 {{% /section %}}
 
 
