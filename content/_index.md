@@ -53,6 +53,8 @@ See the [About Page](../about/) for information about the design principles behi
 - My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/poetry/seeingoffyuan/)
 
 - [The best metaphor](/thebestmetaphor/)
+
+- [Pronouncing Don Quixote in La mancha](/donquixote/)
 {{% /section %}}
 
 
