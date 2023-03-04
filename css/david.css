@@ -116,7 +116,7 @@ article {
     flex: 1 1 auto;
     display: block;
     padding-top: 0;    
-    padding: 0rem 0rem; 
+    padding-bottom: 5rem;
 }
 
 p {
@@ -242,7 +242,7 @@ section ul li  {
 .marginwrap .marginnote * {
     width:100%;
     max-width: 100%;
-            width:fit-content;
+    width:fit-content;
 }
 
 .marginwrap .marginnote blockquote {
@@ -264,6 +264,10 @@ section ul li  {
 
 @media (max-width: 760px) {
 
+    section p, section h1 {
+        width: 100%;
+    }
+    
     .marginwrap {
         float:left;
         clear:both;
@@ -271,21 +275,26 @@ section ul li  {
     
         right : auto;
 
-        width : 65%;
         z-index : auto;
         /* basic modern patch */
+        float:left;
+        width:100%; 
 
-        width:60%;
         font-size: 1.4rem;
     }
 
     .marginwrap .marginnote {
         float:left;
-    
+        width:100%; 
         top:0;
+
     }
         .marginwrap .margin-toggle:checked + .marginnote {
             left:0;
+            width:100%;
+
+            clear:both;
+            display:block;
         }
 }
 
