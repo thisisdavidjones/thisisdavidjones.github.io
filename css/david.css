@@ -55,16 +55,6 @@ main {
     padding-top: 1rem;
 }
 
-@media only screen and (min-width: 650px)
-{
-    main {
-        min-height: 100vh;
-        display: flex;
-        flex-flow: column;
-        padding-top: 1rem;
- 
-    }
-}
 
 #sidebar {
     font-variant: small-caps;
@@ -87,30 +77,9 @@ main {
 
 }
 
-@media only screen and (min-width: 650px) {
-    #sidebar {
-        font-variant: small-caps;
-        padding: 0 20px 0 10px;
-        width: 100px;
-        display: flex;
-        position: absolute;
-
-    }
-
-
-    #sidebar ul li { 
-        float: none;
-        display: block;    
-    }
-}
 
 nav {display: block;}
 
-@media only screen and (min-width: 650px) {
-    header, article {
-    margin-left: 135px;
-    }
-}
 
 article {
     flex: 1 1 auto;
@@ -140,12 +109,6 @@ h1 {
 
 
 
-@media only screen and (min-width: 650px){
-    body {
-        padding: 0 75px 0 10px;
-        margin: 0 auto;
-    }
-}
 
 body {
     width: 100%;
@@ -163,9 +126,7 @@ section  h1 {
     border-bottom: 1px #000 dotted;
 }
 
-section p, section h1 {
-    width: 65%;
-}
+
 
 .sidenote, .marginnote {
     float: right;
@@ -205,16 +166,25 @@ body {
     max-width: 85%;
 }
 
+section p, section h1, section li {
+    width: 65%;
+}
 
-section ul {
-    width:100%;
+
+
+section > dl, section > ol, section > ul {
+    width: 90%;
+
 }
 
 section ul li  {
  list-style:square;
- width:90%;
+
 }
 
+section ul li p {
+    width: 90%;
+}
 
 .marginwrap {
 
@@ -264,6 +234,40 @@ section ul li  {
 
 @media (max-width: 760px) {
 
+    main {
+        min-height: 100vh;
+        display: flex;
+        flex-flow: column;
+        padding-top: 1rem;
+ 
+    }
+	
+	
+	    #sidebar {
+        font-variant: small-caps;
+        padding: 0 20px 0 10px;
+        width: 100px;
+        display: flex;
+        position: absolute;
+
+    }
+
+
+    #sidebar ul li { 
+        float: none;
+        display: block;    
+    }
+	
+	    header, article {
+    margin-left: 135px;
+    }	
+	
+	
+	body {
+        padding: 0 75px 0 10px;
+        margin: 0 auto;
+    }
+
     section p, section h1 {
         width: 100%;
     }
@@ -295,6 +299,18 @@ section ul li  {
 
             clear:both;
             display:block;
+        }
+
+
+        section > dl, section > ol, section > ul {
+            width: 100%;
+        
+        }
+        
+
+        
+        section ul li  {
+            width: 100%;
         }
 }
 
