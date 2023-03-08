@@ -1,4 +1,94 @@
 
+html {
+    font-size: 14px;
+}
+
+article {
+    padding: 0rem 0rem 4rem 0rem;
+    margin-left: 114px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+article h1 {
+    padding-top:0;
+    margin-top: 1rem; 
+    font-size: 3rem;
+    font-weight: 600;
+}
+section h1 {
+    margin-top: 1rem;  
+}
+
+blockquote p {
+    width: 65%;
+    margin-right: 40px;
+}
+
+section > p, section > footer, section > table {
+    width: 65%;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.marginnote {
+    margin-right: -45%;
+    width: 35%;
+}
+
+#sidebar {
+    width:100px;
+    position: absolute;
+    font-variant: small-caps;
+    padding: 0 20px 0 0;
+    margin-top: 1rem;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+
+
+#pagedates {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+ul#pagedates {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+
+ul#pagedates li {
+    display:inline-block;
+}
+
+  ul#pagedates li::before {
+    float: left;
+  }
+
+  ul#pagedates li:not(:first-child) {
+    margin-top: 0rem;
+  }
+
+  #pagedates li:not(:first-child)::before {
+    content: '\00B7\00A0';
+  }
+
+
+  
 .poetry  * {    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     font-style: italic;
     margin-top:0 rem;
@@ -37,96 +127,6 @@
     background-position: center;
 }
 
-section {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    padding-top:0;
-}
-
-html {
-    font-size: 12px;
-}
-
-
-/***********/
-/* SIDEBAR */
-/***********/
-main {
-    padding-top: 1rem;
-}
-
-
-#sidebar {
-    font-variant: small-caps;
-    padding: 0 40px 0 10px;
-    width: 100%;
-
-}
-
-#sidebar ul {
-    list-style-type: none; 
-    padding-left: 0;
-
-
-}
-
-#sidebar ul li {
-    display: inline;
-    padding-right: 1rem; 
-    margin-top: 0;
-
-}
-
-
-nav {display: block;}
-
-
-article {
-    flex: 1 1 auto;
-    display: block;
-    padding-top: 0;    
-    padding-bottom: 5rem;
-}
-
-p {
-
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-bottom: 1.4rem;
-    padding-right: 0;
-    vertical-align: baseline;
-}
-
-
-
-h1 {
-    margin: 0.75em 0;
-    max-width: 1080px;
-}
-
-
-
-
-
-body {
-    width: 100%;
-}
-
-
-section  h1 {
-    font-size: 2rem;
-    line-height: 1.125;
-    box-shadow: none;
-    text-align: left;
-    font-weight: bold;
-    margin-left: 0;
-    padding: 0;
-    border-bottom: 1px #000 dotted;
-}
-
-
 
 .sidenote, .marginnote {
     float: right;
@@ -158,32 +158,6 @@ section  h1 {
     font-family: et-book-roman-old-style;
     position: relative;
     vertical-align: baseline;
-}
-
-
-
-body {
-    max-width: 85%;
-}
-
-section p, section h1, section li {
-    width: 65%;
-}
-
-
-
-section > dl, section > ol, section > ul {
-    width: 90%;
-
-}
-
-section ul li  {
- list-style:square;
-
-}
-
-section ul li p {
-    width: 90%;
 }
 
 .marginwrap {
@@ -230,54 +204,49 @@ section ul li p {
 }
 
 
-
-
 @media (max-width: 760px) {
 
-    main {
-        min-height: 100vh;
-        display: flex;
-        flex-flow: column;
-        padding-top: 1rem;
-        width:100%;
- 
-    }
-	
-	
-	#sidebar {
-        font-variant: small-caps;
-        padding: 0 20px 0 10px;
-
-        width:100%;
-
-    }
-
-
-    #sidebar ul li { 
-        float: none;
-    }
-	
-
-	body {
-        padding: 0 10px 0 10px;
-        margin: 0 auto;
+    html {
+        font-size: 13px;
     }
 
     article {
-        display:block;
-        padding: 0px;
-        margin: 0 auto;
-    }
-
-    section {
-        padding-left :0;
+        margin-left: 0px;
 
     }
-    section p, section h1 {
+
+    section > p, section > footer, section > table {
         width: 100%;
     }
-    
-    .marginwrap {
+
+    #sidebar {
+        width:100%;
+        display: flex;
+        position:relative;
+        font-variant: small-caps;
+        padding: 0 40px 0 10px;
+    }
+
+    #sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; 
+    }
+
+    #sidebar ul  li {
+        float: left;
+        margin: 0;
+        /*    margin: 0 auto;*/
+      }
+
+      #sidebar ul  li::after {
+        content: '\00A0';
+      }
+      #sidebar ul  li:not(:first-child)::before {
+        content: '\00B7\00A0';
+      }
+
+      .marginwrap {
         float:left;
         clear:both;
         display:block;
@@ -306,61 +275,4 @@ section ul li p {
             display:block;
         }
 
-
-        section > dl, section > ol, section > ul {
-            width: 100%;
-        
-        }
-        
-
-        
-        section ul li  {
-            width: 100%;
-        }
 }
-
-
-footnote cite {
-    font-style: italic;
-}
-
-
-blockquote footer {
-    font-size: 1.3rem;
-}
-
-#pagedates {
-    font-size: 1.1rem;
-    font-style: italic;
-}
-ul#pagedates {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;   
-}
-
-
-ul#pagedates li {
-    display:inline-block;
-}
-
-  ul#pagedates li::before {
-    float: left;
-  }
-
-  ul#pagedates li:not(:first-child) {
-    margin-top: 0rem;
-  }
-
-  #pagedates li:not(:first-child)::before {
-    content: '\00B7\00A0';
-  }
-
-
-
-
-
-
-
-
