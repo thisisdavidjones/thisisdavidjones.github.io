@@ -239,35 +239,40 @@ section ul li p {
         display: flex;
         flex-flow: column;
         padding-top: 1rem;
+        width:100%;
  
     }
 	
 	
-	    #sidebar {
+	#sidebar {
         font-variant: small-caps;
         padding: 0 20px 0 10px;
-        width: 100px;
-        display: flex;
-        position: absolute;
+
+        width:100%;
 
     }
 
 
     #sidebar ul li { 
         float: none;
-        display: block;    
     }
 	
-	    header, article {
-    margin-left: 135px;
-    }	
-	
-	
+
 	body {
-        padding: 0 75px 0 10px;
+        padding: 0 10px 0 10px;
         margin: 0 auto;
     }
 
+    article {
+        display:block;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding-left :0;
+
+    }
     section p, section h1 {
         width: 100%;
     }
