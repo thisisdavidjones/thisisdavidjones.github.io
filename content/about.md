@@ -3,9 +3,11 @@ linkTitle: "About"
 type : "static"
 weight: -250
 slug: about
+date: 2016-11-09T06:00:00+06:00
+lastmod: 2023-11-09T17:30:00+06:00
+title: "About this website"
 ---
 {{% section %}}
-# About this website
 
  I've recently revamped this website and I'll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I've closely followed the suggestions of [Edward Tufte's stylesheet recommendations](https://edwardtufte.github.io/tufte-css/) for simple and clear text on the web. The principles derived by Dave Liepmann from Tufte's writings are *guidelines*, not mandatory diktats, but they're very useful guidelines. I've also been (*ahem*) influenced by [Gwern Branwen's Gwern.net](https://gwern.net) in this most recent site revamp, though I hope not to be too copycat as the site evolves over the next few weeks.
 
@@ -15,7 +17,7 @@ slug: about
 {{% / section %}}
 
 {{% section %}}
-# About me
+## About me
 
 I've worked in IT for nearly all of my adult life and I'm currently a Solutions Architect, which means I'm mostly hands-off in my day job. I'm Welsh, though I moved from Wales for university when I was in my teens and I've lived in England ever since, with a few exceptions. I was born and brought up in the English-speaking part of Wales and I like to point out to Welsh nationalists that the de facto national language of Wales is English.  
 

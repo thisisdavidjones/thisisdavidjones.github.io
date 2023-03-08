@@ -11,18 +11,16 @@ This is the website of David Jones. You'll find links and clippings, occasional 
 
 See the [About Page](../about/) for information about the design principles behind this site and for information about me, social media links, and contact details.{{% /section %}}
 
-{{% section %}}
 
-{{% / section %}}
 
 {{% section id="clippings" %}}
-# March 2023 Links
+## March 2023 Links
 
 {{< recentlinks >}}
 {{% /section %}}
 
 {{% section id="writing" %}}
-# A few old short essays
+## A few old short essays
 - My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/poetry/seeingoffyuan/)
 
 - [The best metaphor](/thebestmetaphor/)

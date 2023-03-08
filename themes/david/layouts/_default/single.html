@@ -2,8 +2,7 @@
 {{ partial "nav" . }}
         </ul></nav>
         {{ if .Content }}<article>
-            {{ if .Title }}<h1>{{ .Title }}</h1>{{end}}
-            {{partial "metadata" .}}
+            {{ partial "titlestuff" . }}
             {{ .Content }}
             </article>
         {{ end }}
