@@ -8,6 +8,7 @@
         <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
         {{ with .Description }}
         <meta name="description" content="{{ . }}"> {{ end }}
+        <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
         <link href="{{ "/css/tufte.css" | relURL }}" rel="stylesheet" type="text/css">
         <link href="{{ "/css/latex.css" | relURL }}" rel="stylesheet" type="text/css">
         <link href="{{ "/css/david.css" | relURL }}" rel="stylesheet" type="text/css">
