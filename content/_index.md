@@ -14,9 +14,11 @@ See the [About Page](../about/) for information about the design principles behi
 
 
 {{% section id="clippings" %}}
-## March 2023 Links
+## Latest Links
 
 {{< recentlinks >}}
+
+
 {{% /section %}}
 
 {{% section id="writing" %}}
@@ -29,6 +31,9 @@ See the [About Page](../about/) for information about the design principles behi
 
 - Get rich quick with the [Banach-Tarski Paradox](/stem/banachtarski/)
 {{% /section %}}
+
+
+
 
 
 

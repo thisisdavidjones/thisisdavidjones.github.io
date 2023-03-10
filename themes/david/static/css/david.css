@@ -1,6 +1,14 @@
 
+:root {
+    /* General
+    */
+--DJ-font-size: 12px;
+--DJ-menu-width: 100px;
+--DJ-menu-padding-right: 10px;
+}
+
 html {
-    font-size: 13px;
+    font-size: var(--DJ-font-size);
 }
 body {
 
@@ -10,7 +18,7 @@ body {
 
 article {
     padding: 0rem 0rem 4rem 0rem;
-    margin-left: 114px;
+    margin-left: var(--DJ-menu-width);
     text-align: justify;
     hyphens: auto;
 }
@@ -24,6 +32,9 @@ article h1 {
 }
 section h1 {
     margin-top: 1rem;  
+}
+section h2 {
+font-style: normal;
 }
 
 blockquote p {
@@ -50,11 +61,12 @@ p {
 }
 
 #sidebar {
-    width:100px;
+    width:var(--DJ-menu-width);
     position: absolute;
     font-variant: small-caps;
     padding: 0 20px 0 0;
     margin-top: 1rem;
+    padding-right: var(--DJ-menu-width) + var(--DJ-menu-padding-right);
 }
 
 #sidebar ul {
@@ -209,11 +221,13 @@ ul#pagedates li {
         padding-right:  0;
 }
 
+.more {padding-left:8%}
+.more::after {content: '\00BB'}
 
 @media (max-width: 760px) {
 
     html {
-        font-size: 13px;
+        font-size: var(--DJ-font-size);
     }
 
     article {
@@ -283,5 +297,5 @@ ul#pagedates li {
             clear:both;
             display:block;
         }
-
+        .more {padding-left:5%}
 }

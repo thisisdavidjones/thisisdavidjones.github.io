@@ -3,15 +3,15 @@ linkTitle: "About"
 type : "static"
 weight: -250
 slug: about
-date: 2016-11-09T06:00:00+06:00
-lastmod: 2023-11-09T17:30:00+06:00
+date: 2023-03-01T06:00:00+06:00
+lastmod: 2023-03-10T17:30:00+06:00
 title: "About this website"
 ---
 {{% section %}}
 
- I've recently revamped this website and I'll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I've closely followed the suggestions of [Edward Tufte's stylesheet recommendations](https://edwardtufte.github.io/tufte-css/) for simple and clear text on the web. The principles derived by Dave Liepmann from Tufte's writings are *guidelines*, not mandatory diktats, but they're very useful guidelines. I've also been (*ahem*) influenced by [Gwern Branwen's Gwern.net](https://gwern.net) in this most recent site revamp, though I hope not to be too copycat as the site evolves over the next few weeks.
+ I've recently revamped this website and I'll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I've closely followed the suggestions of [Edward Tufte's stylesheet recommendations](https://edwardtufte.github.io/tufte-css/) for simple and clear text on the web, and a long-standing aim is that markup should be as close to purely semantic as possible. The principles derived by Dave Liepmann from Tufte's writings are *guidelines*, not mandatory diktats, but they're very useful guidelines. I've also been (*ahem*) influenced by [Gwern Branwen's Gwern.net](https://gwern.net) in this most recent site revamp, though I hope not to be too copycat as the site evolves over the next few weeks. 
 
- This is a static website, generated with [Hugo](https://gohugo.io/) (written in [Go/Golang](https://go.dev/)), and it's served from [Github Pages](https://pages.github.com/) with a build action when I push content to the repository, and a custom domain name registered via Google. The content is written in [Markdown](https://www.markdownguide.org/).
+ This is a static website, generated with [Hugo](https://gohugo.io/) (written in [Go/Golang](https://go.dev/)), and it's served from [Github Pages](https://pages.github.com/) with a build action when I push content to the repository. Content is written in [Markdown](https://www.markdownguide.org/) and the custom domain name is registered via Google. 
 
  Simplicity and speed is exactly what I wanted for this revamp. I don't have any need for complicated, dynamic, session-based pages so this setup does the job well.
 {{% / section %}}
@@ -38,7 +38,7 @@ link="https://live.staticflickr.com/65535/52716705602_59b786093a_o.jpg"
 >}}
 {{% /marginextended %}}
 
-Almost everything can be interesting <a id="test"></a>if you invest time and effort. As someone educated in maths and working in IT I'm very aware of the supposed philisitinism of the STEM-trained but I'd turn the accusation around onto the Arts crowd. Almost nobody knows much about, or cares about,  culture and history but in any case that culture *includes*  science, maths and technology. This isn't a criticism -- people have their lives to live and that's difficult enough. 
+Almost everything can be interesting <a id="test"></a>if you invest time and effort. As someone educated in maths and working in IT I'm very aware of the supposed philisitinism of the STEM-trained but I'd turn the accusation around onto the Arts crowd. Next to nobody knows much about, or cares about,  culture and history but in any case that culture *includes*  science, maths and technology. This isn't a criticism -- people have their lives to live and that's difficult enough. 
 
 I'm politically ordinary. I started out on the Left and joined Labour when I was 15 just as the entryist Militant group gained a stranglehold on the Labour Party Young Socialists -- so I became a Trotsykist, which had the attraction of annoying my parents. Militant was kicked out and prompted *that* speech by Kinnock, when he berated Liverpool Council leaders, but I'd already dropped my involvement by then. Over time I moved to the centre, joined the  party again when Blair took over, left again, and now I reject the idea of arranging policies along a L-R continuum, and I dislike political tribalism. I'm  more conservative now, in an Oakshottian way.
 
