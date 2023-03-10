@@ -10,4 +10,4 @@ title: "Links"
 {{% section %}}
 
 {{% alllinks %}}
-{{% section %}}
+{{% /section %}}
