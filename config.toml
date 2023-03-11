@@ -9,9 +9,6 @@ theme  = 'david'
     github = "" # add your github profile name
     twitter = "askdavidjones" # add your twitter profile
     email = "me@thisisdavidjones.com"
-    googlefonts = ["Alegreya", "Alegreya+SC"]
-    fontbody = 'Alegreya'
-    fontcode = 'Fira Mono'
     dateFormat = "02 Jan 2006"
 
 [permalinks]

@@ -5,16 +5,51 @@
 --DJ-font-size: 12px;
 --DJ-menu-width: 100px;
 --DJ-menu-padding-right: 10px;
+--DJ-font-color: #111;
+--DJ-link-color: #711;
+--DJ-serif-font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
 }
 
 html {
     font-size: var(--DJ-font-size);
 }
-body {
+h1, article section h1 {
 
-        font-family:  CrimsonText, Georgia, serif;
+        font-family:  var(--DJ-serif-font-stack);
+        font-weight:  400; 
 }
 
+body {
+
+    font-family:  var(--DJ-serif-font-stack);
+}
+nav a:link, nav a:visited {
+    color: inherit;
+}
+a:link, a:visited {
+    color: #c11;
+}
+a:link, .tufte-underline, .hover-tufte-underline:hover {
+    color: #c00;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
+    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
+    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+    background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+
+p :first-of-type::first-letter {
+font-size:xx-large;
+float: left;
+line-height: 85%;
+width: .7em;
+
+
+}
 
 article {
     padding: 0rem 0rem 4rem 0rem;
