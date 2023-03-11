@@ -9,14 +9,17 @@ theme  = 'david'
     github = "" # add your github profile name
     twitter = "askdavidjones" # add your twitter profile
     email = "me@thisisdavidjones.com"
+
     dateFormat = "02 Jan 2006"
 
 [permalinks]
     blog     =  "/blog/:year/:month/:slug"
-
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
       hardWraps =  false
+  [markup.goldmark.parser.attribute]
+    block = true
+    title = true
