@@ -1,0 +1,9 @@
+{
+		"changes": [
+			{
+                "date": "2023-03-19",
+				"title": "Semantic markup and sidenotes",
+				"details": "Realised I'd misunderstood the guidance for &lt;article&gt;, rejigged the markup to comply; adjusted the  CSS for sidenotes"
+			}
+		]
+	}

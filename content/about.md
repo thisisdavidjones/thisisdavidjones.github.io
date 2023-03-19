@@ -28,17 +28,17 @@ I've worked in the UK and &mdash; briefly &mdash; in the US, France, Belgium, Ge
 
 
 
-{{% marginnote %}}A Japanese friend once gave a presentation complaining that the Japanese had to learn English and suggested Esperanto instead. I don't think she understood Esperanto is an artifical *Romance* language. It's essentally a dialect of Latin. {{% /marginnote %}}
+{{% sidenote %}}A Japanese friend once gave a presentation complaining that the Japanese had to learn English and suggested Esperanto instead. I don't think she understood Esperanto is an artifical *Romance* language. It's essentally a dialect of Latin. {{% /sidenote %}}
 Like most British people I'm not great at languages - a little French and less German, Spanish and Italian, and *very* little Mandarin and hardly any Japanese. I try to learn languages a bit because of the additional insight it gives into other cultures but I don't blame the British in general for their lack of facility with languages, as if it betrayed insularity or xenophobia, a common accusation; we have an asymmetric relationship with other languages &amp; countries because we're already speaking the  international lingua franca. 
 
-{{% marginextended %}}Years ago, on a TV quiz programme, I asked the  host why they didn't have more science questions and he replied,'Because we don't consider science to be part of general knowledge.'
+{{% sidenote %}}Years ago, on a TV quiz programme, I asked the  host why they didn't have more science questions and he replied,'Because we don't consider science to be part of general knowledge.'
 
 {{< figure src="https://live.staticflickr.com/65535/52716705602_59b786093a_o.jpg" 
 
 link="https://live.staticflickr.com/65535/52716705602_59b786093a_o.jpg" 
  class="figimg"
 >}}
-{{% /marginextended %}}
+{{% /sidenote %}}
 
 Almost everything can be interesting <a id="test"></a>if you invest time and effort. As someone educated in maths and working in IT I'm very aware of the supposed philisitinism of the STEM-trained but I'd turn the accusation around onto the Arts crowd. Next to nobody knows much about, or cares about,  culture and history but in any case that culture *includes*  science, maths and technology. This isn't a criticism -- people have their lives to live and that's difficult enough. 
 

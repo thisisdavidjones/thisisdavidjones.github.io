@@ -1,7 +1,7 @@
 {{$links := site.Data.links.links}}
 {{ $matchpattern := "([]])[^](]|]$"}}
 
-<ul>
+<ul class="recent">
 {{ range first 8 $links }}
 {{ $markdownLink := printf "%s%s%s" "](" .link ") " }}
 {{ $replaced := replaceRE $matchpattern $markdownLink  .text }}

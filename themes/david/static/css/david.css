@@ -2,191 +2,165 @@
 :root {
     /* General
     */
+    --DJ-body-max-width: 1080px;
+    --DJ-article-max-width: 760px;
+    --DJ-main-margin-right: 31%;
+    --DJ-main-margin-left: 120px;
+    --DJ-nav-width: (100px);
+    --DJ-sidenote-width : 29%;
+    --DJ-sidenote-right-margin: -29%;
+
+--DJ-body-color: #fff;
+--DJ-body-font-color: #111;
 --DJ-font-size: 12px;
---DJ-menu-width: 100px;
---DJ-menu-padding-right: 10px;
+--DJ-menu-width: 8ch;
+--DJ-menu-padding-right: 1em;
+--DJ-article-left-margin: 400px;
+--DJ-main-left-margin : 120px;
+--DJ-main-width: 65%;
+
+--DJ-body-font-size:  1.1rem;
 --DJ-font-color: #111;
 --DJ-link-color: #711;
+--DJ-link-hover-color: #999999;
 --DJ-serif-font-stack: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
 }
 
 html {
-    font-size: var(--DJ-font-size);
-}
-h1, article section h1 {
-
-        font-family:  var(--DJ-serif-font-stack);
-        font-weight:  400; 
+    padding: 0;
+    margin: 0;
 }
 
+
+/**************/
+/* structural */
+/**************/
+html {
+    padding:0; 
+    margin: 0;
+
+}
 body {
-
-    font-family:  var(--DJ-serif-font-stack);
-}
-nav a:link, nav a:visited {
-    color: inherit;
-}
-a:link, a:visited {
-    color: #c11;
-}
-a:link, .tufte-underline, .hover-tufte-underline:hover {
-    color: #c00;
-    text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
-    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
-    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%;
+    margin: 0 auto;
+    max-width: var(--DJ-body-max-width);
+    background-color: var(--DJ-body-color);
 }
 
-
-a[data-link-icon='pdf'] {
-    --link-icon-url: url(/img/icon/pdf.svg);
+main {
+    margin-right: var(--DJ-main-margin-right);
+    margin-left: var(--DJ-main-margin-left);
+    margin-top: 2em;
+    font-size: 17px;
+    float:left;
 }
 
-a[data-link-icon='youtube'] {
-    --link-icon-url: url(/img/youtube.svg);
-}
-
-a[data-link-icon='wikipedia'] {
-    --link-icon-url: url(/img/wikipedia.svg);
-}
-
-a[data-link-icon='pdf'] {
-    --link-icon-url: url(/img/pdf.svg);
-}
-
-/*******************/
-/*  Graphical icons.
-    */
-    a[data-link-icon-type='svg']::after {
-        --link-icon-size: 0.5em;
-        --link-icon-offset-x: 0.20em;
-        --link-icon-offset-y: 0.25em;
-    
-        content: "";
-        position: static;
-        padding: 0 var(--link-icon-size) 0 0;
-        margin: 0 0 0 var(--link-icon-offset-x);
-        background-image: var(--link-icon-url);
-        background-size: var(--link-icon-size);
-        background-position-x: center;
-        background-position-y: var(--link-icon-offset-y);
-        background-repeat: no-repeat;
-        opacity: 0.6;
-    }
-    a[data-link-icon-type='svg']:hover::after {
-        opacity: 0.3;
-    }
-
-    a[data-link-icon='youtube']::after {
-        --link-icon-size: 0.88em;
-        --link-icon-offset-x: 0.15em;
-        --link-icon-offset-y: 0.25em;
-    
-        opacity: 0.5;
-    }
-    a[data-link-icon='youtube']:hover::after {
-        opacity: 0.2;
-    }
-
-    a[data-link-icon='wikipedia']::after {
-        --link-icon-size: 0.88em;
-        --link-icon-offset-x: 0.15em;
-        --link-icon-offset-y: 0.25em;
-    
-        opacity: 0.5;
-    }
-    a[data-link-icon='wikipedia']:hover::after {
-        opacity: 0.2;
-    }
-
-    a[data-link-icon='pdf']::after {
-        --link-icon-size: 0.67em;
-        --link-icon-offset-x: 0.15em;
-        --link-icon-offset-y: 0.1em;
-    
-        opacity: 0.5;
-    }
-    a[data-link-icon='pdf']:hover::after {
-        opacity: 0.2;
-    }
-    
-p :first-of-type::first-letter {
-font-size:xx-large;
-float: left;
-line-height: 85%;
-width: .7em;
-
+nav {
+    display: block;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 0px;
+    width: var(--DJ-nav-width);
+    position: absolute;
+    padding: 0;
+    margin: 0
 
 }
 
 article {
-    padding: 0rem 0rem 4rem 0rem;
-    margin-left: var(--DJ-menu-width);
-    text-align: justify;
-    hyphens: auto;
-}
-
-article h1 {
-    padding-top:0;
-    margin-top: 1rem; 
-    font-size: 3rem;
-    font-weight: 600;
-    text-align:left;
-}
-section h1 {
-    margin-top: 1rem;  
-}
-section h2 {
-font-style: normal;
-}
-
-blockquote p {
-    width: 65%;
-    margin-right: 40px;
-}
-
-section > p, section > footer, section > table {
-    width: 65%;
-}
-
-p {
     display: block;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    max-width: var(--DJ-article-max-width);
 }
 
-
-.marginnote {
-    margin-right: -45%;
-    width: 35%;
+.sidenote {
+    float: right;
+    clear: right;
+    position: relative;
+    width: calc(var(--DJ-sidenote-width) +  120px);
+    margin-right: calc(var(--DJ-sidenote-right-margin) - 120px);
+    display:block;
+    font-size: 0.9rem;
 }
 
-#sidebar {
-    width:var(--DJ-menu-width);
-    position: absolute;
-    font-variant: small-caps;
-    padding: 0 20px 0 0;
-    margin-top: 1rem;
-    padding-right: var(--DJ-menu-width) + var(--DJ-menu-padding-right);
-}
-
-#sidebar ul {
+/************************/
+/*  nav layout          */
+/************************/
+nav ul {
     list-style: none;
-    padding: 0;
+    padding: 2em 0 0 0 ;
     margin: 0; 
+}
+/************************/
+/*  main content layout */
+/************************/
+section {
+    padding: 0rem 0 2rem 0;
+    line-height: 1.6em;
+}
+
+section.heading {
+    padding-bottom: 10px;
+}
+section:nth-child(1) {
+    padding-top: 0rem;
+}
+section h1:first-child, article section:first-child p:first-child {
+    padding-top: 0;
+    margin: 0rem 0 0rem 0;
+}
+
+section p:first-child {
+    margin-top: 0;
+}
+article:first-child {
+    margin-top: 0;
+}
+article:first-child section:first-child{
+    margin-top: 0; padding-top:0
+}
+
+
+
+article h2 {
+    margin: 0 0 0 0;
+}
+
+
+
+
+
+h2 + p {
+    margin-top: 0rem;
+}
+
+
+
+blockquote {
+    font-style: italic;
+}
+
+blockquote footer::before {
+    content: '\2014';
+}
+blockquote footer {
+    text-align: right;
+    font-style: normal;
+    font-size:smaller;
+    font-weight: 500;
+
+}
+
+blockquote footer cite {
+    text-align: right;
+    font-style: italic;
+    font-weight: normal;
+
 }
 
 
 
 #pagedates {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-style: italic;
 }
 ul#pagedates {
@@ -214,196 +188,189 @@ ul#pagedates li {
   }
 
 
-  
-.poetry  * {    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    font-style: italic;
-    margin-top:0 rem;
-}
-
-.poetry p.poemtitle { font-style: normal; 
-    font-weight: bold;
-    margin-bottom: 0;
-
-}
-
-
-.poetry p {
-
-    margin-bottom: 0;  
-}
-
-.fagpacket {
-    border: 1px solid #ccc;
-    padding: 1em;
-
-    font-family: "Architects Daughter", serif;
-    margin-bottom: 1em;
-    padding-bottom: 0em;
-    background-color: #fcf6e7;
-}
-
-.break {
+figure {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 100%;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0 0 3em 0;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-bottom: 0;
-    height: 1em;
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 49 9' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'%3E%3Cg%3E%3Cpath d='M4.397,4.371c0.06,0.043 -0.2,0.834 -0.901,1.168c-0.879,0.419 -2.405,0.167 -3.139,-1.034c-0.735,-1.203 -0.501,-3.474 2.304,-4.243c2.805,-0.768 4.942,0.301 6.512,1.269c1.569,0.97 5.176,4.208 7.28,5.211c2.104,1.001 4.041,0.768 4.675,0.133c0.635,-0.636 0.417,-2.035 -0.067,-2.438c-0.601,-0.501 -1.269,-0.301 -1.502,-0.134c-0.234,0.167 -0.316,-0.723 0.2,-1.369c0.668,-0.835 2.707,-1.051 3.439,0.568c0.635,1.403 0.234,3.773 -1.97,4.475c-2.003,0.638 -4.442,-0.034 -7.247,-2.137c-2.805,-2.105 -4.708,-3.94 -6.612,-4.509c-1.903,-0.566 -3.409,0.047 -3.941,1.069c-0.433,0.834 -0.012,1.787 0.268,1.936c0.501,0.268 0.568,-0.066 0.701,0.035Z' style='fill:%23040000;fill-rule:nonzero;'/%3E%3Cpath d='M43.793,4.371c-0.06,0.043 0.2,0.834 0.901,1.168c0.879,0.419 2.405,0.167 3.139,-1.034c0.735,-1.203 0.501,-3.474 -2.304,-4.243c-2.805,-0.768 -4.943,0.301 -6.512,1.269c-1.569,0.97 -5.176,4.208 -7.28,5.211c-2.104,1.001 -4.041,0.768 -4.675,0.133c-0.635,-0.636 -0.417,-2.035 0.067,-2.438c0.601,-0.501 1.268,-0.301 1.502,-0.134c0.234,0.167 0.317,-0.723 -0.2,-1.369c-0.668,-0.835 -2.707,-1.051 -3.44,0.568c-0.634,1.403 -0.233,3.773 1.971,4.475c2.003,0.638 4.441,-0.034 7.246,-2.137c2.806,-2.105 4.709,-3.94 6.613,-4.509c1.903,-0.566 3.409,0.047 3.94,1.069c0.434,0.834 0.013,1.787 -0.267,1.936c-0.501,0.268 -0.568,-0.066 -0.701,0.035Z' style='fill:%23040000;fill-rule:nonzero;'/%3E%3C/g%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.sidenote, .marginnote {
-    float: right;
-    clear: right;
-    margin-right: -50%;
-    width: 40%;
-    margin-top: 0.3rem;
-    margin-bottom: 0;
-    font-size: 1.1rem;
-    line-height: 1.3;
-    vertical-align: baseline;
-    position: relative;
-}
-
-.marginnote * {
-    font-size: 1.1rem;
-    line-height: 1.3;
-    clear:none;
-}
-
-.marginnote::before {
-        counter-increment: marginnoteid; /* Increment the value of section counter by 1 */
 }
 
 
 
 
-.sidenote-number:after, .sidenote:before {
-    font-family: et-book-roman-old-style;
-    position: relative;
-    vertical-align: baseline;
+
+
+figure a {
+    background: unset;
+    text-shadow: unset;
+    text-decoration: 10px solid #000;
 }
 
-.marginwrap {
-
-    float: right;
-    clear: right;
-    margin-right: 2.5%;
-    width: 26%;
-    margin-top: 0.3rem;
-    margin-bottom: 0;
-    font-size: 1.1rem;
-    line-height: 1.3;
-    vertical-align: baseline;
-    position: relative;
-    padding-left:0;
+.figcaption {
+    font-style: italic;
+    font-size: smaller;
+    line-height: 1.1em;
 }
 
-.marginwrap *  {
-    width:100%;
+  /*************/
+/* SIDENOTES */
+/*************/
+
+
+.sidenotecontents {
+    margin:0px 10px 10px 10px;
+    padding: 0px 10px 0px 10px;
+    line-height: 1.2em;
+    
+}
+
+.sidenotecontents blockquote {
+    margin: 0 1em 0 1em;
+}
+
+@media only screen and (min-width: 960px) {
+    body {
+        max-width: 1280;
     }
 
-.marginwrap .marginnote {
-    margin-right:0;
 }
 
-.marginwrap .marginnote * {
-    width:100%;
+/**************/
+/* fonts */
+/**************/
+body {
+
+    font-family:  var(--DJ-serif-font-stack);
+    font-size: var(--DJ-body-font-size);
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h2 {
+    font-size: 1.5rem;  
+    font-weight: 400;
+}
+nav {
+    font-variant: small-caps;
+}
+
+
+
+ 
+figure {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+
+    margin: 0;
+}
+
+figure img {
     max-width: 100%;
-    width:fit-content;
+    max-height: 100%;
 }
 
-.marginwrap .marginnote blockquote {
-
-    width:fit-content;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.marginwrap .marginnote blockquote * {
-
-        margin-left: 0;
-        margin-right: 0;
-        padding-left:  0;
-        padding-right:  0;
+figcaption {
+    float: right;
+    clear: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    vertical-align: baseline;
+    position: relative;
+    max-width: 40%;
 }
 
-.more {padding-left:8%}
-.more::after {content: '\00BB'}
+figure.fullwidth figcaption {
+    margin-right: 24%;
+}   
 
-@media (max-width: 760px) {
 
-    html {
-        font-size: var(--DJ-font-size);
+@media only screen and (max-width: 768px) {
+    
+    /**************/
+    /* structural */
+    /**************/
+    body {
+        padding:0 1rem 1rem 1rem; 
+    }
+    
+    main {
+        margin: 0 1rem 0 1rem;
+        padding-top:0rem;
     }
 
     article {
-        margin-left: 0px;
 
-    }
-
-    section > p, section > footer, section > table {
         width: 100%;
+
+    }   
+
+    section h1:first-child, article section:first-child p:first-child {
+        padding-top: 0;
+        margin-top: 1rem;
     }
 
-    blockquote p {
-        width: 90%;
+    figure {
+        max-width: 90%;
     }
-    #sidebar {
+
+    nav {
+        position: relative;
         width:100%;
+        clear: both;
+        float:none;
         display: flex;
-        position:relative;
-        font-variant: small-caps;
-        padding: 0 40px 0 10px;
+        padding-top: 1rem
     }
 
-    #sidebar ul {
+
+    nav ul {
         list-style: none;
         padding: 0;
-        margin: 0; 
+        margin: 0 0 0 1rem;
     }
 
-    #sidebar ul  li {
-        float: left;
-        margin: 0;
-        /*    margin: 0 auto;*/
+    nav ul  li {
+        float:left;
+        margin: 0; padding: 0;
       }
 
-      #sidebar ul  li::after {
+      nav ul  li::after {
         content: '\00A0';
       }
-      #sidebar ul  li:not(:first-child)::before {
+      nav ul  li:not(:first-child)::before {
         content: '\00B7\00A0';
       }
 
-      .marginwrap {
-        float:left;
-        clear:both;
-        display:block;
-    
-        right : auto;
 
-        z-index : auto;
-        /* basic modern patch */
-        float:left;
-        width:100%; 
-
-        font-size: 1.4rem;
+      .sidenote {
+        display: block;
+        float: none;
+        margin: 5% 10% 5% 10%;
+        width: 80%;
+        font-size: 15px;
+        padding: 10px 0 0 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
     }
 
-    .marginwrap .marginnote {
-        float:left;
-        width:100%; 
-        top:0;
+    /****************/
+    /* fonts        */
+    /***************/
 
-    }
-        .marginwrap .margin-toggle:checked + .marginnote {
-            left:0;
-            width:100%;
 
-            clear:both;
-            display:block;
-        }
-        .more {padding-left:5%}
 }
+
+

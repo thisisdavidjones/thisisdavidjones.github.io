@@ -1,6 +1,17 @@
-{{ partial "header" . }}
-{{ partial "nav" . }}
-        {{ if .Content }}<article>{{ if .Title }}<h1>{{ .Title }}</h1>{{end}}{{ .Content }}</article>{{ end }}
+    {{ partial "header" . }}
+    <body>
+        {{ partial "nav" . }}
+        <main id="index">
+            {{ if .Content }}
+                <article>
+                    {{ if .Title }}
+                        <header><h1>{{ .Title }}</h1></header>{{end}}
+                    {{ .Content }}
+                </article>
+            {{ end }}
         </main>
+        <footer>
+
+        </footer>
     </body>
 </html>

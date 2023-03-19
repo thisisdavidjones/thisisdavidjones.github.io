@@ -11,7 +11,7 @@
     /><!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <span class="marginnote">
+        <span class="figcaption">
             {{ with (.Get "title") -}}
                 <h4>{{ . }}</h4>
             {{- end -}}

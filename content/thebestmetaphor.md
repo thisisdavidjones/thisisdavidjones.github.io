@@ -36,13 +36,13 @@ Cargo cults are millenarian, pseudo-religious beliefs, rituals and activities th
 
 When the peoples of the Pacific were confronted with Westerners' seemingly unlimited supply of goods -- or 'cargo', as they termed it -- and having no comprehension of Western industrialisation, commerce and trade, they attributed the cornucopia to miraculous and other other-worldy processes. 
 
-{{% marginextended %}}
+{{% sidenote %}}
 An example of a gift exchange culture in the ancient Near East is famously mentioned in the Armana Letters (14th Century BCE). Burra-Buriyaš of Babylon scolds the Egyptian Paharoah, Neb-Kheper-Ra, for falling short of his giftly duties:
 
 >'From the time my ancestors and your ancestors made a mutual declaration of friendship, they sent beautiful greeting-gifts to each other, and refused no request for anything beautiful. My brother has now sent me 2–minas of gold as my greeting-gift. Now, if gold  is plentiful, send me as much as your ancestors, but if it is scarce, send me half of what your ancestors. Why have you sent me 2–minas of gold? At the moment my work on a temple is extensive, and I am quite busy with carrying it out. Send me much gold.'
 
 In an era before a well-developed understanding of trade, an exchange of goods might frequently be described as an exchange of gifts.
-{{% /marginextended %}}
+{{% /sidenote %}}
 
 
 At the time, many Pacific island societies were organised around gift-exchange, where the more goods a 'big man' could give away, the higher his status and the more obligated to him others became (a social arrangement reminiscent  of gift exchange in the ancient Near East). 
@@ -56,9 +56,9 @@ From the 19th Century onwards -- and famously, after  extensive contact with the
 
 <section>
 
-{{% marginextended %}}
+{{% sidenote %}}
 A well-known cargo cult is the <strong>John Frum Cult</strong>. John Frum was described by cult followers as an American World War II serviceman who would bring wealth and prosperity to the people if they followed him. Devotees built symbolic landing strips to encourage aircraft bringing cargo.
-{{% /marginextended %}}
+{{% /sidenote %}}
 
 Richard Feynman was one of the first to use ['Cargo Cult' metaphorically](http://calteches.library.caltech.edu/51/2/CargoCult.htm) and in disdain . He applied it as metaphor to Psychology and the Social 'Sciences', which he thought *mimicked* some of the practices of the physical sciences -- they followed the outward appearance of science and the forms of scientific investigation  but they were missing something. In the case of these softer sciences, he thought it was the integrity not to fool yourself and to report failure. I'd go further and say what was missing in Psychology was a coherent unifying plausible theory. Physics had classical mechanics then Relativity. Psychology had the nonsense of Freud.
 

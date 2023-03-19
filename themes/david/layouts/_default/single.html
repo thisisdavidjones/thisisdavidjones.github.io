@@ -1,10 +1,11 @@
 {{ partial "header" . }}
 {{ partial "nav" . }}
         </ul></nav>
+        <main>
         {{ if .Content }}<article>
             {{ partial "titlestuff" . }}
             {{ .Content }}
-            </article>
+        </article>
         {{ end }}
         </main>
     </body>

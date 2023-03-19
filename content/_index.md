@@ -6,14 +6,14 @@ menu: main
 weight: -250
 slug: 
 ---
-{{% section %}}
+{{% section id="abstract" %}}
 This is the website of David Jones. You'll find links and clippings, occasional notes and longer writing about travel, software and IT generally, history, art, literature, and anything else that sparks my interest. I'm currently rebuilding the site and I'll be bringing back a bunch of old blog posts over the next few weeks.
 
 See the [About Page](../about/) for information about the design principles behind this site and for information about me, social media links, and contact details.{{% /section %}}
 
 
 
-{{% section id="clippings" %}}
+{{% section id="clippings links" %}}
 ## Latest Links
 
 {{< recentlinks >}}
@@ -21,7 +21,8 @@ See the [About Page](../about/) for information about the design principles behi
 
 {{% /section %}}
 
-{{% section id="writing" %}}
+
+{{% section id="writing links" %}}
 ## A few old short essays
 - My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/poetry/seeingoffyuan/)
 
