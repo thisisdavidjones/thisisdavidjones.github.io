@@ -2,85 +2,100 @@
     <head>
         <style>
 
-            @media only screen and (min-width: 650px){
-                body {
-                    padding: 0 25px 0 10px;
-                    margin: 0 auto;
-                }
+            :root {
+                font-size: 16px;
             }
 
-            @media only screen and (min-width: 650px)
-            {
-                main {
-                    min-height: 100vh;
-                    display: flex;
-                    flex-flow: column;
-                }
+
+            body {
+
+                margin: 0 auto;
+
+                max-width: 1080px;
+                background-color: #f0f0f0;;
             }
+
 
             nav {
                 display: block;
-            }
-
-            #sidebar {
                 font-variant: small-caps;
-                padding: 0 40px 0 10px;
-                width: 100%;
+                font-size: 1.2rem;
+                padding: 0px;
+                margin: 0px;
                 background-color: #cccccc;
-
+                width: 100px;
+                position: absolute;
+                padding: 0;
+                margin: 0
             }
-
-            #sidebar ul {
-                list-style-type: none; overflow: hidden;
-                padding-left: 0;
-            }
-            #sidebar ul li {
-                float: left;
-                padding-right: 1rem;
-            }
-
-
-            @media only screen and (min-width: 650px) {
-                #sidebar {
-                    font-variant: small-caps;
-                    padding: 0 20px 0 10px;
-                    width: 100px;
-                    background-color: #ff0099;
-                    position: absolute;
-
-                }
-
-                #sidebar ul li {
-                    background-color: #0099ff;    
-                    float: none;
-      
-                }
-            }
-
-            @media only screen and (min-width: 650px) {
-
-                header, article {
-                margin-left: 135px;
-
-            }
-
 
 
 
             article {
-                flex: 1 1 auto;
                 display: block;
+                max-width: 760px;
+            }
 
-                background-color: aqua;
-                max-width: 950px;
-        
+            main {
+                margin-right: 20%;
+                margin-left: 120px;
+                margin-top: 2em;
+                font-size: 17px;
+                float:left;
+
+            }
+
+            .sidenote {
+                float: right;
+                clear: right;
+                position: relative;
+                width: 29%;
+                margin-right: -29%;
+                display:block;
+                font-size: 0.9rem;
+            }
+
+            .sidenotecontents {
+                margin:0px 10px 10px 10px;
+                padding: 0px 10px 0px 10px;
+                border: 1px solid #666;
+                box-shadow: 3px 3px #999;
                 
             }
-        
-            body {
-                max-width: 1080px;
 
-            }
+
+            
+
+            @media only screen and (max-width: 768px) {
+                body {
+                    margin: 0 auto;
+                    width: 100%;
+                }
+
+                article {
+
+                    width: 100%;
+
+                }
+                .sidenote {
+                    display: block;
+                    float: none;
+                    margin: 5% 10% 5% 10%;
+                    width: 80%;
+                    font-size: 15px;
+  
+                }
+
+                main {
+                    margin-right: 20px;
+                margin-left: 20px;
+                margin-top: 10vh;
+                font-size: 17px;
+
+
+
+                }
+
 
 
 
@@ -88,7 +103,7 @@
 
     </head>
     <body>
-        <main>
+
             <nav id="sidebar">
                 Sidebar
                 <ul>
@@ -97,63 +112,32 @@
                     <li>three</li>
                 </ul>
             </nav>
-
+            <main>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Cras facilisis ac quam at condimentum. Duis a dictum felis, 
-                    vel mattis nibh. Maecenas egestas sodales lectus in fermentum. 
-                    Nullam volutpat tempor enim. In hac habitasse platea dictumst. Nulla 
-                    commodo dictum ex, eu vehicula purus fermentum vel. Ut mattis elit nec augue
-                     dapibus gravida. Nunc sit amet leo et magna pharetra faucibus. Ut tincidunt 
-                     tortor consequat ipsum tincidunt, et gravida sem maximus. Proin pulvinar
-                      placerat magna in vehicula. Nullam ac venenatis augue. Duis finibus 
-                      nisi a diam efficitur aliquet. Mauris a vestibulum eros.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum ut nibh ac fringilla. Pellentesque nibh nibh, vulputate sit amet dui nec, cursus interdum nunc. Maecenas aliquam leo at iaculis dictum. Suspendisse potenti. Integer nec tincidunt justo, vel accumsan velit. Morbi id magna enim. Quisque euismod, lacus a pretium mattis, tortor diam luctus lacus, vel interdum justo mauris eu tellus. Suspendisse in tellus velit. Nam massa velit, tincidunt eget dictum et, finibus id odio. Mauris eu sollicitudin magna. Vivamus et aliquam libero, quis gravida est. Curabitur auctor est ut sagittis consectetur. Aenean laoreet vitae elit ut ultrices. Pellentesque quam nisi, venenatis quis ex nec, consequat lobortis dui. Duis a ipsum ac lorem elementum placerat.
+                </p>
+
+                        <p>
+                    Morbi gravida metus eu tempus egestas. In gravida at elit rutrum  
+                    
+
+                    
+                    dapibus. Quisque sit amet dignissim erat. Nulla placerat gravida faucibus. Vivamus in quam et nunc elementum pellentesque at et tellus. Pellentesque eu orci pellentesque, venenatis nisi nec, laoreet leo. Nulla rutrum diam nulla, in elementum nunc tincidunt a. Nullam fringilla quam leo, eu fringilla odio volutpat nec. Sed pretium dui eu dui blandit, nec viverra ex ultrices. Vestibulum iaculis tincidunt auctor. Sed ullamcorper et sem at scelerisque. Proin vitae velit et dolor porttitor vestibulum ac sed felis. Ut egestas ultrices nisl ut lacinia.
 
 
-        <style>
-            #mx3{
-                display: none;
-            }
 
-            #mn3:checked   {
-                display: block;
-                float: none;
-                left: 1rem;
-                clear: none;
-                width: 95%;
-                margin: 1rem 2.5%;
-                position: relative;
-                background-color:blue;
-        }</style>
-<p>
-<label for="mn3" class="margin-toggle">⊕</label>
-<input type="checkbox" id="mn3" class="margin-toggle"/>
-</p>
-<div class="marginnote" id="mx3">This is a marginnote</div>
+                    </p> 
+<div class="sidenote"><div class="sidenotecontents">
+<p>ellentesque eu orci pellentesque,  eu orci pellentesque, nc tincidunt a. N
+</p></div>
+</div>
 
-
-Cargo cults are millenarian, pseudo-religious beliefs, rituals and activities that  were first described in late 19th Century Melanesia. And they&rsquo;re a fruitful way of understanding many contemporary situations we find in business.</p>
-
-
-                <p>Vestibulum vestibulum justo ex, quis vulputate nulla 
-                    porta quis. Sed quis magna vitae lacus maximus mattis eget 
-                    laoreet lacus. Pellentesque at euismod dolor. Cras suscipit
-                     posuere lectus a imperdiet. Suspendisse semper odio ut 
-                     imperdiet porta. Sed volutpat, ligula sed sagittis vestibulum,
-                      metus quam fringilla ante, sollicitudin imperdiet tortor augue nec ex. 
-                      Pellentesque vel hendrerit ex. Nam porta sit amet augue at blandit. 
-                      Cras porttitor lectus lorem, id fringilla enim convallis consequat. 
-                      Praesent congue sed diam sit amet fringilla. Proin ultrices ac 
-                      sem vel tempus. Nunc in elit dapibus velit lobortis molestie. 
-                      Ut consectetur dapibus odio ac commodo. In posuere posuere 
-                      libero, eget ultrices risus porttitor non.</p>
-                
-                <p>Ut bibendum velit et ex placerat vestibulum a at sapien. Cras porttitor finibus urna vel convallis. Sed maximus lacus et viverra feugiat. Maecenas at nibh tortor. Nulla vitae orci et metus pretium congue a vitae nisl. Duis interdum leo quis viverra viverra. Ut molestie dui a erat volutpat malesuada. Morbi at venenatis est, vitae facilisis lacus. Vestibulum sem est, hendrerit fringilla pharetra a, tempor eget lacus. Nullam sagittis ante id lectus convallis, id pellentesque eros interdum. Praesent sit amet nisi dui.</p>
-                
-                <p>Nunc aliquet velit dignissim ullamcorper porta. Donec ullamcorper ligula at mattis auctor. Aenean pretium dui magna, nec suscipit dui tincidunt at. Aliquam turpis odio, gravida non sollicitudin eu, ornare feugiat sapien. Donec et turpis fermentum, semper ligula eget, lobortis nibh. In vehicula dolor id mauris consequat molestie. Nulla tristique pellentesque turpis vitae dictum. Suspendisse eget lorem vehicula, viverra sapien vitae, dapibus nulla. Cras in tincidunt velit, ac feugiat lectus. Nunc at mattis velit, ac accumsan ante. Duis bibendum, nisi nec finibus gravida, enim dui blandit tortor, ac porttitor magna ex id odio. Phasellus tempus sit amet elit id facilisis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget accumsan felis, sit amet commodo eros.</p>
-                
-                <p>Integer ut orci ullamcorper, cursus turpis non, euismod elit. Nulla accumsan neque nec hendrerit mattis. Integer sagittis arcu nec sem gravida volutpat. Donec posuere augue sed maximus ultrices. Quisque in metus convallis, bibendum risus sit amet, lobortis velit. Nam sapien mi, ullamcorper id nulla et, luctus pharetra augue. Aliquam quis turpis dui.
+                        <p>
+                    Donec ultricies tellus enim.  Sed aliquam luctus posuere. Sed orci elit, lobortis ut posuere vitae, ultricies ac urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In eu lorem interdum, semper erat tristique, ullamcorper ante. Aliquam erat volutpat. Sed accumsan neque in diam congue blandit. In blandit turpis leo, quis tincidunt magna congue et. Nulla et enim ornare, molestie velit et, accumsan nunc. Integer facilisis tempor placerat. Nam auctor gravida odio, sit amet vehicula risus blandit at. Etiam egestas aliquet lacus sed gravida.
+                </p>   
                 </article>
+
         </main>
 
         

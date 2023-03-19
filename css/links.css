@@ -1,0 +1,114 @@
+
+/**************/
+/*    links   */
+/**************/
+a {
+    color: var(--DJ-link-color)
+}
+a:hover {
+    color: var(--DJ-link-hover-color);
+}
+
+
+article a:link {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
+    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
+    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+    background-position: 0% 93%, 100% 93%, 0% 93%;
+}
+
+figure a:link {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    background:none;
+    text-shadow:none;
+}
+
+nav a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+    color: var(--DJ-body-font-color);
+}
+
+nav a:hover {
+    color: var(--DJ-link-hover-color);
+}
+
+
+a[data-link-icon='pdf'] {
+    --link-icon-url: url(/img/icon/pdf.svg);
+}
+
+a[data-link-icon='youtube'] {
+    --link-icon-url: url(/img/youtube.svg);
+}
+
+a[data-link-icon='wikipedia'] {
+    --link-icon-url: url(/img/wikipedia.svg);
+}
+
+a[data-link-icon='pdf'] {
+    --link-icon-url: url(/img/pdf.svg);
+}
+/*******************/
+/*  Graphical icons.
+    */
+    a[data-link-icon-type='svg']::after {
+        --link-icon-size: 0.5em;
+        --link-icon-offset-x: 0.20em;
+        --link-icon-offset-y: 0.25em;
+    
+        content: "";
+        position: static;
+        padding: 0 var(--link-icon-size) 0 0;
+        margin: 0 0 0 var(--link-icon-offset-x);
+        background-image: var(--link-icon-url);
+        background-size: var(--link-icon-size);
+        background-position-x: center;
+        background-position-y: var(--link-icon-offset-y);
+        background-repeat: no-repeat;
+        opacity: 0.6;
+    }
+    a[data-link-icon-type='svg']:hover::after {
+        opacity: 0.3;
+    }
+
+    a[data-link-icon='youtube']::after {
+        --link-icon-size: 0.88em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.25em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='youtube']:hover::after {
+        opacity: 0.2;
+    }
+
+    a[data-link-icon='wikipedia']::after {
+        --link-icon-size: 0.88em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.25em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='wikipedia']:hover::after {
+        opacity: 0.2;
+    }
+
+    a[data-link-icon='pdf']::after {
+        --link-icon-size: 0.67em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.1em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='pdf']:hover::after {
+        opacity: 0.2;
+    }
