@@ -72,6 +72,8 @@ article {
     max-width: var(--DJ-article-max-width);
 }
 
+
+
 .sidenote {
     float: right;
     clear: right;
@@ -79,7 +81,7 @@ article {
     width: calc(var(--DJ-sidenote-width) +  120px);
     margin-right: calc(var(--DJ-sidenote-right-margin) - 120px);
     display:block;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 /************************/
@@ -111,7 +113,25 @@ section h1:first-child, article section:first-child p:first-child {
 
 section p:first-child {
     margin-top: 0;
+
 }
+
+section.tags {
+    margin-top: 2em;
+}
+
+ul.recent li {
+    list-style-type: '\0700\0020';
+}
+ul.recent li  p {
+
+margin-bottom: 0.25em;
+line-height: 1.3m;
+}
+
+
+
+
 article:first-child {
     margin-top: 0;
 }
@@ -123,6 +143,7 @@ article:first-child section:first-child{
 
 article h2 {
     margin: 0 0 0 0;
+    border-bottom: 2px solid #c0c0c0;
 }
 
 
@@ -130,13 +151,18 @@ article h2 {
 
 
 h2 + p {
-    margin-top: 0rem;
+    margin-top: 0.4rem;
 }
 
 
 
 blockquote {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
     font-style: italic;
+    padding: 1em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
 }
 
 blockquote footer::before {
@@ -147,6 +173,7 @@ blockquote footer {
     font-style: normal;
     font-size:smaller;
     font-weight: 500;
+    line-height: 1.4em;
 
 }
 
@@ -154,16 +181,36 @@ blockquote footer cite {
     text-align: right;
     font-style: italic;
     font-weight: normal;
+  
+
+
+}
+
+.sidenote .blockquote {
+    font-size:normal;
 
 }
 
 
+
+.sidenote * blockquote {
+    border:none;
+
+}
+
+
+
+#metadata {
+    margin-top: 1em;
+
+}
 
 #pagedates {
     font-size: 0.9rem;
-    font-style: italic;
+
 }
-ul#pagedates {
+
+ul#pagedates, ul#articletags {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -171,22 +218,35 @@ ul#pagedates {
 }
 
 
-ul#pagedates li {
-    display:inline-block;
+ul#pagedates li, ul#articletags li {
+    display:inline-block;    margin: 0;
+    padding: 0;
 }
 
-  ul#pagedates li::before {
+  ul#pagedates li::before,  ul#articletags li::before {
     float: left;
   }
 
-  ul#pagedates li:not(:first-child) {
+  ul#pagedates li:not(:first-child), ul#articletags li:not(:first-child)  {
     margin-top: 0rem;
   }
 
-  #pagedates li:not(:first-child)::before {
+ #articletags li:not(:first-child)::before {
     content: '\00B7\00A0';
+    padding: 0;margin:0;
   }
 
+
+  .lastmod::before {
+    content: '\FF5C';
+  }
+
+  .datestarted, .datechanged {
+    cursor:help;
+  }
+  .datestarted:hover, .datechanged:hover{
+    background-color: antiquewhite;
+  }
 
 figure {
     padding: 0;
@@ -297,6 +357,17 @@ figure.fullwidth figcaption {
 }   
 
 
+.pagedescription {
+    font-style: italic;
+    line-height: 1.6rem;
+    margin-bottom: 2em;
+}
+
+.pagedescription em {
+    text-decoration: underline;
+    font-style:unset;
+}
+
 @media only screen and (max-width: 768px) {
     
     /**************/
@@ -355,15 +426,15 @@ figure.fullwidth figcaption {
       }
 
 
+
       .sidenote {
         display: block;
         float: none;
         margin: 5% 10% 5% 10%;
         width: 80%;
-        font-size: 15px;
+
         padding: 10px 0 0 0;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+ 
     }
 
     /****************/

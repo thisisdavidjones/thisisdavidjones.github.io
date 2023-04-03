@@ -57,6 +57,15 @@ a[data-link-icon='wikipedia'] {
 a[data-link-icon='pdf'] {
     --link-icon-url: url(/img/pdf.svg);
 }
+
+a[data-link-icon='bbc'] {
+    --link-icon-url: url(/img/bbc.svg);
+}
+
+a[data-link-icon='archive'] {
+    --link-icon-url: url(/img/archive.svg);
+}
+
 /*******************/
 /*  Graphical icons.
     */
@@ -110,5 +119,30 @@ a[data-link-icon='pdf'] {
         opacity: 0.5;
     }
     a[data-link-icon='pdf']:hover::after {
+        opacity: 0.2;
+    }
+
+    a[data-link-icon='bbc']::after {
+        --link-icon-size: 2em;
+        --link-icon-offset-x: 0.5em;
+        --link-icon-offset-y: -0.5em;
+
+        opacity: 0.5;
+    }
+
+    a[data-link-icon='bbc']:hover::after {
+        opacity: 0.2;
+    }
+
+
+    a[data-link-icon='archive']::after {
+        --link-icon-size: 2em;
+        --link-icon-offset-x: 0.5em;
+        --link-icon-offset-y: -0.5em;
+
+        opacity: 0.5;
+    }
+
+    a[data-link-icon='archive']:hover::after {
         opacity: 0.2;
     }
