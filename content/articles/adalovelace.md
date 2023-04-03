@@ -147,7 +147,7 @@ The myth of Ada Lovelace as the "first computer programmer," could, charitably, 
 
 [Virginia Woolf,  in 'A Room of One's Own'](https://www.d.umn.edu/~tbacig/cst1010/chs/woolfe.html), imagined a fictious sister of Shakespeare, observing that that a woman with his talents would have been denied the opportunity to develop. This is the point about the historic oppression of women - they have been refused education and the possibility of careers -- and everybody else has been denied the benefits of their genius.  
 
-Inventing a myth of Lovelace as a noble lie hides this  historic subjugation of women. There simply are not hundreds of great female contributions to STEM felds from the past whose histories are waiting for the expertise and dedication of unblinkered scholoars to reveal. This is a tradgedy of our past - the millions of lives unfulfilled and potential talent wasted. It would be as well to remember that.
+Inventing a myth of Lovelace as a noble lie hides this  historic subjugation of women. There simply are not hundreds of great female contributions to STEM fields from the past whose histories are waiting for the expertise and dedication of unblinkered scholoars to reveal. This is a tradgedy of our past - the millions of lives unfulfilled and potential talent wasted. It would be as well to remember that.
 
 There are other women whose work in STEM fields we could use instead to encourage girls and women without needing to tell a lie, and while preserving the true history of women's oppression. Here are a few of my suggestions:
 
