@@ -156,6 +156,7 @@ There are other women whose work in STEM fields we could use instead to encourag
 * Curie (of course)
 * Jocelyn Bell Burnell
 * Cecilia Payne-Gaposchkin
+* Grace Hopper
 
 and if you don't know about them, go and read and be enthused at how they broke through *despite* the restrictions of their culture.
 
