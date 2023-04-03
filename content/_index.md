@@ -11,9 +11,17 @@ This is the website of David Jones. You'll find links and clippings, occasional 
 
 See the [About Page](../about/) for information about the design principles behind this site and for information about me, social media links, and contact details.{{% /section %}}
 
+{{% section id="recentarticles links" %}}
 
+## Recent writing
+
+{{< recentwriting >}}
+
+
+{{% /section %}}
 
 {{% section id="clippings links" %}}
+
 ## Latest Links
 
 {{< recentlinks >}}
