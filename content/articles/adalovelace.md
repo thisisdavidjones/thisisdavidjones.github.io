@@ -149,7 +149,7 @@ The myth of Ada Lovelace as the "first computer programmer," could, charitably, 
 
 Inventing a myth of Lovelace as a noble lie hides this  historic subjugation of women. There simply are not hundreds of great female contributions to STEM felds from the past whose histories are waiting for the expertise and dedication of unblinkered scholoars to reveal. This is a tradgedy of our past - the millions of lives unfulfilled and potential talent wasted. It would be as well to remember that.
 
-There are other women whose work in STEM fields we could use instead to encourage girls and women without needing to tell a lie, and while preserving the true history of women's oppression by men. Here are a few of my suggestions:
+There are other women whose work in STEM fields we could use instead to encourage girls and women without needing to tell a lie, and while preserving the true history of women's oppression. Here are a few of my suggestions:
 
 * Emmy Noether
 * Lise Meitner
