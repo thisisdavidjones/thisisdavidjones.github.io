@@ -28,7 +28,11 @@
 {{- end }}
 
 {{- if strings.Contains $linkurl "twitter.com" -}}
-{{- $datalinkicon = printf "%s %s" $classval " twitter" -}}
+{{- $datalinkicon = printf "%s %s" $datalinkicon " twitter" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "bbc.co.uk" -}}
+{{- $datalinkicon = printf "%s %s" $datalinkicon " bbc" -}}
 {{- end }}
 
 {{- if strings.Contains $linkurl "youtube.com" -}}
@@ -40,6 +44,14 @@
 {{- end }}
 
 {{- if strings.Contains $linkurl ".pdf" -}}
+{{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "bbc.co.uk" -}}
+{{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "archive.org" -}}
 {{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
 {{- end }}
 <a href="{{ $linkurl | safeURL }}"

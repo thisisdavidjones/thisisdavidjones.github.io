@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+        </ul></nav>
+        <main>
+            <section class="heading"><h1>Pages using the tag ''</h1></section>
+  <section class="tags">
+{{ .Lastmod }}
+    {{ range .Data.Pages }}
+    {{/* The context, ".", is now each one of the pages as it goes through the loop */}}
+    {{ printf "%#v" . }}
+{{ end }}
+<ul>
+    {{ range .Data.Pages }}
+    <li>
+      <a href="{{.RelPermalink}}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  </section>
+  </main>

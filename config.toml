@@ -2,6 +2,8 @@ baseURL = 'https://thisisdavidjones.github.io'
 languageCode = 'en-us'
 title = 'The website of David Jones'
 theme  = 'david'
+enableGitInfo = true
+
 
 [Params]
     RSSLink = "/index.xml"
@@ -9,12 +11,17 @@ theme  = 'david'
     github = "" # add your github profile name
     twitter = "askdavidjones" # add your twitter profile
     email = "me@thisisdavidjones.com"
-
     dateFormat = "02 Jan 2006"
+    googleAnalytics= 'G-67Z8EJXRP3'
 
 [permalinks]
     blog     =  "/blog/:year/:month/:slug"
 
+[taxonomies]
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -23,3 +30,5 @@ theme  = 'david'
   [markup.goldmark.parser.attribute]
     block = true
     title = true
+
+

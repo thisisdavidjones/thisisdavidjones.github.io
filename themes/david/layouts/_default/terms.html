@@ -1,0 +1,34 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+        </ul></nav>
+        <main>
+          <section class="heading"><h1>Tags used in pages on this site</h1></section>
+<section class="tags">
+                <!-- create a list with all uppercase letters -->
+    {{ $letters := split "ABCDEFGHIJKLMNOPQRSTUVWXYZ" "" }}
+
+
+  <!-- range all pages sorted by their title -->
+  {{ range sort .Site.Taxonomies.tags }}
+
+  <!-- get the first character of each title. Assumes that the title is never empty! -->
+  {{ $firstChar := substr .Page.Title 0 1 | upper }}
+
+  <!-- in case $firstChar is a letter -->
+  {{ if $firstChar | in $letters }}
+    <!-- get the current letter -->
+    {{ $curLetter := $.Scratch.Get "curLetter" }}
+    <!-- if $curLetter isn't set or the letter has changed -->
+    {{ if ne $firstChar $curLetter }}
+    <!-- update the current letter and print it -->
+      {{ $.Scratch.Set "curLetter" $firstChar }}
+      <!-- <br /><span class="letter">{{ $firstChar }}</span> --> 
+    {{ end }}
+
+   <a class="badge badge-tag-list-page" href="{{ .Page.Permalink }}">&nbsp;{{ .Page.Title }} ({{ .Count }})</a>
+  {{ end }}
+{{ end }}
+</section>
+        </main>
+    </body>
+</html>
