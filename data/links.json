@@ -1,6 +1,21 @@
 {
 		"links": [
 			{
+				"date":"2023-04-27",
+				"text":"[The Forme of Cury], an extensive 14th-century collection of medieval English recipes",
+				"link": "https://en.wikipedia.org/wiki/The_Forme_of_Cury"				
+			},
+			{
+				"date":"2023-04-15",
+				"text":"[Prevalence-induced concept change in human judgment] - when the “signal” a person is searching for becomes rare, the person naturally responds by broadening his or her definition of the signal",
+				"link": "https://science.sciencemag.org/content/360/6396/1465"				
+			},
+			{
+				"date":"2023-04-13",
+				"text":"https://www.eupedia.com/",
+				"link": "An [encyclopedia of European] things"				
+			},
+			{
 				"date":"2023-04-03",
 				"text":"[Haecceity], or 'thisness'",
 				"link": "https://en.wikipedia.org/wiki/Haecceity"
