@@ -71,6 +71,3 @@ Overall, an ultrasound-guided intrarectal prostate biopsy is a valuable diagnost
 {{% / section %}}
 
 
-if only to check that enlargment.
-
-*A nte on language*
