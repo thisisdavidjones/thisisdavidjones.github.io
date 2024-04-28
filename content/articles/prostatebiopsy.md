@@ -31,6 +31,7 @@ Secondly, you'll be shown through to some area where your details are checked fo
 
 
 {{% / section %}}
+{{% section %}}
 The prostate, a gland about the size of a walnut when healthy, wraps around the urethra as it exits the bladder and tends to enlarge over time, often eventually causing problems (reduced urine flow, for example, or needing to get up several times in the night to visit the toilet). 
 
 As well as this normal enlargement with age, there's the separate question of prostate *cancer*. It's said that most men ie either *of* prostate cancer or *with* prostate cancer: it's very common. So your doctor will usually run a few checks for prostate cancer too. So it's common for men of a certain age to pitch up at their doctor's office resigned to an exploratory finger
@@ -69,5 +70,3 @@ Overall, an ultrasound-guided intrarectal prostate biopsy is a valuable diagnost
 
 
 {{% / section %}}
-
-
