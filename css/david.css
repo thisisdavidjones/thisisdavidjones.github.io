@@ -120,6 +120,20 @@ section.tags {
     margin-top: 2em;
 }
 
+section.experience h3 {
+    font-family:  var(--DJ-serif-font-stack);
+    font-weight: normal;
+
+    margin-bottom: 0;
+}
+
+section.experience h4 {
+    font-family:  var(--DJ-serif-font-stack);
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
 ul.recent li {
     list-style-type: '\0700\0020';
 }
@@ -452,7 +466,6 @@ figure.fullwidth figcaption {
     /****************/
     /* fonts        */
     /***************/
-
 
 }
 
