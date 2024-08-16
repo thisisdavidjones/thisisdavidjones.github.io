@@ -82,7 +82,7 @@ The details witnesses need to supply if they are Japanese are a little different
 
 # Step 7 - Second and final visit to the municipal office #
 
-Return to the muncipal office with the complete registration form. you should now have:
+Return to the muncipal office with the completed registration form. you should now have:
 
 * Two original Embassy affidavitts **and** copies with additional translations added. 
 * Two UK passports **and** translated copies of the double-page spread that has all your details on
