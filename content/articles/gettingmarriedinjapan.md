@@ -28,7 +28,7 @@ You'll need the following **original** documents
 
 *and*
 
-* a marriage registration form from a municioal office (see Step 3)
+* a marriage registration form from a municipal office (see Step 3)
 
 
 Each of these will need to be translated. I used Google Translate and added the (mostly katakana) translations. At the foot of each translated copy you have to add 'Translated by *name of translator*' (in Japanese). In my case that was:  翻訳する:  デビッド ジョーンズ.
