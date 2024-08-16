@@ -1,6 +1,6 @@
 ---
 date: 2024-08-16T12:00:00
-lastmod: 2024-08-16T12:00:00
+lastmod: 2024-08-16T20:50:00
 title: "Getting married in Japan"
 authors: ["david"]
 categories:
@@ -64,7 +64,7 @@ Then you'll take away the registration form to complete it and *to add the detai
 
 # Step 4  - Additional affidavit translation #
 
-The affidavit is *partly* translated into Japanese but that  wasn't sufficient for the Japanese officials we  spoke to - they needed some of the untranslated content to be translated ( for instance, the Japanese need to see your name in Katakana and that won't have been done by the Embassy), which again I did with Google translate, adding to *copies* of the affidavit (the officials made the copies for us but I don't think they have to do that, they were just being helpful so you might want to ask your hotel to make the copies for you).
+The affidavit is *partly* translated into Japanese but that  wasn't sufficient for the Japanese officials we  spoke to - they needed some of the untranslated content to be translated ( for instance, the Japanese need to see your name in katakana and that won't have been done by the Embassy), which again I did with Google Translate, adding to *copies* of the affidavit (the officials made the copies for us but I don't think they have to do that, they were just being helpful so you might want to ask your hotel to make the copies for you).
 
 You should be able to ask the officials you speak to in Step 3 to highlight which untranslated bits of the affidavit they need translating.
 
