@@ -84,7 +84,7 @@ The details witnesses need to supply if they are Japanese are a little different
 
 Return to the muncipal office with the completed registration form. you should now have:
 
-* Two original Embassy affidavitts **and** copies with additional translations added. 
+* Two original Embassy affidavits **and** copies with additional translations added. 
 * Two UK passports **and** translated copies of the double-page spread that has all your details on
 * Two documents showing your current address(es) **and** translations  (we used our driving licences)
 * Two full birth certificates **and** translations
