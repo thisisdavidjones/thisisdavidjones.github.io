@@ -3,6 +3,7 @@ date: 2024-06-08T08:00:00
 lastmod: 2024-06-08T08:00:00
 title: "Cannibalism in myth and Mycenan Greece"
 authors: ["david"]
+draft: true
 categories:
   - articles
 tags:

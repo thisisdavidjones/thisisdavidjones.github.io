@@ -1,8 +1,13 @@
 {
     "recentwriting": [
         {
-            "text":"[The noble lie of Ada Lovelace]",
+            "text":"I recently married another UK citizen in Tokyo, under Japanese law.  If you’re thinking of doing the same, [ these steps should help you]",
+            "link": "articles/japanesemarriage/"
+        },
+        {
+            "text":"Are partial truths or untruths useful? [The noble lie of Ada Lovelace]",
             "link": "articles/adalovelace/"
         }
+
     ]
 }
