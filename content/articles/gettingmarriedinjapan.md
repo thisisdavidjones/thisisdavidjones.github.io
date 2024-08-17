@@ -12,95 +12,116 @@ tags:
 slug: japanesemarriage
 ---
 
-I'm a UK citizen and I recently married another UK citizen in Tokyo. This is what you need to do if you'd like to attempt the same.
+{{% pagedescription %}}
+I’m a UK citizen, and I recently married another UK citizen in Tokyo while we were on holiday. If you're planning to do the same, here’s a detailed guide to help you through the process. It will involve the preparation of some translations before you travel, a trip to the British Embassy in Tokyo (pre-booked),  and at least one visit to a municpal office in Japan that deals with the registration of births, marriages, deaths, and divorces --- I recommend two visits. 
+{{% / pagedescription %}}
 
-# Step 1 - Collect your documents and translate them #
+# Before you travel to Japan
 
-You'll need the following **original** documents
-
-* UK passport
-* Document showing your current address (we used our driving licences)
-* Full birth certificate which shows your parents’ full names and mother’s maiden name
-
-*plus*
-
-* an affidavit from the British Embassy (see Step 2) 
-
-*and*
-
-* a marriage registration form from a municipal office (see Step 3)
+{{% section %}}
 
 
-Each of these will need to be translated. I used Google Translate and added the (mostly katakana) translations. At the foot of each translated copy you have to add 'Translated by *name of translator*' (in Japanese). In my case that was:  翻訳する:  デビッド ジョーンズ.
 
-**Note**: *you don't have to translate the entire content of your passport, just the double-page spread that has the passport number, your photo, your name, and your date of birth*.
+## Step 1: Book an appointment at the British Embassy 
+The Japanese authorities will require a document that's equivalent to the **Certificate of No Impediment**, known as a 婚姻要件具備証明書 (Kon-In yōken gubi shōmei sho). In our case, this was an affidavit provided by the British Embassy.
 
-# Step 2 - Affidavit from the British Embassy #
+To obtain the affidavit:
 
-You'll need to supply the Japanese authorities with the equivalent of a **Certificate of No Impediment** (*Kon-In yōken gubi shōmei sho, 婚姻要件具備証明書*). In our case this took the form of an affidavit supplied by the British Embassy
-
-You get the British Embassy affidavit by applying online for an appointment *well in advance* (like, months) and paying £50 each beforehand, when you book the appointment, or on the day of the appointent at the Embassy. 
-
-Then you go to the Embassy in Tokyo, near the Imperial Palace, show them the documents they need to see (above), swear an oath in front of the Embassy official, and they'll give you the affidavit. It takes about half an hour and you can both attend the same appointment.
-
-Here's a link to [book an appointment at the Tokyo Embassy](https://www.prove-eligibility-foreign-government.service.gov.uk/japan/do-you-have-a-uk-passport)
+1. **Book an appointment** at the British Embassy in Tokyo well in advance (preferably months ahead). Here's a link to the [Embassy booking form](https://www.prove-eligibility-foreign-government.service.gov.uk/japan/do-you-have-a-uk-passport)
+2. **Pay the fee** of £50 per person online when booking the appointment, or pay on the day of your appointment at the Embassy.
 
 
 
 
+{{% /section %}}
 
 
-# Step 3  - First visit to the Municipal Office #
+{{% section %}}
 
-You're probably not going to get the whole thing done in a single visit. The point of the first visit for us was  to get the  **Marriage Registration Form** (*Kon-In Todoke, 婚姻届*) and to ask the helpful officials to eyeball our documents  and suggest additions and alterations. So take along all your documents and translated copies and ask for help. You don't need a prior appoinment. Just turn up, take a ticket, and wait to be called to a desk.
+## Step 2: Gather and Translate Documents
 
-We initially went to a branch office for our ward because it was nearest to our hotel but after a little confusion they told us that although the documents looked ok we'd need to take them to the ward's main  municipal office, so you might as well do that straight away.
+You'll need the following:
 
-Then you'll take away the registration form to complete it and *to add the details of witnesses*. 
+1. **UK Passports** for both parties
+2. **Documents showing your current address** for both (we used our driving licences)
+3. **Full birth certificates** for both that include  parents’ full names and  mothers' maiden names
 
- 
+  {{% sidenote %}}
+**Note:** You only need to translate the double-page spread of your passport that contains the passport number, your photo, your name, and your date of birth.
+  {{% / sidenote %}}
 
+Create translations of these before you leave for Japan and take the originals and the translations with you to Japan. Google Translate seems to be good enough if you're careful and understand what you're doing.
 
-
-# Step 4  - Additional affidavit translation #
-
-The affidavit is *partly* translated into Japanese but that  wasn't sufficient for the Japanese officials we  spoke to - they needed some of the untranslated content to be translated ( for instance, the Japanese need to see your name in katakana and that won't have been done by the Embassy), which again I did with Google Translate, adding to *copies* of the affidavit (the officials made the copies for us but I don't think they have to do that, they were just being helpful so you might want to ask your hotel to make the copies for you).
-
-You should be able to ask the officials you speak to in Step 3 to highlight which untranslated bits of the affidavit they need translating.
-
-
-# Step 5  - Fill-in the Marriage Registration Form #
-
-Compete the marriage registration form (except for the witnesses section), using the suggestions made by the municipal office staff in Step 3.  You might try asking the staff to help you but you can't expect them to be unpaid translators. 
-
-# Step 6  - Witnesses #
-
-You need the details of two witnesses added to the registration form (they don't need to attend the office). We asked two young women staying at our hotel and they seemed delighted to be asked. Perhaps we were a little lucky there: it may be the trickiest part of this process if you're a visitor to the country and don't know anyone. 
-
-The details witnesses need to supply if they are Japanese are a little different from those needed if the witnesses are not Japanese. Again, it'd be useful to ask the officials to give you some guidance when you're at Step 4
+At the bottom of each translated document, include the phrase “Translated by [your name]” in Japanese. For example: 翻訳する: デビッド ジョーンズ.
 
 
-# Step 7 - Second and final visit to the municipal office #
-
-Return to the muncipal office with the completed registration form. you should now have:
-
-* Two original Embassy affidavits **and** copies with additional translations added. 
-* Two UK passports **and** translated copies of the double-page spread that has all your details on
-* Two documents showing your current address(es) **and** translations  (we used our driving licences)
-* Two full birth certificates **and** translations
-* One Japanese marriage registration certificate, complete with witness details (the witnesses need not be present)
-
-As mentioned earlier, each translated document should have the details of the translator at its foot.
-
-# Step 8  - Approval #
-
-The official(s) you're dealing with should now be able to approve your marriage registration. In our case they took about an hour to check all the documents and call us to the desk again.
-
-# Step 9 - the Kon-in Todoke Juri Shomeisho #
-
-Suprisingly you don't get an official document recording the fact of acceptance of your marriage unless you explicitly ask for it. In our case it took about an hour for them to produce two copies that we collected from a different desk and we paid about £7 for them. The document is the 'Certificate of Acceptance of Notification of Marriage' or, in Japanese, the *Kon-in Todoke Juri Shomeisho*. I strongly advise getting this because it's the only document you'll have to take back home with you to use in case someone ever asks for proof you're married.
+{{% / section %}}
 
 
+
+# After you arrive in Japan
+
+{{% section %}}
+## Step 3: Get the affidavits from the British Embassy
+
+Attend your appointment at the British Embassy in Tokyo (near the Imperial Palace). Bring along all your documents, explain that you're planning to marry and need the affidavits, and the Embassy official will check your documents, ask you each to swear an oath, and will then issue the affidavits. The process takes about 30 minutes, and both of you can attend the same appointment.
+{{% /section %}}
+
+{{% section %}}
+## Step 3: First Visit to the Municipal Office
+Your first visit to the municipal office is to:
+
+1. **Obtain the Marriage Registration Form** (婚姻届, Kon-In Todoke).
+2. **Get your documents reviewed** by the officials. They will check your documents and may be helpful in suggesting additions or corrections to your translations.
+
+There’s no need to book an appointment—just take a ticket and wait to be called. 
+
+We initially went to a branch office in our hotel's ward (Minato)  but after a little confusion they told us that although the documents looked ok we’d need to take them to the ward’s main municipal office, so you might as well do that straight away.
+{{% /section %}}
+
+{{% section %}}
+## Step 4: Translate Additional Affidavit Content
+The affidavit you receive from the Embassy is only partially translated into Japanese. However, the Japanese officials will likely require some extra translation. They should have been able to advise you on that in Step 3.
+
+Use Google Translate to do this, and add the translations to *copies* of the affidavits. The municipal office officials might make these copies for you, but it's a good idea to have them done in advance (your hotel can help).
+{{% / section %}}
+
+{{% section %}}
+## Step 5: Fill Out the Marriage Registration Form
+Complete the Marriage Registration Form, incorporating the suggestions made by the municipal office staff in Step 3. The staff might assist you, but don’t expect them to translate everything for you.
+{{% / section %}}
+
+{{% section %}}
+## Step 6: Obtain Witnesses
+You need two witnesses to fill out a section of the registration form. The witnesses do not need to be present at the municipal office.
+
+We asked two women staying at our hotel to be our witnesses, but this step may be  challenging if you don’t know anyone in Japan. The requirements for witness details differ slightly for Japanese and non-Japanese witnesses, so ask the officials for guidance during Step 3.
+{{% / section %}}
+
+{{% section %}}
+## Step 7: Final Visit to the Municipal Office
+Return to the municipal office with the completed registration form. Ensure you have the following:
+
+1. **Two original Embassy affidavits** (and translated copies)
+2. **Two UK passports** (and translated copies of the double-page spread with your details)
+3. **Two documents showing your current address** (and translations)
+4. **Two full birth certificates** (and translations)
+5. **One completed Japanese Marriage Registration Form** (including witness details)
+
+As before, each translated document must include the translator's details.
+{{% / section %}}
+
+{{% section %}}
+## Step 8: Approval of Marriage Registration
+The officials will review your documents, which took about an hour in our case. If everything is in order, they will approve your marriage registration.
+{{% / section %}}
+
+{{% section %}}
+## Step 9: Obtain the Kon-in Todoke Juri Shomeisho
+You won’t automatically receive a document confirming the acceptance of your marriage unless you request it.
+
+We asked for two copies of the ‘Certificate of Acceptance of Notification of Marriage’ (婚姻届受理証明書, Kon-in Todoke Juri Shomeisho), which cost around £7 each. This document is essential as it serves as proof of your marriage when you return home. It took an extra 45 minutes or so to pick these certificates up from a different desk in the same office.
+{{% / section %}}
 
 
 # Notes #
