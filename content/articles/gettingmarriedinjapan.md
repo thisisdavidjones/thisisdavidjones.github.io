@@ -92,11 +92,11 @@ Return to the muncipal office with the completed registration form. you should n
 
 As mentioned earlier, each translated document should have the details of the translator at its foot.
 
-# Step 7  - Approval #
+# Step 8  - Approval #
 
 The official(s) you're dealing with should now be able to approve your marriage registration. In our case they took about an hour to check all the documents and call us to the desk again.
 
-# Step 8 - the Kon-in Todoke Juri Shomeisho #
+# Step 9 - the Kon-in Todoke Juri Shomeisho #
 
 Suprisingly you don't get an official document recording the fact of acceptance of your marriage unless you explicitly ask for it. In our case it took about an hour for them to produce two copies that we collected from a different desk and we paid about £7 for them. The document is the 'Certificate of Acceptance of Notification of Marriage' or, in Japanese, the *Kon-in Todoke Juri Shomeisho*. I strongly advise getting this because it's the only document you'll have to take back home with you to use in case someone ever asks for proof you're married.
 
