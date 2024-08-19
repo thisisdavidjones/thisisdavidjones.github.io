@@ -96,6 +96,14 @@ Complete the Marriage Registration Form, incorporating the suggestions made by t
 You need two witnesses to fill out a section of the registration form. The witnesses do not need to be present at the municipal office.
 
 We asked two women staying at our hotel to be our witnesses, but this step may be  challenging if you don’t know anyone in Japan. The requirements for witness details differ slightly for Japanese and non-Japanese witnesses, so ask the officials for guidance during Step 3.
+
+{{< figure src="https://live.staticflickr.com/65535/53933103657_d3768df5e7_z.jpg"  
+link="https://live.staticflickr.com/65535/53933103657_d3768df5e7_z.jpg"  
+caption="Our witnesses, Nishihama and Sayaka"
+ class="figimg"
+>}}
+
+
 {{% / section %}}
 
 {{% section %}}
