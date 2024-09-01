@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
     <head>
-
+        {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+      {{ end }}
         {{ partial "googleanalytics" . }}
         {{ hugo.Generator }}
         <meta charset="utf-8">

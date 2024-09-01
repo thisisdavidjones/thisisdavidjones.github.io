@@ -5,7 +5,7 @@ theme  = 'david'
 enableGitInfo = true
 
 
-[Params]
+[params]
     RSSLink = "/index.xml"
     author = "David Jones" # add your company name
     github = "" # add your github profile name
@@ -13,6 +13,7 @@ enableGitInfo = true
     email = "me@thisisdavidjones.com"
     dateFormat = "02 Jan 2006"
     googleAnalytics= 'G-67Z8EJXRP3'
+    math = true
 
 [permalinks]
     blog     =  "/blog/:year/:month/:slug"
@@ -27,8 +28,14 @@ enableGitInfo = true
     [markup.goldmark.renderer]
       unsafe = true
       hardWraps =  false
-  [markup.goldmark.parser.attribute]
-    block = true
-    title = true
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
 
 

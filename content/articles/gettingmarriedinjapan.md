@@ -50,6 +50,10 @@ You'll need the following:
 **Note:** You only need to translate the double-page spread of your passport that contains the passport number, your photo, your name, and your date of birth.
   {{% / sidenote %}}
 
+
+You can use 
+
+
 Create translations of these before you leave for Japan and take the originals and the translations with you to Japan. Google Translate seems to be good enough if you're careful and understand what you're doing.
 
 At the bottom of each translated document, include the phrase “Translated by [your name]” in Japanese. For example: 翻訳する: デビッド ジョーンズ.
@@ -140,6 +144,6 @@ We asked for two copies of the ‘Certificate of Acceptance of Notification of M
 
 * Under UK legislation marriages involving at least one British citizen taking place abroad, before the competent local authority and which are legally valid in that country, are likely to be recognised as valid in the UK
 
-* It is remotely *possible* that for some purposes you may need further proof of marriage in the form of an **apostille**, a certification from the Japanese Ministry of Foreign Affairs to prove that the document is official and issued by its government. To get an apostille from Japanese Mistry of foreign affairs, [visit their webpage here](https://www.mofa.go.jp/ca/cs/page22e_000417.html).
+* It is remotely *possible* that for some purposes you may need further proof of marriage in the form of an **apostille**, a certification from the Japanese Ministry of Foreign Affairs to prove that the document is official and issued by its government. To get an apostille from Japanese Ministry of foreign affairs, [visit their webpage here](https://www.mofa.go.jp/ca/cs/page22e_000417.html).
 
 
