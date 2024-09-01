@@ -199,7 +199,7 @@ Despite its strengths, Bayesian thinking is not without its criticisms and chall
 {{% section %}}
 ### Bayesian Thinking and Modern Epistemology
 
-The impact of Bayesian thinking on epistemology cannot be overstated. By framing belief and knowledge in terms of probability, Bayesianism offers a compelling answer to the age-old problem of induction: how we can justify beliefs about the future based on past experiences. In a Bayesian framework, beliefs are never absolute; they are always subject to revision in light of new evidence.
+By framing belief and knowledge in terms of probability, Bayesianism suggests an  answer to the  problem of induction: how we can justify beliefs about the future based on past experiences. In a Bayesian framework, beliefs are never absolute; they are always subject to revision in light of new evidence.
 
 This perspective aligns well with the increasingly empirical and data-driven nature of modern epistemology. As knowledge becomes more quantifiable and evidence more abundant, Bayesian methods offer a structured way to handle this information, balancing prior knowledge with new data.
 
