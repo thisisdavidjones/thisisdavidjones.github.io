@@ -1,16 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The website of David Jones</title><link>https://thisisdavidjones.github.io/</link><description>Recent content on The website of David Jones</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2024 15:48:54 +0100</lastBuildDate><atom:link href="https://thisisdavidjones.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Recent changes</title><link>https://thisisdavidjones.github.io/changes/</link><pubDate>Sun, 19 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/changes/</guid><description> 2023-04-03 - The Noble Lie of Ada Lovelace - First notes for an essay about Ada Lovelace and the myth of her contribution to computer science. 2023-03-19 - Semantic markup and sidenotes - Realised I&amp;rsquo;d misunderstood the guidance for &amp;lt;article&amp;gt;, rejigged the markup to comply; adjusted the CSS for sidenotes</description></item><item><title>Links</title><link>https://thisisdavidjones.github.io/links/</link><pubDate>Fri, 10 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/links/</guid><description>Hasui Kawase creating a woodblock print (English narration)
-Sprachlogik a philosophy blog with a focus on logic and languag
-Philosophy, Medieval Logic and the London Plumbing Crisis : Beyond Necessity
-THE LOGIC MUSEUM
-Aother urban sketcher using a Zebra nib Matt Gibbons (@mattgibbonsstudio) • Instagram photos and videos
-Original Art &amp;amp; Best Tools for Sketching with Dong Ho Kim
-Easy JAPANESE CURRY RICE » Made with Golden Curry
-Don Low | Illustration | Design | Comics | Paintings | Sketches</description></item><item><title>About this website</title><link>https://thisisdavidjones.github.io/about/</link><pubDate>Wed, 01 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/about/</guid><description>I&amp;rsquo;ve recently revamped this website and I&amp;rsquo;ll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I&amp;rsquo;ve closely followed the suggestions of Edward Tufte&amp;rsquo;s stylesheet recommendations for simple and clear text on the web, and a long-standing aim is that markup should be as close to purely semantic as possible. The principles derived by Dave Liepmann from Tufte&amp;rsquo;s writings are guidelines, not mandatory diktats, but they&amp;rsquo;re very useful guidelines.</description></item><item><title>Bayesian Thinking</title><link>https://thisisdavidjones.github.io/articles/bayesianepistemology/</link><pubDate>Wed, 28 Aug 2024 12:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/bayesianepistemology/</guid><description>The death of Mike Lynch and others on board his yacht &amp;lsquo;Bayesian&amp;rsquo; got me thinking about Bayes Theorem and its use as a tool in knowledge discovery. Bayes Theorem - the basics Stephen Hawking said he was once told that the inclusion of each equation in his book would cut the number of interested readers by 50%. Nevertheless, this one isn&amp;rsquo;t hard to grasp though it might appear to be using slightly odd syntax if you haven&amp;rsquo;t seen how conditional probabilities are expressed.</description></item><item><title>Getting married in Japan</title><link>https://thisisdavidjones.github.io/articles/japanesemarriage/</link><pubDate>Fri, 16 Aug 2024 12:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/japanesemarriage/</guid><description>I’m a UK citizen, and I recently married another UK citizen in Tokyo while we were on holiday. If you&amp;rsquo;re planning to do the same, here’s a detailed guide to help you through the process. It will involve the preparation of some translations before you travel, a trip to the British Embassy in Tokyo (pre-booked), and at least one visit to a municpal office in Japan that deals with the registration of births, marriages, deaths, and divorces &amp;mdash; I recommend two visits.</description></item><item><title>CV - David Jones</title><link>https://thisisdavidjones.github.io/resume/cv/</link><pubDate>Thu, 14 Sep 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/resume/cv/</guid><description>Professional Summary Experienced in designing and implementing complex solutions across multiple industries, nationally and internationally. Possesses strong technical expertise and excellent communication skills. Able to translate business requirements effectively into technical solutions that meet or exceed client expectations. Experienced in managing large transformation projects, cloud migrations, and legacy update programs. Possess strong leadership qualities and can guide teams in achieving project goals. Provide architectural leadership to ensure project success. Proficient in team management, including assigning tasks, setting goals, and ensuring deadlines are met.</description></item><item><title>The noble lie of Ada Lovelace</title><link>https://thisisdavidjones.github.io/articles/adalovelace/</link><pubDate>Mon, 03 Apr 2023 08:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/adalovelace/</guid><description>Despite Ada Lovelace Day, the Ada Lovelace Institute, the Ada Lovelace Award and Wikipedia&amp;rsquo;s confirmation that Ada Lovelace is &amp;lsquo;often regarded as the first computer programmer&amp;rsquo;, Lovelace was not the first programmer and she had no hand in the creation of the Babbage Difference Engine and Analytic Engine. Does the exaggeration of her contribution matter? Is it a noble lie? Not only is there no evidence that Lovelace ever prepared a program for the Analytical Engine, but her correspondence with Babbage shows that she did not have the knowledge to do so.</description></item><item><title>Seeing off Yuan the Second on a Mission to Anxi</title><link>https://thisisdavidjones.github.io/poetry/seeingoffyuan/</link><pubDate>Tue, 16 Aug 2022 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/poetry/seeingoffyuan/</guid><description>I&amp;rsquo;ve been trying my hand at translating Tang-era poems again. This one&amp;rsquo;s by Wang Wei
-Original in traditional script
-And here&amp;rsquo;s my translation:
-Seeing off Yuan the Second on a Mission to Anxi
-The willows at the inn are fresh and green The dust is dampened by the morning dew I buy my friend another cup of wine Beyond Yang Pass, good wine and friends are few &amp;mdash; Wang Wei, 8th C</description></item><item><title>The Best Metaphor</title><link>https://thisisdavidjones.github.io/thebestmetaphor/</link><pubDate>Sun, 06 May 2018 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/thebestmetaphor/</guid><description>A small group of almost-naked figures gathers at the edge of a rectangular jungle clearing. At the northern end stands their recently-completed spindly bamboo mast; halfway along one of the longer sides is a rickety hut on thin stilts. Running down the center of the cleared area, a strip of flattened sandy scrub, like a giants&amp;rsquo; cricket pitch. Twenty metres beyond the southern end of the clearing, through the jungle greenery, is a strand of white sand, and then the sea.</description></item><item><title>The Banach-Tarski Paradox</title><link>https://thisisdavidjones.github.io/stem/banachtarski/</link><pubDate>Thu, 22 Mar 2018 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/stem/banachtarski/</guid><description>Given a solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.
-The Banach-Tarski Paradox
-This &amp;lsquo;paradox&amp;rsquo; is a firm result in set theory. It&amp;rsquo;s not up for debate.</description></item><item><title>Pronouncing Don Quixote in La Mancha</title><link>https://thisisdavidjones.github.io/donquixote/</link><pubDate>Wed, 09 Nov 2016 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/donquixote/</guid><description>Pizarro in the market square of Trujillo, Spain
-On holiday in Spain in 2007 I read Don Quixote — and ploughing through some parts in the Don’s homeland, the region of La Mancha, I thought I’d solved the puzzle of the protagonist’s name: Key-Ho-Tay or Kwiksot?
-I’ve previously spoken the name ‘Don Quixote’ as Don Key-ho-tay, presuming it was more Spanish, though of course I’ve been aware of the alternative inEnglish of Don Quick-Sot.</description></item><item><title/><link>https://thisisdavidjones.github.io/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/test/</guid><description>Sidebar one two three Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum ut nibh ac fringilla. Pellentesque nibh nibh, vulputate sit amet dui nec, cursus interdum nunc. Maecenas aliquam leo at iaculis dictum. Suspendisse potenti. Integer nec tincidunt justo, vel accumsan velit. Morbi id magna enim. Quisque euismod, lacus a pretium mattis, tortor diam luctus lacus, vel interdum justo mauris eu tellus. Suspendisse in tellus velit. Nam massa velit, tincidunt eget dictum et, finibus id odio.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The website of David Jones</title><link>https://thisisdavidjones.github.io/</link><description>Recent content on The website of David Jones</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2024 17:16:30 +0000</lastBuildDate><atom:link href="https://thisisdavidjones.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Recent changes</title><link>https://thisisdavidjones.github.io/changes/</link><pubDate>Sun, 19 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/changes/</guid><description>&lt;section class="clippings links">
+&lt;ul class="recent">
+ &lt;li>&lt;p>2023-04-03 - The Noble Lie of Ada Lovelace - First notes for an essay about Ada Lovelace and the myth of her contribution to computer science. &lt;/p>&lt;/li>
+ &lt;li>&lt;p>2023-03-19 - Semantic markup and sidenotes - Realised I&amp;rsquo;d misunderstood the guidance for &amp;lt;article&amp;gt;, rejigged the markup to comply; adjusted the CSS for sidenotes &lt;/p>&lt;/li>
+&lt;/ul>
+&lt;/section></description></item><item><title>Links</title><link>https://thisisdavidjones.github.io/links/</link><pubDate>Fri, 10 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/links/</guid><description>&lt;section >
+&lt;ul>
+ &lt;li>&lt;p>&lt;a href="https://www.youtube.com/watch?v=BQmF3HHyWwI" rel="noopener" target="_blank" class="external" data-link-icon="youtube" data-link-icon-type="svg">Hasui Kawase creating a woodblock print&lt;/a> (English narration)&lt;/p>&lt;/li>
+ &lt;li>&lt;p>&lt;a href="https://sprachlogik.blogspot.com/" rel="noopener" target="_blank" class="external">Sprachlogik&lt;/a> a philosophy blog with a focus on logic and languag&lt;/p>&lt;/li>
+ &lt;li>&lt;p>&lt;a href="https://ocham.blogspot.com/" rel="noopener" target="_blank" class="external">Philosophy, Medieval Logic&lt;/a> and the London Plumbing Crisis : 
+&lt;a href="https://ocham.blogspot.com/" rel="noopener" target="_blank" class="external">Beyond Necessity&lt;/a>&lt;/p>&lt;/li>
+ &lt;li>&lt;p>&lt;a href="https://www.logicmuseum.com/index.htm" rel="noopener" target="_blank" class="external">THE LOGIC MUSEUM&lt;/a>&lt;/p>&lt;/li>
+ &lt;li>&lt;p>Aother urban sketcher using a Zebra nib 
+&lt;a href="https://www.instagram.com/mattgibbonsstudio/?g=5" rel="noopener" target="_blank" class="external">Matt Gibbons (@mattgibbonsstudio) • Instagram photos and videos&lt;/a>&lt;/p>&lt;/li>
+ &lt;li>&lt;p>&lt;a href="https://www.youtube.com/watch?v=3Ps5fy8-0NM" rel="noopener" target="_blank" class="external" data-link-icon="youtube" data-link-icon-type="svg">Original Art &amp;amp; Best Tools for Sketching&lt;/a> with Dong Ho Kim&lt;/p>&lt;/li>
+ &lt;li>&lt;p>&lt;a href="https://www.youtube.com/watch?v=UuOI5uT00T4" rel="noopener" target="_blank" class="external" data-link-icon="youtube" data-link-icon-type="svg">Easy JAPANESE CURRY RICE&lt;/a> » Made with Golden Curry&lt;/p></description></item><item><title>About this website</title><link>https://thisisdavidjones.github.io/about/</link><pubDate>Wed, 01 Mar 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/about/</guid><description>&lt;section >
+&lt;p>I&amp;rsquo;ve recently revamped this website and I&amp;rsquo;ll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I&amp;rsquo;ve closely followed the suggestions of 
+&lt;a href="https://edwardtufte.github.io/tufte-css/" rel="noopener" target="_blank" class="external">Edward Tufte&amp;rsquo;s stylesheet recommendations&lt;/a> for simple and clear text on the web, and a long-standing aim is that markup should be as close to purely semantic as possible. The principles derived by Dave Liepmann from Tufte&amp;rsquo;s writings are &lt;em>guidelines&lt;/em>, not mandatory diktats, but they&amp;rsquo;re very useful guidelines. I&amp;rsquo;ve also been (&lt;em>ahem&lt;/em>) influenced by 
+&lt;a href="https://gwern.net" rel="noopener" target="_blank" class="external">Gwern Branwen&amp;rsquo;s Gwern.net&lt;/a> in this most recent site revamp, though I hope not to be too copycat as the site evolves over the next few weeks.&lt;/p></description></item><item><title>A Mathematical Framework for Understanding Shinto</title><link>https://thisisdavidjones.github.io/articles/categoricalshinto/</link><pubDate>Wed, 06 Nov 2024 05:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/categoricalshinto/</guid><description>&lt;div class="pagedescription">&lt;p>Japan&amp;rsquo;s native religion of Shinto presents a fascinating paradox to religious scholars. Its apparent contradictions — ancient yet modern, polytheistic yet philosophically abstract, deeply ritualistic yet fluid — have long resisted Western attempts at categorisation. Traditional religious frameworks, with their emphasis on fixed doctrines and clear taxonomies, seem to slip through our fingers when trying to grasp Shinto&amp;rsquo;s essential nature. Yet rather than viewing this resistance as a barrier to understanding, we might see it as a window into Shinto&amp;rsquo;s unique character.&lt;/p></description></item><item><title>The Quantum Path to Improbability</title><link>https://thisisdavidjones.github.io/articles/quantumimmortality/</link><pubDate>Wed, 23 Oct 2024 08:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/quantumimmortality/</guid><description>&lt;p>In the vast landscape of quantum mechanics, few interpretations have captured the imagination quite like Hugh Everett III&amp;rsquo;s &lt;em>Many Worlds&lt;/em> approach. This interpretation suggests that quantum events spawn multiple branches of reality, with each possible outcome manifesting in its own universe. The implications of this become extraordinary when we consider the nature of probability across an infinite number of universe branches.&lt;/p>
+&lt;p>Consider a simple quantum event: a particle that could decay or not decay in a given moment. In the Many Worlds interpretation, both outcomes occur, creating two branches of reality. Now extend this to the countless quantum events occurring in every atom of your body, every second of every day. The number of branches multiplies exponentially, creating an unfathomable number of parallel realities.&lt;/p></description></item><item><title>Bayesian Thinking</title><link>https://thisisdavidjones.github.io/articles/bayesianepistemology/</link><pubDate>Wed, 28 Aug 2024 12:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/bayesianepistemology/</guid><description>&lt;div class="pagedescription">The death of Mike Lynch and others on board his yacht &amp;lsquo;Bayesian&amp;rsquo; got me thinking about Bayes Theorem and its use as a tool in knowledge discovery.&lt;/div>
+&lt;section >
+&lt;h2 id="bayes-theorem----the-basics">Bayes Theorem - the basics&lt;/h2>
+&lt;p>Stephen Hawking said he was once told that the inclusion of each equation in his book would cut the number of interested readers by 50%. Nevertheless, this one isn&amp;rsquo;t hard to grasp though it might appear to be using slightly odd syntax if you haven&amp;rsquo;t seen how conditional probabilities are expressed.&lt;/p></description></item><item><title>Getting married in Japan</title><link>https://thisisdavidjones.github.io/articles/japanesemarriage/</link><pubDate>Fri, 16 Aug 2024 12:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/japanesemarriage/</guid><description>&lt;div class="pagedescription">I’m a UK citizen, and I recently married another UK citizen in Tokyo while we were on holiday. If you&amp;rsquo;re planning to do the same, here’s a detailed guide to help you through the process. It will involve the preparation of some translations before you travel, a trip to the British Embassy in Tokyo (pre-booked), and at least one visit to a municpal office in Japan that deals with the registration of births, marriages, deaths, and divorces &amp;mdash; I recommend two visits.&lt;/div>
+&lt;h1 id="before-you-travel-to-japan">Before you travel to Japan&lt;/h1>
+&lt;section >
+&lt;h2 id="step-1-book-an-appointment-at-the-british-embassy">Step 1: Book an appointment at the British Embassy&lt;/h2>
+&lt;p>The Japanese authorities will require a document that&amp;rsquo;s equivalent to the &lt;strong>Certificate of No Impediment&lt;/strong>, known as a 婚姻要件具備証明書 (Kon-In yōken gubi shōmei sho). In our case, this was an affidavit provided by the British Embassy.&lt;/p></description></item><item><title>CV - David Jones</title><link>https://thisisdavidjones.github.io/resume/cv/</link><pubDate>Thu, 14 Sep 2023 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/resume/cv/</guid><description>&lt;section class="profsumm">
+&lt;h2 id="professional-summary">Professional Summary&lt;/h2>
+&lt;ul>
+&lt;li>Experienced in designing and implementing complex solutions across multiple industries, nationally and internationally.&lt;/li>
+&lt;li>Possesses strong technical expertise and excellent communication skills.&lt;/li>
+&lt;li>Able to translate business requirements effectively into technical solutions that meet or exceed client expectations.&lt;/li>
+&lt;li>Experienced in managing large transformation projects, cloud migrations, and legacy update programs.&lt;/li>
+&lt;li>Possess strong leadership qualities and can guide teams in achieving project goals.&lt;/li>
+&lt;li>Provide architectural leadership to ensure project success.&lt;/li>
+&lt;li>Proficient in team management, including assigning tasks, setting goals, and ensuring deadlines are met.&lt;/li>
+&lt;li>Adaptable and able to work collaboratively with cross-functional teams to achieve common goals.&lt;/li>
+&lt;li>Up-to-date with emerging technologies and industry trends to ensure solutions remain innovative and effective.&lt;/li>
+&lt;/ul>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;ul>
+&lt;li>Expertise in solution architecture, design, and implementation&lt;/li>
+&lt;li>Extensive knowledge of cloud technologies (AWS, Azure, GCP)&lt;/li>
+&lt;li>Strong understanding of software development life cycle&lt;/li>
+&lt;li>Ability to create technical documentation and presentations&lt;/li>
+&lt;li>Excellent communication and interpersonal skills&lt;/li>
+&lt;li>Proven leadership and project management skills&lt;/li>
+&lt;/ul>
+&lt;/section>
+&lt;section class="experience">
+&lt;h2 id="recent-employment-experience">Recent Employment Experience&lt;/h2>
+&lt;h3 id="senior-solutions-architect-capgemini">Senior Solutions Architect, Capgemini&lt;/h3>
+&lt;h4 id="march-2018--present">March 2018 – Present&lt;/h4>
+&lt;ul>
+&lt;li>Led the design and implementation of complex solutions for large transformation projects for key clients.&lt;/li>
+&lt;li>Seconded to large Government department to provide architectural guidance and leadership&lt;/li>
+&lt;li>Designed complex cloud-based solutions and closely collaborated with AWS and IBM to evolve new product offerings&lt;/li>
+&lt;li>Translated business requirements into technical solutions that meet client expectations.&lt;/li>
+&lt;li>Provided guidance to project teams throughout the development life cycle&lt;/li>
+&lt;li>Collaborated with stakeholders, including project managers, developers, and business analysts, to ensure successful project delivery.&lt;/li>
+&lt;li>Created technical documentation and presentations to communicate solution design and implementation details to clients and project teams.&lt;/li>
+&lt;li>Conducted technical evaluations of third-party products to ensure they meet client needs.&lt;/li>
+&lt;li>Developed and delivered technical training to internal and external teams.&lt;/li>
+&lt;li>Provided technical support to clients during and after solution implementation.&lt;/li>
+&lt;li>Reviewer for more junior architects&lt;/li>
+&lt;li>Board member of internal Architect Academy training scheme - mentoring &amp;amp; training junior team members on solution architecture and design best practices.&lt;/li>
+&lt;li>On working group for exploration on AI/LLMs. Also, producing content for the Capgemini Streams platform&lt;/li>
+&lt;/ul>
+&lt;/section></description></item><item><title>The noble lie of Ada Lovelace</title><link>https://thisisdavidjones.github.io/articles/adalovelace/</link><pubDate>Mon, 03 Apr 2023 08:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/adalovelace/</guid><description>&lt;div class="pagedescription">Despite 
+&lt;a href="https://findingada.com/" rel="noopener" target="_blank" class="external">Ada Lovelace Day&lt;/a>, the 
+&lt;a href="https://www.adalovelaceinstitute.org/" rel="noopener" target="_blank" class="external">Ada Lovelace Institute&lt;/a>, the 
+&lt;a href="https://en.wikipedia.org/wiki/Ada_Lovelace_Award" rel="noopener" target="_blank" class="external" data-link-icon="wikipedia" data-link-icon-type="svg">Ada Lovelace Award&lt;/a> and Wikipedia&amp;rsquo;s confirmation that Ada Lovelace is 
+&lt;a href="https://en.wikipedia.org/wiki/Ada_Lovelace" rel="noopener" target="_blank" class="external" data-link-icon="wikipedia" data-link-icon-type="svg">&amp;lsquo;often regarded as the first computer programmer&amp;rsquo;&lt;/a>, Lovelace was not the first programmer and she had no hand in the creation of the Babbage Difference Engine and Analytic Engine. Does the exaggeration of her contribution matter? Is it a noble lie?&lt;/div>
+&lt;section >
+ &lt;div class="sidenote">&lt;div class="sidenotecontents">
+ &lt;blockquote>&lt;p>Not only is there no evidence that Lovelace ever prepared a program for the Analytical Engine, but her correspondence with Babbage shows that she did not have the knowledge to do so.&lt;/p></description></item><item><title>Seeing off Yuan the Second on a Mission to Anxi</title><link>https://thisisdavidjones.github.io/poetry/seeingoffyuan/</link><pubDate>Tue, 16 Aug 2022 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/poetry/seeingoffyuan/</guid><description>&lt;p>I&amp;rsquo;ve been trying my hand at translating Tang-era poems again. This one&amp;rsquo;s by Wang Wei&lt;/p>
+&lt;figure class="figimg">&lt;img src="http://www.chinese-poems.com/yuant.gif"
+ alt="Original in traditional script"/>&lt;span class="figcaption">
+ &lt;p>Original in traditional script&lt;/p>
+ &lt;/span>
+&lt;/figure>
+&lt;p>And here&amp;rsquo;s my translation:&lt;/p>
+&lt;blockquote class="poetry">
+&lt;p class="poemtitle">Seeing off Yuan the Second on a Mission to Anxi&lt;/p>&lt;pre>
+The willows at the inn are fresh and green
+The dust is dampened by the morning dew
+I buy my friend another cup of wine
+Beyond Yang Pass, good wine and friends are few
+&lt;/pre>&lt;footer>&amp;mdash; Wang Wei, 8th C&lt;/footer>
+&lt;/blockquote></description></item><item><title>The Best Metaphor</title><link>https://thisisdavidjones.github.io/thebestmetaphor/</link><pubDate>Sun, 06 May 2018 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/thebestmetaphor/</guid><description>&lt;div class="epigraph" >
+&lt;blockquote>
+&lt;p>A small group of almost-naked figures gathers at the edge of a rectangular jungle clearing. At the northern end stands their recently-completed spindly bamboo mast; halfway along one of the longer sides is a rickety hut on thin stilts. Running down the center of the cleared area, a strip of flattened sandy scrub, like a giants&amp;rsquo; cricket pitch. Twenty metres beyond the southern end of the clearing, through the jungle greenery, is a strand of white sand, and then the sea.&lt;/p></description></item><item><title>The Banach-Tarski Paradox</title><link>https://thisisdavidjones.github.io/stem/banachtarski/</link><pubDate>Thu, 22 Mar 2018 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/stem/banachtarski/</guid><description>&lt;section >
+&lt;p>Given a solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.&lt;/p>
+&lt;figure class="figimg">&lt;a href="https://c1.staticflickr.com/5/4776/39142320020_db99fb7161_z.jpg">&lt;img src="https://c1.staticflickr.com/5/4776/39142320020_db99fb7161_z.jpg"
+ alt="The Banach-Tarski Paradox"/>&lt;/a>&lt;span class="figcaption">
+ &lt;p>The Banach-Tarski Paradox&lt;/p>
+ &lt;/span>
+&lt;/figure>
+&lt;p>This &amp;lsquo;paradox&amp;rsquo; is a firm result in set theory. It&amp;rsquo;s not up for debate.&lt;/p></description></item><item><title>Pronouncing Don Quixote in La Mancha</title><link>https://thisisdavidjones.github.io/donquixote/</link><pubDate>Wed, 09 Nov 2016 06:00:00 +0600</pubDate><guid>https://thisisdavidjones.github.io/donquixote/</guid><description>&lt;section >
+&lt;figure class="figimg">&lt;a href="https://c2.staticflickr.com/2/1086/1094901272_e033158971.jpg">&lt;img src="https://c2.staticflickr.com/2/1086/1094901272_e033158971.jpg"
+ alt="Pizarro in the market square of Trujillo, Spain"/>&lt;/a>&lt;span class="figcaption">
+ &lt;p>Pizarro in the market square of Trujillo, Spain&lt;/p>
+ &lt;/span>
+&lt;/figure>
+&lt;p>On holiday in Spain in 2007 I read &lt;em>Don Quixote&lt;/em> — and ploughing through some parts in the Don’s homeland, the region of La Mancha, I thought I’d solved the puzzle of the protagonist’s name: &lt;em>Key-Ho-Tay&lt;/em> or &lt;em>Kwiksot&lt;/em>?&lt;/p>
+&lt;p>I’ve previously spoken the name ‘Don Quixote’ as Don &lt;em>Key-ho-tay&lt;/em>, presuming it was more Spanish, though of course I’ve been aware of the alternative inEnglish of Don &lt;em>Quick-Sot&lt;/em>. The version of the novel I had, the translation by John Rutherford (winner of the 2002 Primo Valle Inclàn Prize) definitely plumps for &lt;em>Kwiksot&lt;/em> in its rhymes. For example, on page 222 (Chapter XXVI) of the paperback, he translates a poem to read:&lt;/p></description></item><item><title/><link>https://thisisdavidjones.github.io/articles/categoricaltexts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/articles/categoricaltexts/</guid><description>&lt;h1 id="the-mathematics-of-meaning-category-theory-as-a-lens-for-literary-understanding">The Mathematics of Meaning: Category Theory as a Lens for Literary Understanding&lt;/h1>
+&lt;p>Literary criticism has long struggled with a fundamental tension: how can we systematically analyze something as complex and multifaceted as literature while preserving its essential richness? Category theory, a branch of mathematics designed to illuminate structural relationships, offers a surprising and powerful framework for understanding how different approaches to literary analysis relate to and transform into one another. In this essay, I&amp;rsquo;ll explore how categorical thinking can deepen our understanding of literary interpretation, using specific examples to ground abstract concepts in concrete literary analysis.&lt;/p></description></item><item><title/><link>https://thisisdavidjones.github.io/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thisisdavidjones.github.io/test/</guid><description>&lt;html>
+ &lt;head>
+ &lt;style>
+
+ :root {
+ font-size: 16px;
+ }
+
+
+ body {
+
+ margin: 0 auto;
+
+ max-width: 1080px;
+ background-color: #f0f0f0;;
+ }
+
+
+ nav {
+ display: block;
+ font-variant: small-caps;
+ font-size: 1.2rem;
+ padding: 0px;
+ margin: 0px;
+ background-color: #cccccc;
+ width: 100px;
+ position: absolute;
+ padding: 0;
+ margin: 0
+ }
+
+
+
+ article {
+ display: block;
+ max-width: 760px;
+ }
+
+ main {
+ margin-right: 20%;
+ margin-left: 120px;
+ margin-top: 2em;
+ font-size: 17px;
+ float:left;
+
+ }
+
+ .sidenote {
+ float: right;
+ clear: right;
+ position: relative;
+ width: 29%;
+ margin-right: -29%;
+ display:block;
+ font-size: 0.9rem;
+ }
+
+ .sidenotecontents {
+ margin:0px 10px 10px 10px;
+ padding: 0px 10px 0px 10px;
+ border: 1px solid #666;
+ box-shadow: 3px 3px #999;
+ 
+ }
+
+
+ 
+
+ @media only screen and (max-width: 768px) {
+ body {
+ margin: 0 auto;
+ width: 100%;
+ }
+
+ article {
+
+ width: 100%;
+
+ }
+ .sidenote {
+ display: block;
+ float: none;
+ margin: 5% 10% 5% 10%;
+ width: 80%;
+ font-size: 15px;
+ 
+ }
+
+ main {
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-top: 10vh;
+ font-size: 17px;
+
+
+
+ }
+
+
+
+
+ &lt;/style>
+
+ &lt;/head>
+ &lt;body>
+
+ &lt;nav id="sidebar">
+ Sidebar
+ &lt;ul>
+ &lt;li>one&lt;/li>
+ &lt;li>two&lt;/li>
+ &lt;li>three&lt;/li>
+ &lt;/ul>
+ &lt;/nav>
+ &lt;main>
+ &lt;article>
+ &lt;p>
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum ut nibh ac fringilla. Pellentesque nibh nibh, vulputate sit amet dui nec, cursus interdum nunc. Maecenas aliquam leo at iaculis dictum. Suspendisse potenti. Integer nec tincidunt justo, vel accumsan velit. Morbi id magna enim. Quisque euismod, lacus a pretium mattis, tortor diam luctus lacus, vel interdum justo mauris eu tellus. Suspendisse in tellus velit. Nam massa velit, tincidunt eget dictum et, finibus id odio. Mauris eu sollicitudin magna. Vivamus et aliquam libero, quis gravida est. Curabitur auctor est ut sagittis consectetur. Aenean laoreet vitae elit ut ultrices. Pellentesque quam nisi, venenatis quis ex nec, consequat lobortis dui. Duis a ipsum ac lorem elementum placerat.
+ &lt;/p></description></item></channel></rss>
