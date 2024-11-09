@@ -1,6 +1,14 @@
 {
     "recentwriting": [
         {
+            "text":"[Categorical Shinto]: applying Category Theory to understanding the morphisms of Shinto",
+            "link": "articles/categoricalshinto/"
+        },
+        {
+            "text":"[Quantum Immortaility]: The Many Worlds interpretation of QM leads to some surprising conclusions",
+            "link": "articles/quantumimmortality/"
+        },
+        {
             "text":"The tragic death of Mike Lynch and others on board his yacht 'Bayesian' got me [thinking about Bayes Theorem]",
             "link": "articles/bayesianepistemology/"
         },
