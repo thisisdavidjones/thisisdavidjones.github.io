@@ -1,25 +1,28 @@
 {
-    "recentwriting": [
-        {
-            "text":"[Categorical Shinto]: applying Category Theory to understanding the morphisms of Shinto",
-            "link": "articles/categoricalshinto/"
-        },
-        {
-            "text":"[Quantum Immortaility]: The Many Worlds interpretation of QM leads to some surprising conclusions",
-            "link": "articles/quantumimmortality/"
-        },
-        {
-            "text":"The tragic death of Mike Lynch and others on board his yacht 'Bayesian' got me [thinking about Bayes Theorem]",
-            "link": "articles/bayesianepistemology/"
-        },
-        {
-            "text":"I recently married another UK citizen in Tokyo, under Japanese law.  If you’re thinking of doing the same, [ these steps should help you]",
-            "link": "articles/japanesemarriage/"
-        },
-        {
-            "text":"Are partial truths or untruths useful? [The noble lie of Ada Lovelace]",
-            "link": "articles/adalovelace/"
-        }
-
-    ]
+  "recentwriting": [
+    {
+      "text": "The [inchorence of liberal ethics] and an attempt to ground universalism",
+      "link": "articles/moralincoherence/"
+    },
+    {
+      "text": "[Categorical Shinto]: applying Category Theory to understanding the morphisms of Shinto",
+      "link": "articles/categoricalshinto/"
+    },
+    {
+      "text": "[Quantum Immortaility]: The Many Worlds interpretation of QM leads to some surprising conclusions",
+      "link": "articles/quantumimmortality/"
+    },
+    {
+      "text": "The tragic death of Mike Lynch and others on board his yacht 'Bayesian' got me [thinking about Bayes Theorem]",
+      "link": "articles/bayesianepistemology/"
+    },
+    {
+      "text": "I recently married another UK citizen in Tokyo, under Japanese law.  If you’re thinking of doing the same, [ these steps should help you]",
+      "link": "articles/japanesemarriage/"
+    },
+    {
+      "text": "Are partial truths or untruths useful? [The noble lie of Ada Lovelace]",
+      "link": "articles/adalovelace/"
+    }
+  ]
 }
