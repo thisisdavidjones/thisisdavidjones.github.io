@@ -1,11 +1,12 @@
 ---
 date: 2023-02-20T06:00:00+06:00
 lastmod: 2023-02-28T06:00:00+06:00
-linkTitle: 
+linkTitle:
 menu: main
 weight: -250
-slug: 
+slug:
 ---
+
 {{% section id="abstract" %}}
 This is the website of David Jones. You'll find links and clippings, occasional notes and longer writing about travel, software and IT generally, history, art, literature, and anything else that sparks my interest. I'm currently rebuilding the site and I'll be bringing back a bunch of old blog posts over the next few weeks.
 
@@ -15,8 +16,7 @@ See the [About Page](../about/) for information about the design principles behi
 
 ## Recent writing
 
-{{< recentwriting >}}
-
+{{% recentwriting %}}
 
 {{% /section %}}
 
@@ -26,12 +26,12 @@ See the [About Page](../about/) for information about the design principles behi
 
 {{< recentlinks >}}
 
-
 {{% /section %}}
 
-
 {{% section id="writing links" %}}
+
 ## A few old short essays
+
 - My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/poetry/seeingoffyuan/)
 
 - [The best metaphor](/thebestmetaphor/)
@@ -39,11 +39,4 @@ See the [About Page](../about/) for information about the design principles behi
 - [Pronouncing Don Quixote in La mancha](/donquixote/)
 
 - Get rich quick with the [Banach-Tarski Paradox](/stem/banachtarski/)
-{{% /section %}}
-
-
-
-
-
-
-
+  {{% /section %}}
