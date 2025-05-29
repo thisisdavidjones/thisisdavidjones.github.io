@@ -24,7 +24,7 @@ See the [About Page](../about/) for information about the design principles behi
 
 ## Latest Links
 
-{{< recentlinks >}}
+{{%  recentlinks %}}
 
 {{% /section %}}
 
