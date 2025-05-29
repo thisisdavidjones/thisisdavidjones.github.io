@@ -3,7 +3,7 @@ date: 2025-05-08T08:00:00
 lastmod: 2025-05-08T08:00:00
 title: "The Incoherence of Liberal Morality"
 authors: ["david"]
-draft: true
+draft: false
 categories:
   - articles
 tags:
