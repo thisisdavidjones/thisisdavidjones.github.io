@@ -13,6 +13,6 @@ title: "Recent changes"
 
 {{% section id="clippings links" %}}
 
-{{< changelog >}}
+{{% changelog %}}
 
 {{% /section %}}
