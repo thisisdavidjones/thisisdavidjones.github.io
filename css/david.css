@@ -9,8 +9,6 @@
     --DJ-nav-width: (100px);
     --DJ-sidenote-width : 29%;
     --DJ-sidenote-right-margin: -29%;
-    --DJ-inlinenote-width : 29%;
-    --DJ-inlinenote-right-margin: -29%;
 
 --DJ-body-color: #fff;
 --DJ-body-font-color: #111;
@@ -86,17 +84,6 @@ article {
     font-size: 1rem;
 }
 
-
-.inlinenote {
-    float: right;
-    clear: right;
-    position: relative;
-    width: calc(var(--DJ-inlinenote-width) +  120px);
-    margin-right: calc(var(--DJ-inlinenote-right-margin) - 120px);
-
-    font-size: 1rem;
-    vertical-align: baseline;
-}
 /************************/
 /*  nav layout          */
 /************************/
@@ -119,15 +106,9 @@ section.heading {
 section:nth-child(1) {
     padding-top: 0rem;
 }
-
-h1 {
-    line-height: 4em;
-}
-
 section h1:first-child, article section:first-child p:first-child {
     padding-top: 0;
     margin: 0rem 0 0rem 0;
-    line-height: 1.1em;
 }
 
 section p:first-child {
@@ -327,31 +308,6 @@ figure a {
     margin: 0 1em 0 1em;
 }
 
-
-  /*************/
-/* INLINENOTES */
-/*************/
-
-
-.inlinenotecontents {
-    margin:0px 10px 10px 10px;
-    padding: 0px 10px 0px 10px;
-    line-height: 1.2em;
-    
-}
-
-.inlinenotecontents blockquote {
-    margin: 0 1em 0 1em;
-}
-
-@media only screen and (min-width: 960px) {
-    body {
-        max-width: 1280;
-    }
-
-}
-
-
 @media only screen and (min-width: 960px) {
     body {
         max-width: 1280;
@@ -484,7 +440,7 @@ figure.fullwidth figcaption {
       }
 
 
-      .sidenote, .inlinenote {
+      .sidenote {
         display: block;
         float: none;
         padding: 0;
@@ -496,12 +452,12 @@ figure.fullwidth figcaption {
         }
 
 
-        .sidenotecontents, .inlinenotecontents {
+        .sidenotecontents {
             margin: 0;
             padding: 0;
         }
 
-        .sidenotecontents blockquote, inlinenotecontents blockquote {
+        .sidenotecontents blockquote {
             margin: 0;
             padding: 0;     
         }   
