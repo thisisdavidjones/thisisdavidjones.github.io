@@ -10,7 +10,6 @@ categories:
 tags:
   - ethics
   - politics
-  -
 slug: moralincoherence
 ---
 
