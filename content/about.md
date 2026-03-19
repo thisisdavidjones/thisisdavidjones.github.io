@@ -52,7 +52,7 @@ I like some music -- 'classical' especially Baroque (which isn't *classical* cla
 
 I'm getting old. My joints ache. My eyesight's worsening. My earliest memories are of the 60s,  I'm beginning to see echoes of Auden in my face ('*a wedding cake left out in the rain*'). 
 
-You can find me on Twitter at [askdavidjones](https://twitter.com/askdavidjones) and on Instagram as [davidjonesphotos](https://www.instagram.com/davidjonesphotos)
+You can find me on Twitter at [askdavidjones](https://twitter.com/askdavidjones) and on Instagram as [askdavidjones](https://www.instagram.com/askdavidjones)
 
 {{% /section %}}
 

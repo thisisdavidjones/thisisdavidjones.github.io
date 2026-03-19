@@ -23,7 +23,7 @@ caption="Pizarro in the market square of Trujillo, Spain"
 >}}
 
 
-On holiday in Spain in 2007 I read <em>Don Quixote</em> — and ploughing through some parts in the Don’s homeland, the region of La Mancha, I thought I’d solved the puzzle of the protagonist’s name: <em>Key-Ho-Tay</em> or <em>Kwiksot</em>?
+On holiday in Spain in 2007 I read <em>Don Quixote</em> — and ploughing through some parts in the Don’s homeland of La Mancha, I thought I’d solved the puzzle of the protagonist’s name: <em>Key-Ho-Tay</em> or <em>Kwiksot</em>?
 
 I’ve previously spoken the name ‘Don Quixote’ as Don <em>Key-ho-tay</em>, presuming it was more Spanish, though of course I’ve been aware of the alternative inEnglish of Don <em>Quick-Sot</em>. The version of the novel I had, the translation by John Rutherford (winner of the 2002 Primo Valle Inclàn Prize) definitely plumps for <em>Kwiksot</em> in its rhymes. For example, on page 222 (Chapter XXVI) of the paperback, he translates a poem to read:
 

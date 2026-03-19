@@ -25,10 +25,7 @@ Not only is there no evidence that Lovelace ever prepared a program for the Anal
   {{% /sidenote %}}
 
 
-
-
 Ada Lovelace first met Charles Babbage at a party in 1833 when she was 17 and he was  42. Babbage,  the Lucasian Professor of Mathematics at Cambridge, a prestigious position previously held by Newton and later by Dirac and Hawking, invited Lovelace and her mother, Baroness Wentworth,  to see his recently constructed Difference Engine. He was forever seeking funding for his projects and such well-connected supporters would have been useful to him. The Baroness was impressed, calling the device 'a thinking machine'.
-
 
 The **Difference Engine** was a mechanical calculating device that used the method of 'finite  difference' to create tables of numbers that represented the values of polynomial functions. Many significant mathematical functions in engineering and science can be approximated from such polynomials, so a machine that automated their calculation could prove extremely valuable
 

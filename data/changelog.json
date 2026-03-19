@@ -1,14 +1,29 @@
 {
   "changes": [
     {
-      "date": "2023-04-03",
-      "title": "The Noble Lie of Ada Lovelace",
-      "details": "First notes for an essay about Ada Lovelace and the myth of her contribution to computer science."
+      "date": "2026-03-19",
+      "title": "About this website",
+      "details": "Instagram handle changed to match Twitter handle"
     },
     {
-      "date": "2023-03-19",
-      "title": "Semantic markup and sidenotes",
-      "details": "Realised I'd misunderstood the guidance for &lt;article&gt;, rejigged the markup to comply; adjusted the  CSS for sidenotes"
+      "date": "2026-03-18",
+      "title": "Pronouncing Don Quixote in La Mancha",
+      "details": "Removed extraneous comma"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "Seeing off Yuan the Second on a Mission to Anxi",
+      "details": "New blog post added: 'Seeing off Yuan the Second on a Mission to Anxi' by Wang Wei"
+    },
+    {
+      "date": "2026-03-17",
+      "title": "The Incoherence of Liberal Morality",
+      "details": "A document discussing the selective outrage of liberal morality towards oppression, focusing on a video showing women wearing robes in Algeria and contrasting it with other instances that spark outrage."
+    },
+    {
+      "date": "2026-03-17",
+      "title": "CV - David Jones",
+      "details": "New document created with professional summary, skills section, and recent employment experience details for David Jones as Senior Solutions Architect at Capgemini"
     }
   ]
 }
