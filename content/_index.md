@@ -38,5 +38,5 @@ See the [About Page](../about/) for information about the design principles behi
 
 - [Pronouncing Don Quixote in La mancha](/donquixote/)
 
-- Get rich quick with the [Banach-Tarski Paradox](/stem/banachtarski/)
+- Get rich quick with the [Banach-Tarski Paradox](/articles/banachtarski/)
   {{% /section %}}
