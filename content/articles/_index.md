@@ -1,13 +1,5 @@
 ---
-date: 2026-03-20T06:00:00+06:00
-lastmod: 2026-03-20T06:00:00+06:00
-linkTitle: articles
-menu: articles
-authors: ["david"]
-categories:
-  - articles
-weight: -250
-slug:
+title: "Articles"
 ---
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
