@@ -10,7 +10,7 @@ tags:
 slug: banachtarski
 ---
 {{% section %}}
- Given a solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.
+ Given aaaa solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.
 
 
 {{< figure src="https://c1.staticflickr.com/5/4776/39142320020_db99fb7161_z.jpg"  
