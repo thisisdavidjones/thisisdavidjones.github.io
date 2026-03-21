@@ -1,29 +1,29 @@
 {
   "changes": [
     {
-      "date": "2026-03-19",
-      "title": "About this website",
-      "details": "Instagram handle changed to match Twitter handle"
-    },
-    {
-      "date": "2026-03-18",
+      "date": "2026-03-21",
       "title": "Pronouncing Don Quixote in La Mancha",
-      "details": "Removed extraneous comma"
+      "details": "Last modification date updated to 2026-03-09"
     },
     {
-      "date": "2026-03-17",
-      "title": "Seeing off Yuan the Second on a Mission to Anxi",
-      "details": "New blog post added: 'Seeing off Yuan the Second on a Mission to Anxi' by Wang Wei"
+      "date": "2026-03-21",
+      "title": "About this website",
+      "details": "Website about page added with details on its design, generation, and AI integration"
     },
     {
-      "date": "2026-03-17",
-      "title": "The Incoherence of Liberal Morality",
-      "details": "A document discussing the selective outrage of liberal morality towards oppression, focusing on a video showing women wearing robes in Algeria and contrasting it with other instances that spark outrage."
+      "date": "2026-03-20",
+      "title": "Getting married in Japan",
+      "details": "Document added with guide on getting married in Japan, including steps for UK citizens planning to marry in Tokyo"
     },
     {
-      "date": "2026-03-17",
-      "title": "CV - David Jones",
-      "details": "New document created with professional summary, skills section, and recent employment experience details for David Jones as Senior Solutions Architect at Capgemini"
+      "date": "2026-03-20",
+      "title": "Bayesian Thinking",
+      "details": "Website content added with an article discussing Bayes' Theorem, its basics, and its application in modern epistemology, including a cancer test scenario example."
+    },
+    {
+      "date": "2026-03-20",
+      "title": "_index",
+      "details": "Website content added: Introducing David Jones' personal website, featuring links, clippings, notes, and writings on various topics."
     }
   ]
 }

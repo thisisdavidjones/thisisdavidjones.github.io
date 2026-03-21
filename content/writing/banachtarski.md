@@ -10,11 +10,11 @@ tags:
 slug: banachtarski
 ---
 {{% section %}}
- Given aaaa solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.
+ Given a solid ball in 3‑dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball.The reassembly process involves only moving the pieces around and rotating them without changing their shape.
 
 
-{{< figure src="https://c1.staticflickr.com/5/4776/39142320020_db99fb7161_z.jpg"  
-link="https://c1.staticflickr.com/5/4776/39142320020_db99fb7161_z.jpg"  
+{{< figure src="https://ik.imagekit.io/nghiu9ujn/66845657_2959053930778375_452692641079885824_n.jpg"  
+link="https://ik.imagekit.io/nghiu9ujn/66845657_2959053930778375_452692641079885824_n.jpg"  
 caption="The Banach-Tarski Paradox"
  class="figimg"
 >}}
@@ -26,11 +26,6 @@ Now, as you might have guessed, there *is* a wrinkle. That is, the individual pi
 Nevertheless I'm continuing my researches into this using a small sphere made of gold. A stronger form of the theorem, you see, is that any sphere can be cut into pieces and reassembled into any other sphere of *any volume*. It's often stated as, *'a pea can be chopped up and reassembled into the Sun'*. Or...a gold ball can be chooped up and reassembled into another gold ball of any desired size...
 
 
-{{< figure src="https://www.instagram.com/p/Ch-b1ctscXq/?utm_source=ig_web_button_native_share"  
-link="https://www.instagram.com/p/Ch-b1ctscXq/?utm_source=ig_web_button_native_share"  
-caption="The Banach-Tarski Paradox"
- class="figimg"
->}}
 
 
 {{% /section %}}

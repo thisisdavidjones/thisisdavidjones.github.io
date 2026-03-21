@@ -19,9 +19,9 @@ One man walks across to the hut and climbs inside. He picks  up the halves of co
 
 It doesn't come that afternoon. Perhaps they made a mistake in their preparations.  But perhaps it just wasn't the right day. They'll go back to their huts and discuss what went wrong and  try again tomorrow. They know that one day, when they get it right, the cargo will come.  
 
-{{< figure src="https://c1.staticflickr.com/1/979/41892819952_eea6889f61_c.jpg" 
+{{< figure src="https://ik.imagekit.io/nghiu9ujn/islanders.png" 
 
-link="https://c1.staticflickr.com/1/979/41892819952_eea6889f61_c.jpg" 
+link="https://ik.imagekit.io/nghiu9ujn/islanders.png" 
  class="figimg"
 >}}
 

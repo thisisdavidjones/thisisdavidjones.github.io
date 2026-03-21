@@ -1,6 +1,6 @@
 ---
 date: 2016-11-09T06:00:00+06:00
-lastmod: 2016-11-09T17:30:00+06:00
+lastmod: 2026-03-09T17:30:00+06:00
 title: "Pronouncing Don Quixote in La Mancha"
 authors: ["david"]
 categories:
@@ -16,8 +16,8 @@ kindle:
 ---
 
 {{% section %}}
-{{< figure src="https://c2.staticflickr.com/2/1086/1094901272_e033158971.jpg"  
-link="https://c2.staticflickr.com/2/1086/1094901272_e033158971.jpg"  
+{{< figure src="https://ik.imagekit.io/nghiu9ujn/pizarrotrujillo.jpg"  
+link="https://ik.imagekit.io/nghiu9ujn/pizarrotrujillo.jpg"  
 caption="Pizarro in the market square of Trujillo, Spain"
  class="figimg"
 >}}
