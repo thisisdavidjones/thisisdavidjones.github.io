@@ -66,6 +66,18 @@ a[data-link-icon='archive'] {
     --link-icon-url: url(/img/archive.svg);
 }
 
+a[data-link-icon='x'] {
+    --link-icon-url: url(/img/x.svg);
+}
+
+a[data-link-icon='instagram'] {
+    --link-icon-url: url(/img/instagram.svg);
+}
+
+a[data-link-icon='linkedin'] {
+    --link-icon-url: url(/img/linkedin.svg);
+}
+
 /*******************/
 /*  Graphical icons.
     */
@@ -144,5 +156,40 @@ a[data-link-icon='archive'] {
     }
 
     a[data-link-icon='archive']:hover::after {
+        opacity: 0.2;
+    }
+
+    
+    a[data-link-icon='x']::after {
+        --link-icon-size: 1.0em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.25em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='x']:hover::after {
+        opacity: 0.2;
+    }
+
+    a[data-link-icon='instagram']::after {
+        --link-icon-size: 1em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.25em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='instagram']:hover::after {
+        opacity: 0.2;
+    }
+
+
+    a[data-link-icon='linkedin']::after {
+        --link-icon-size: 1em;
+        --link-icon-offset-x: 0.15em;
+        --link-icon-offset-y: 0.25em;
+    
+        opacity: 0.5;
+    }
+    a[data-link-icon='linkedin']:hover::after {
         opacity: 0.2;
     }
