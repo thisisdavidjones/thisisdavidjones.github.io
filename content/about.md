@@ -61,8 +61,6 @@ I like most kinds and periods of literature with a few exceptions and blind spot
 
 I like history. I wish I was better at maths, and I keep meaning to teach myself more stats.
 
-I'm getting old. My joints ache. My eyesight's worsening. My earliest memories are of the 60s,  I'm beginning to see echoes of Auden in my face ('*a wedding cake left out in the rain*'). 
-
 You can [read my CV here](/resume/cv/) You can find me on X (Twitter) at [askdavidjones](https://x.com/askdavidjones), on Instagram as [askdavidjones](https://www.instagram.com/askdavidjones) and on LinkedIn as [thisisdavidjones](https://www.linkedin.com/in/thisisdavidjones/)
 
 {{% /section %}}
