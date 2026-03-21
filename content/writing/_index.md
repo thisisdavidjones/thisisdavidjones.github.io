@@ -1,5 +1,5 @@
 ---
-title: "Articles"
+title: "Writing"
 ---
 {{ define "main" }}
   <h1>{{ .Title }}</h1>

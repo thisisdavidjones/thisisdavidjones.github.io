@@ -37,5 +37,3 @@ enableGitInfo = true
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-
-

@@ -1,0 +1,19 @@
+    {{ partial "header" . }}
+    <body>
+        {{ partial "nav" . }}
+        <main>
+                    {{ if .Title }}
+                    <section class="heading">
+                        <h1>{{ .Title }}</h1></section>{{end}}
+                <article>
+
+{{ range .Pages.ByLastmod.Reverse }}
+  <p>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
+    <small>created {{ .Date.Format "02-January-2006" }} | changed {{ .Lastmod.Format "02-January-2006"  }}</small>
+  </p>
+{{ end }}
+                </article>
+        </main>
+    </body>
+</html>

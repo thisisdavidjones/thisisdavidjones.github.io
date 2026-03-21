@@ -31,8 +31,20 @@
 {{- $datalinkicon = printf "%s %s" $datalinkicon " twitter" -}}
 {{- end }}
 
+{{- if strings.Contains $linkurl "x.com" -}}
+{{- $datalinkicon = printf "%s %s" $datalinkicon " x" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "linkedin.com" -}}
+{{- $datalinkicon = printf "%s %s" $datalinkicon " linkedin" -}}
+{{- end }}
+
 {{- if strings.Contains $linkurl "bbc.co.uk" -}}
 {{- $datalinkicon = printf "%s %s" $datalinkicon " bbc" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "instagram.com" -}}
+{{- $datalinkicon = printf "%s %s" $datalinkicon " instagram" -}}
 {{- end }}
 
 {{- if strings.Contains $linkurl "youtube.com" -}}
@@ -52,6 +64,18 @@
 {{- end }}
 
 {{- if strings.Contains $linkurl "archive.org" -}}
+{{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "x.com" -}}
+{{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "instagram.com" -}}
+{{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
+{{- end }}
+
+{{- if strings.Contains $linkurl "linkedin.com" -}}
 {{- $datalinkicontype = printf "%s %s" $datalinkicontype  " svg" -}}
 {{- end }}
 <a href="{{ $linkurl | safeURL }}"
