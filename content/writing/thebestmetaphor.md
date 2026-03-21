@@ -1,6 +1,6 @@
 ---
 date: 2018-05-06T06:00:00+06:00
-lastmod: 2018-05-06T17:30:00+06:00
+lastmod: 2026-03-06T17:30:00+06:00
 title: "The Best Metaphor"
 authors: ["david"]
 categories:
