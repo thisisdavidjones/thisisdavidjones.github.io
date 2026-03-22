@@ -3,7 +3,7 @@ date: 2024-09-11T08:00:00
 lastmod: 2024-09-11T08:00:00
 title: "Zōjō-ji, Pure Land, and Water Children"
 authors: ["david"]
-draft: false
+draft: true
 categories:
   - articles
 tags:

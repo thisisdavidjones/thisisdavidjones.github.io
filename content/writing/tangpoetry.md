@@ -9,6 +9,7 @@ tags:
   - language
   - translation
   - chinese
+  - poetry
 kindle: 
   - book: 'Classical Chinese Poetry: An Anthology '
     asin:  '0374531900'
@@ -18,12 +19,12 @@ slug: seeingoffyuan
 I've been trying my hand at translating Tang-era poems again. This one's by Wang Wei 
 
 
-
-
-{{< figure src="http://www.chinese-poems.com/yuant.gif"  
+{{< figure src="https://ik.imagekit.io/nghiu9ujn/yuant.gif" 
 caption="Original in traditional script"
+link="https://ik.imagekit.io/nghiu9ujn/yuant.gif" 
  class="figimg"
 >}}
+
 
 And here's my translation:
 
