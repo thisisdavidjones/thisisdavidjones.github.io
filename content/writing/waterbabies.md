@@ -3,7 +3,7 @@ date: 2024-09-11T08:00:00
 lastmod: 2024-09-11T08:00:00
 title: "Zōjō-ji, Pure Land, and Water Children"
 authors: ["david"]
-draft: true
+draft: false
 categories:
   - articles
 tags:
@@ -18,13 +18,13 @@ The first time I visited Zojo-ji temple in Tokyo I saw scores of small statues w
 {{% / pagedescription %}}
 
 {{% section %}}
-In Japanese Buddhism the _mizuko_ (水子), or 'water children', are the souls of children who have died before birth, through miscarriage, stillbirth, or abortion. In Buddhism, water often represents impermanence and transience and thr changing nature of life and the cycle of birth, death, and rebirth. A mizuko is seen as a soul that has not fully entered the world of the living, akin to water that has not yet taken a fixed form. The water imagery conveys the idea of life that was fleeting or not fully realised.
+In Japanese Buddhism the _mizuko_ (水子), or 'water children', are the souls of children who have died before birth, through miscarriage, stillbirth, or abortion. In Buddhism, water often represents impermanence and transience and the changing nature of life and the cycle of birth, death, and rebirth. A mizuko is seen as a soul that has not fully entered the world of the living, akin to water that has not yet taken a fixed form. The water imagery conveys the idea of life that was fleeting or not fully realised.
 
 In the Japanese tradition, the Sanzu River (三途の川, '_River of Three Crossings_') represents a spiritual divide that all souls must cross to enter the afterlife. But the ability to cross the river is determined by the soul’s merit, reflecting how individual's lived their life. The souls of mizuko cannot transition immediately into the next life across the river because they have not buit up enough merit in their short existences. Instead, they find themselves in a , unable to cross, stranded on the bank of the river on the _Sai no Kawara_ (賽の河原), the '_Riverbed of Souls_'.
 
 Mizuko are often imagined - and depicted - as vulnerable, small figures carrying or piling stones on the edge of the Sanzu. The stones represent their suffering and their attempts to gain merit, enabling them to cross into the afterlife. The act of piling stones symbolises a symbolic attempt to atone for unfinished karma.
 
-In the legend, demons (called oni) come to torment the mizuko, cruelly knocking down the stone towers to prevent the children from completing their task. This repeated destruction of the stone piles reflects the children’s suffering and their spiritual limbo. They are unable t find peace without help.
+In the legend, demons (called oni) come to torment the mizuko, cruelly knocking down the stone towers to prevent the children from completing their task. This repeated destruction of the stone piles reflects the children’s suffering and their spiritual limbo. They are unable to find peace without help.
 
 ## Protection by Jizō Bodhisattva
 
