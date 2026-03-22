@@ -32,11 +32,11 @@ See the [About Page](../about/) for information about the design principles behi
 
 ## A few old short essays
 
-- My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/poetry/seeingoffyuan/)
+- My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/writing/seeingoffyuan/)
 
-- [The best metaphor](/thebestmetaphor/)
+- [The best metaphor](/writing/thebestmetaphor/)
 
-- [Pronouncing Don Quixote in La mancha](/donquixote/)
+- [Pronouncing Don Quixote in La mancha](/writing/donquixote/)
 
-- Get rich quick with the [Banach-Tarski Paradox](/articles/banachtarski/)
+- Get rich quick with the [Banach-Tarski Paradox](/writing/banachtarski/)
   {{% /section %}}
