@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "writing/moralincoherence.md",
+                "file": "writing/The Economics of Trust in Veterinary Care.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "moralincoherence"
+              "title": "The Economics of Trust in Veterinary Care"
             }
           }
         ]
@@ -185,8 +185,10 @@
   },
   "active": "7e5bf86085372bfe",
   "lastOpenFiles": [
-    "writing/gettingmarriedinjapan.md",
+    "writing/thebestmetaphor.md",
+    "writing/The Economics of Trust in Veterinary Care.md",
     "writing/moralincoherence.md",
+    "writing/gettingmarriedinjapan.md",
     "resume/cv.md",
     "poetry/tangpoetry.md",
     "articles/adalovelace.md",
