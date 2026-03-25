@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "writing/The Economics of Trust in Veterinary Care.md",
+                "file": "writing/vetonomics.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "The Economics of Trust in Veterinary Care"
+              "title": "vetonomics"
             }
           }
         ]
@@ -186,6 +186,8 @@
   "active": "7e5bf86085372bfe",
   "lastOpenFiles": [
     "writing/thebestmetaphor.md",
+    "writing/vetonomics.md",
+    "writing/waterbabies.md",
     "writing/The Economics of Trust in Veterinary Care.md",
     "writing/moralincoherence.md",
     "writing/gettingmarriedinjapan.md",
