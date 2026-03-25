@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "writing/vetonomics.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vetonomics"
+              "title": "_index"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "7e5bf86085372bfe",
   "lastOpenFiles": [
-    "writing/thebestmetaphor.md",
+    "about.md",
     "writing/vetonomics.md",
+    "writing/thebestmetaphor.md",
     "writing/waterbabies.md",
     "writing/The Economics of Trust in Veterinary Care.md",
     "writing/moralincoherence.md",
@@ -199,7 +200,6 @@
     "articles/gettingmarriedinjapan.md",
     "articles/knowinglotsofstuff.md",
     "articles/moralincoherence.md",
-    "articles/prostatebiopsy.md",
-    "about.md"
+    "articles/prostatebiopsy.md"
   ]
 }
