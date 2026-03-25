@@ -9,7 +9,7 @@ categories:
 tags:
   - business
   - economics
-slug: vetfees
+slug: vetonomics
 ---
 
 Veterinary fees in the United Kingdom have risen sharply, and the Competition and Markets Authority has [responded with proposals](https://www.bbc.co.uk/news/articles/cj32d05x702o) for greater transparency, including published price lists and comparison tools. These measures assume that the problem resembles a standard market failure: prices are high because consumers cannot easily compare options.
