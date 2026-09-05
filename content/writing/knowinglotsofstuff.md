@@ -11,6 +11,8 @@ tags:
   - knowledge
   - connections
   - personal
+topics:
+  - Society and ideas
 slug: knowinglots
 ---
 

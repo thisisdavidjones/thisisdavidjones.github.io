@@ -1,17 +1,7 @@
-    {{ partial "header" . }}
-    <body>
-        {{ partial "nav" . }}
-        <main id="index">
-            {{ if .Content }}
-                <article>
-                    {{ if .Title }}
-                        <header><h1>{{ .Title }}</h1></header>{{end}}
-                    {{ .Content }}
-                </article>
-            {{ end }}
-        </main>
-        <footer>
-
-        </footer>
-    </body>
-</html>
+{{ define "main" }}
+  {{ with .Content }}
+    <article class="home-page">
+      {{ . }}
+    </article>
+  {{ end }}
+{{ end }}

@@ -1,18 +1,9 @@
-{{ partial "header" . }}
-{{ partial "nav" . }}
-        </ul></nav>
-        <main>
-            <section class="heading"><h1>Pages using the tag '{{.Title }}'</h1></section>
-  <section class="tags">
-
-<a href="/tags"><< Parent</a>
-
-  <ul>
-    {{ range .Data.Pages }}
-    <li>
-      <a href="{{.RelPermalink}}">{{ .Title }}</a>
-    </li>
+{{ define "main" }}
+  <section class="heading"><h1>{{ .Title }}</h1></section>
+  <article class="taxonomy-list">
+    {{ range .Pages.ByDate.Reverse }}
+      <p><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>{{ .Date.Format "2006" }}</small></p>
     {{ end }}
-  </ul>
-  </section>
-  </main>
+  </article>
+  <p class="parent-link"><a href="{{ "/tags/" | relURL }}">← All tags</a></p>
+{{ end }}

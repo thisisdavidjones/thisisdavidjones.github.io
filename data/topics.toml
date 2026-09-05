@@ -1,0 +1,29 @@
+[[topics]]
+name = "Literature and language"
+slug = "literature-and-language"
+description = "Poetry, translation, books, language and literary oddities."
+
+[[topics]]
+name = "Mathematics and probability"
+slug = "mathematics-and-probability"
+description = "Mathematics, statistics, probability and ways of reasoning under uncertainty."
+
+[[topics]]
+name = "Technology and computing"
+slug = "technology-and-computing"
+description = "Computing, software, AI and the history and practice of technology."
+
+[[topics]]
+name = "History and culture"
+slug = "history-and-culture"
+description = "History, cultural inheritance and the ways old ideas survive into the present."
+
+[[topics]]
+name = "Travel and place"
+slug = "travel-and-place"
+description = "Places, journeys and what becomes visible by being somewhere else."
+
+[[topics]]
+name = "Society and ideas"
+slug = "society-and-ideas"
+description = "Economics, ethics, politics, institutions and arguments about how people organise themselves."

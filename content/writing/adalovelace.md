@@ -10,6 +10,11 @@ tags:
   - programming
   - history
   - philosophy
+topics:
+  - Technology and computing
+  - History and culture
+featured: true
+featured_weight: 3
 slug: adalovelace
 ---
 

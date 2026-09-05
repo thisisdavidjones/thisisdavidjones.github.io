@@ -6,7 +6,7 @@
     --DJ-article-max-width: 760px;
     --DJ-main-margin-right: 31%;
     --DJ-main-margin-left: 120px;
-    --DJ-nav-width: (100px);
+    --DJ-nav-width: 100px;
     --DJ-sidenote-width : 29%;
     --DJ-sidenote-right-margin: -29%;
 
@@ -140,7 +140,7 @@ ul.recent li {
 ul.recent li  p {
 
 margin-bottom: 0.25em;
-line-height: 1.3m;
+line-height: 1.3em;
 }
 
 
@@ -224,7 +224,7 @@ blockquote footer cite {
 
 }
 
-ul#pagedates, ul#articletags {
+ul#pagedates, ul#articletags, ul#articletopics {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -232,20 +232,20 @@ ul#pagedates, ul#articletags {
 }
 
 
-ul#pagedates li, ul#articletags li {
+ul#pagedates li, ul#articletags li, ul#articletopics li {
     display:inline-block;    margin: 0;
     padding: 0;
 }
 
-  ul#pagedates li::before,  ul#articletags li::before {
+  ul#pagedates li::before, ul#articletags li::before, ul#articletopics li::before {
     float: left;
   }
 
-  ul#pagedates li:not(:first-child), ul#articletags li:not(:first-child)  {
+  ul#pagedates li:not(:first-child), ul#articletags li:not(:first-child), ul#articletopics li:not(:first-child)  {
     margin-top: 0rem;
   }
 
- #articletags li:not(:first-child)::before {
+ #articletags li:not(:first-child)::before, #articletopics li:not(:first-child)::before {
     content: '\00B7\00A0';
     padding: 0;margin:0;
   }
@@ -310,7 +310,7 @@ figure a {
 
 @media only screen and (min-width: 960px) {
     body {
-        max-width: 1280;
+        max-width: 1280px;
     }
 
 }
@@ -470,3 +470,142 @@ figure.fullwidth figcaption {
 }
 
 
+
+
+/************************/
+/* navigation and index */
+/************************/
+nav a[aria-current="page"] {
+    font-weight: 600;
+}
+
+.home-page section {
+    margin-bottom: 0.5rem;
+}
+
+.home-page .home-intro {
+    font-size: 1.08em;
+}
+
+.selected-writing,
+.topic-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.selected-writing li,
+.topic-list li {
+    margin: 0 0 0.8rem 0;
+}
+
+.selected-writing small,
+.writing-recent small,
+.archive-entry small,
+.taxonomy-list small {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.topic-list li > a {
+    font-weight: 600;
+}
+
+.topic-list li > span {
+    display: block;
+    max-width: 42rem;
+}
+
+.more {
+    font-size: 0.95rem;
+}
+
+.section-intro {
+    margin-bottom: 1.5rem;
+}
+
+.archive-year {
+    margin-top: 1.8rem;
+}
+
+.archive-year:first-child {
+    margin-top: 0;
+}
+
+.archive-entry {
+    margin: 0 0 0.9rem 0;
+}
+
+.taxonomy-note,
+.topic-description {
+    max-width: 42rem;
+}
+
+.parent-link {
+    margin-top: 2rem;
+}
+
+/****************/
+/* site footer  */
+/****************/
+.site-footer {
+    clear: both;
+    margin-left: var(--DJ-main-margin-left);
+    padding: 2.5rem 0 2rem 0;
+    font-size: 0.95rem;
+}
+
+.site-footer nav {
+    position: static;
+    width: auto;
+    font-size: 1rem;
+}
+
+.site-footer nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+.site-footer nav li:not(:first-child)::before {
+    content: '\00B7\00A0';
+}
+
+.site-footer nav li:not(:last-child)::after {
+    content: '\00A0';
+}
+
+@media only screen and (max-width: 768px) {
+    .site-footer {
+        margin-left: 1rem;
+        padding-top: 2rem;
+    }
+
+    .site-footer nav {
+        padding-top: 0;
+    }
+
+    .site-footer nav ul {
+        margin-left: 0;
+    }
+}
+
+
+.related-writing {
+    margin-top: 3rem;
+    padding-top: 0.5rem;
+}
+
+.related-writing ul {
+    margin-top: 0.5rem;
+}
+
+#articletopics {
+    margin-bottom: 0.2rem;
+}

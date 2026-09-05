@@ -1,13 +1,10 @@
-{{ partial "header" . }}
-{{ partial "nav" . }}
-        </ul></nav>
-        <main>
-        {{ if .Content }}<article>
-            {{ partial "titlestuff" . }}
-            {{ .Content }}
-        </article>
-        {{ end }}
-        {{ partial "feedback" . }}
-        </main>
-    </body>
-</html>
+{{ define "main" }}
+  {{ if .Content }}
+    <article>
+      {{ partial "titlestuff.html" . }}
+      {{ .Content }}
+      {{ partial "related.html" . }}
+    </article>
+  {{ end }}
+  {{ partial "feedback.html" . }}
+{{ end }}

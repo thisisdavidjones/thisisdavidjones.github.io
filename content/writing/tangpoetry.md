@@ -14,6 +14,11 @@ kindle:
   - book: 'Classical Chinese Poetry: An Anthology '
     asin:  '0374531900'
     linkid: '8073ad33553628171c990503eb979658'
+topics:
+  - Literature and language
+  - History and culture
+featured: true
+featured_weight: 1
 slug: seeingoffyuan
 ---
 I've been trying my hand at translating Tang-era poems again. This one's by Wang Wei 

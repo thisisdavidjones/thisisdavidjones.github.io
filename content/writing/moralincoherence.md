@@ -9,6 +9,8 @@ categories:
 tags:
   - ethics
   - politics
+topics:
+  - Society and ideas
 slug: moralincoherence
 ---
 

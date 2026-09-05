@@ -1,0 +1,13 @@
+{{ if eq .Section "writing" }}
+  {{ $related := where (.Site.RegularPages.Related .) "Section" "writing" }}
+  {{ with first 4 $related }}
+    <section class="related-writing">
+      <h2>Related writing</h2>
+      <ul>
+        {{ range . }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+{{ end }}

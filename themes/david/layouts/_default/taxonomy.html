@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <section class="heading">
+    <h1>{{ .Title }}</h1>
+    {{ if eq .Data.Plural "topics" }}
+      {{ $slug := .Title | urlize }}
+      {{ range where site.Data.topics.topics "slug" $slug }}
+        <p class="topic-description">{{ .description }}</p>
+      {{ end }}
+    {{ end }}
+  </section>
+  <article class="taxonomy-list">
+    {{ range .Pages.ByDate.Reverse }}
+      <p>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <small>{{ .Date.Format "2006" }}</small>
+      </p>
+    {{ end }}
+  </article>
+  <p class="parent-link"><a href="{{ if eq .Data.Plural "topics" }}{{ "/topics/" | relURL }}{{ else }}{{ "/tags/" | relURL }}{{ end }}">← {{ if eq .Data.Plural "topics" }}All topics{{ else }}All tags{{ end }}</a></p>
+{{ end }}

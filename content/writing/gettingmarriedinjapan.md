@@ -10,6 +10,11 @@ tags:
   - marriage
   - travel
   - japan
+topics:
+  - Travel and place
+  - History and culture
+featured: true
+featured_weight: 4
 slug: japanesemarriage
 lastmodinfo: A few small edits
 ---

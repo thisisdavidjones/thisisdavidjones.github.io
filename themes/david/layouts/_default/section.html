@@ -1,19 +1,32 @@
-    {{ partial "header" . }}
-    <body>
-        {{ partial "nav" . }}
-        <main>
-                    {{ if .Title }}
-                    <section class="heading">
-                        <h1>{{ .Title }}</h1></section>{{end}}
-                <article>
+{{ define "main" }}
+  <section class="heading">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="section-intro">{{ . }}</div>{{ end }}
+  </section>
 
-{{ range .Pages.ByLastmod.Reverse }}
-  <p>
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
-    <small>created {{ .Date.Format "02-January-2006" }} | changed {{ .Lastmod.Format "02-January-2006"  }}</small>
-  </p>
+  {{ if eq .Section "writing" }}
+    <article class="writing-index">
+      {{ $lastYear := "" }}
+      {{ range .Pages.ByDate.Reverse }}
+        {{ $year := .Date.Format "2006" }}
+        {{ if ne $year $lastYear }}
+          <h2 class="archive-year">{{ $year }}</h2>
+          {{ $lastYear = $year }}
+        {{ end }}
+        <p class="archive-entry">
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle | default .Title }}</a>
+          <small>{{ .Date.Format "02 Jan" }}{{ with .Params.topics }} · {{ partial "topiclinks.html" . }}{{ end }}</small>
+        </p>
+      {{ end }}
+    </article>
+  {{ else }}
+    <article>
+      {{ range .Pages.ByLastmod.Reverse }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle | default .Title }}</a><br>
+          <small>created {{ .Date.Format "02 Jan 2006" }} · changed {{ .Lastmod.Format "02 Jan 2006" }}</small>
+        </p>
+      {{ end }}
+    </article>
+  {{ end }}
 {{ end }}
-                </article>
-        </main>
-    </body>
-</html>

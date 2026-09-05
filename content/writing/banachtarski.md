@@ -7,6 +7,8 @@ categories:
   - blog
 tags:
   - maths
+topics:
+  - Mathematics and probability
 slug: banachtarski
 ---
 {{% section %}}
@@ -23,7 +25,7 @@ This 'paradox' is a firm result in set theory. It's not up for debate.
 
 Now, as you might have guessed, there *is* a wrinkle. That is, the individual pieces - the 'disjoint subsets'  - aren't ordinary solid pieces: each piece is an infinite scattering of points. This is where the usual concept of volume being preserved runs into a difficulty. 
 
-Nevertheless I'm continuing my researches into this using a small sphere made of gold. A stronger form of the theorem, you see, is that any sphere can be cut into pieces and reassembled into any other sphere of *any volume*. It's often stated as, *'a pea can be chopped up and reassembled into the Sun'*. Or...a gold ball can be chooped up and reassembled into another gold ball of any desired size...
+Nevertheless I'm continuing my researches into this using a small sphere made of gold. A stronger form of the theorem, you see, is that any sphere can be cut into pieces and reassembled into any other sphere of *any volume*. It's often stated as, *'a pea can be chopped up and reassembled into the Sun'*. Or...a gold ball can be chopped up and reassembled into another gold ball of any desired size...
 
 
 

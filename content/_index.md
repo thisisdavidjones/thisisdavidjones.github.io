@@ -1,42 +1,35 @@
 ---
 date: 2023-02-20T06:00:00+06:00
-lastmod: 2023-02-28T06:00:00+06:00
-linkTitle:
+lastmod: 2026-09-05T21:57:00+01:00
+linkTitle: "Home"
 menu: main
 weight: -250
-slug:
 ---
 
-{{% section id="abstract" %}}
-This is the website of David Jones. You'll find links and clippings, occasional notes and longer writing about travel, software and IT generally, history, art, literature, and anything else that sparks my interest. I'm currently rebuilding the site and I'll be bringing back a bunch of old blog posts over the next few weeks.
+{{% section id="home-intro" %}}
+This is the website of David Jones: essays, notes, links and clippings about literature, history, technology, travel, art, economics, and whatever else has caught my attention. Some pieces are new; others are older writing being restored to the site.
+{{% /section %}}
 
-See the [About Page](../about/) for information about the design principles behind this site and for information about me, social media links, and contact details.{{% /section %}}
+{{% section id="selected-writing" %}}
+## Selected writing
 
-{{% section id="recentarticles links" %}}
+{{% selectedwriting %}}
+{{% /section %}}
 
-## Recent writing
+{{% section id="browse-by-topic" %}}
+## Browse by topic
+
+{{% topiclist %}}
+{{% /section %}}
+
+{{% section id="recent-writing" %}}
+## Recently added or revised
 
 {{% recentwriting %}}
-
 {{% /section %}}
 
-{{% section id="clippings links" %}}
+{{% section id="latest-links" %}}
+## Latest links
 
-## Latest Links
-
-{{%  recentlinks %}}
-
+{{% recentlinks %}}
 {{% /section %}}
-
-{{% section id="writing links" %}}
-
-## A few old short essays
-
-- My translation of the Tang-era poem, [Seeing off Yuan the Second on a Mission to Anxi](/writing/seeingoffyuan/)
-
-- [The best metaphor](/writing/thebestmetaphor/)
-
-- [Pronouncing Don Quixote in La mancha](/writing/donquixote/)
-
-- Get rich quick with the [Banach-Tarski Paradox](/writing/banachtarski/)
-  {{% /section %}}

@@ -1,13 +1,24 @@
-{{ if .Params.date }}<div id="metadata">
-    {{ if .Params.tags }}
-    <ul id="articletags">
-        {{ range .Params.tags }}
-        <li><em><a href="/tags/{{ . }}" title="all pages with the tag '{{ . }}'">{{ . }}</a></em></li>
+{{ if .Params.date }}
+<div id="metadata">
+    {{ if .Params.topics }}
+    <ul id="articletopics">
+        {{ range .Params.topics }}
+        <li><a href="{{ printf "/topics/%s/" (. | urlize) | relURL }}" title="more writing in {{ . }}">{{ . }}</a></li>
         {{ end }}
     </ul>
     {{ end }}
-    <ul id="pagedates">
-        {{ if .Params.date }}<li><span class="datestarted" title="Date the page contents were started"><em>{{ .Params.date.Format .Site.Params.dateFormat }}</em></span></li>{{end}}   
-        {{ if .Lastmod }}<li class="lastmod"><span  class="datechanged" title="Date of last significant change to this page"><em>{{ .Lastmod.Format .Site.Params.dateFormat      }}</em></span></li>{{end}}   
+
+    {{ if .Params.tags }}
+    <ul id="articletags">
+        {{ range .Params.tags }}
+        <li><em><a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}" title="all pages with the tag '{{ . }}'">{{ . }}</a></em></li>
+        {{ end }}
     </ul>
-</div>{{end}}
+    {{ end }}
+
+    <ul id="pagedates">
+        <li><span class="datestarted" title="Date the page contents were started"><em>{{ .Date.Format .Site.Params.dateFormat }}</em></span></li>
+        {{ if .Lastmod }}<li class="lastmod"><span class="datechanged" title="Date of last significant change to this page"><em>{{ .Lastmod.Format .Site.Params.dateFormat }}</em></span></li>{{ end }}
+    </ul>
+</div>
+{{ end }}

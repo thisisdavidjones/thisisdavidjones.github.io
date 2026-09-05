@@ -7,6 +7,9 @@ categories:
   - blog
 tags:
   - culture
+topics:
+  - Society and ideas
+  - History and culture
 slug: thebestmetaphor
 ---
 

@@ -1,0 +1,3 @@
+{{- range $i, $topic := . -}}
+  {{- if $i }} · {{ end -}}<a href="{{ printf "/topics/%s/" ($topic | urlize) | relURL }}">{{ $topic }}</a>
+{{- end -}}

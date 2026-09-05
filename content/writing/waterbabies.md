@@ -10,6 +10,9 @@ tags:
   - buddhism
   - tokyo
   - japan
+topics:
+  - History and culture
+  - Travel and place
 slug: waterbabies
 ---
 
