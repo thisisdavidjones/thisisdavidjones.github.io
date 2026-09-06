@@ -11,8 +11,6 @@ tags:
 topics:
   - Literature and language
   - History and culture
-featured: true
-featured_weight: 6
 slug: donquixote
 kindle: 
   - book: 'Don Quixote'

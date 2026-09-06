@@ -11,8 +11,6 @@ tags:
   - economics
 topics:
   - Society and ideas
-featured: true
-featured_weight: 5
 slug: vetonomics
 ---
 

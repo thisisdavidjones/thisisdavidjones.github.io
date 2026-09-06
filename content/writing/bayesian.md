@@ -14,8 +14,6 @@ tags:
 topics:
   - Mathematics and probability
   - Society and ideas
-featured: true
-featured_weight: 2
 slug: bayesianepistemology
 ---
 
