@@ -1,8 +1,8 @@
 # Ordered list of pages shown under "Selected Writing" on the home page.
 # Paths are relative to content/ and omit the .md extension.
+- writing/donquixote
 - writing/tangpoetry
 - writing/bayesian
 - writing/adalovelace
 - writing/gettingmarriedinjapan
 - writing/vetonomics
-- writing/donquixote
