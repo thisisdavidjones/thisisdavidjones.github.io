@@ -7,7 +7,7 @@ weight: -250
 ---
 
 {{% section id="home-intro" %}}
-This is the website of David Jones: essays, notes, links and clippings about literature, history, technology, travel, art, economics, and whatever else has caught my attention. Some pieces are new; others are older writing being restored to the site.
+This is the website of David Jones: essays, notes, links &amp; clippings about literature, history, technology, travel, art, economics, and whatever else has caught my attention. Some pieces are new; others are older writing being restored to the site.
 {{% /section %}}
 
 {{% section id="selected-writing" %}}
