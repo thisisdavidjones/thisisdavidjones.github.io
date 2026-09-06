@@ -1,0 +1,53 @@
+settings:
+  content:
+    merge: true
+
+  commit:
+    identity: user
+    templates:
+      create: "Add {name}"
+      update: "Update {name}"
+      delete: "Remove {name}"
+      rename: "Rename {oldFilename} to {newFilename}"
+
+content:
+  - name: selected-writing
+    label: Selected Writing
+    type: file
+    path: data/selected-writing.yaml
+    format: yaml
+
+    operations:
+      create: false
+      rename: false
+      delete: false
+
+  - name: links
+    label: Links
+    type: file
+    path: data/links.json
+    format: json
+
+    operations:
+      create: false
+      rename: false
+      delete: false
+
+    fields:
+      - name: links
+        label: Links
+        type: object
+        list: true
+
+        fields:
+          - name: date
+            label: Date
+            type: date
+
+          - name: text
+            label: Description
+            type: text
+
+          - name: link
+            label: URL
+            type: string
