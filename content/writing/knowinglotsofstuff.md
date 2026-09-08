@@ -2,6 +2,7 @@
 date: 2024-04-08T08:00:00
 lastmod: 2024-04-08T08:00:00
 title: "Knowing lots of stuff"
+description: "Thoughts on the pleasures and pitfalls of being good at general knowledge."
 authors: ["david"]
 draft: true
 

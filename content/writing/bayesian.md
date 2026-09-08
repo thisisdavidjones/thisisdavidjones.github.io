@@ -2,6 +2,7 @@
 date: 2024-08-28T12:00:00
 lastmod: 2024-08-16T20:50:00
 title: "Bayesian Thinking"
+description: "An introduction to Bayes' theorem and what updating our beliefs can teach us about knowledge and uncertainty."
 authors: ["david"]
 params:
   math: true

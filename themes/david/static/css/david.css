@@ -538,6 +538,14 @@ nav a[aria-current="page"] {
     margin: 0 0 0.9rem 0;
 }
 
+.writing-description {
+    display: block;
+    margin-top: 0.2rem;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 .taxonomy-note,
 .topic-description {
     max-width: 42rem;

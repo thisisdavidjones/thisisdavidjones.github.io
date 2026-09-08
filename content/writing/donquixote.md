@@ -2,6 +2,7 @@
 date: 2016-11-09T06:00:00+06:00
 lastmod: 2026-03-09T17:30:00+06:00
 title: "Pronouncing Don Quixote in La Mancha"
+description: "Reading Cervantes in Spain leads to a puzzle about pronunciation, English rhyme and the name Don Quixote."
 authors: ["david"]
 categories:
   - blog

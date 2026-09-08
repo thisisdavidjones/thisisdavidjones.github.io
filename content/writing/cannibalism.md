@@ -2,6 +2,7 @@
 date: 2024-06-08T08:00:00
 lastmod: 2024-06-08T08:00:00
 title: "Cannibalism in myth and Mycenaean Greece"
+description: "Notes on cannibalism in Greek myth and the temptation to read ancient stories as memories of real events."
 authors: ["david"]
 draft: true
 categories:

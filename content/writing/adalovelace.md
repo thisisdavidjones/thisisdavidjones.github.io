@@ -2,6 +2,7 @@
 date: 2023-04-03T08:00:00
 lastmod: 2024-03-23T08:00:00
 title: "The noble lie of Ada Lovelace"
+description: "Questioning the first-programmer story and whether an inspiring myth does justice to women in science."
 authors: ["david"]
 categories:
   - articles

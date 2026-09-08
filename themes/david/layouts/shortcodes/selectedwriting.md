@@ -7,6 +7,7 @@
   {{ else }}
   <li>
     <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+    {{ with $page.Description }}<span class="writing-description">{{ . }}</span>{{ end }}
     {{ with $page.Params.topics }}<small>{{ partial "topiclinks.html" . }}</small>{{ end }}
   </li>
   {{ end }}

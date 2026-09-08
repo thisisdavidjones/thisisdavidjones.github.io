@@ -2,6 +2,7 @@
 date: 2018-03-22T06:00:00+06:00
 lastmod: 2018-03-22T17:30:00+06:00
 title: "The Banach-Tarski Paradox"
+description: "How mathematics lets one ball become two, and why the trick will not double your gold."
 authors: ["david"]
 categories:
   - blog

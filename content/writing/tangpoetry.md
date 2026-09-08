@@ -2,6 +2,7 @@
 date: 2022-08-16T06:00:00+06:00
 lastmod: 2022-08-16T06:00:00+06:00
 title: "Seeing off Yuan the Second on a Mission to Anxi"
+description: "My translation of Wang Wei's farewell poem: a cup of wine before a friend travels beyond Yang Pass."
 authors: ["david"]
 categories:
   - blog

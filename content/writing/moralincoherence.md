@@ -2,6 +2,7 @@
 date: 2025-05-08T08:00:00
 lastmod: 2025-05-08T08:00:00
 title: "The Incoherence of Liberal Morality"
+description: "A critique of selective outrage and an argument for moral standards that hold across cultures."
 authors: ["david"]
 draft: false
 categories:

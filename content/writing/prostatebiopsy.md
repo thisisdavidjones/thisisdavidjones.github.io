@@ -2,6 +2,7 @@
 date: 2023-06-05T18:00:00
 lastmod: 2023-06-05T18:00:00
 title: "A prostate biopsy"
+description: "A personal account of a prostate biopsy, from anxiety beforehand to discomfort and the aftermath."
 draft: true
 authors: ["david"]
 categories:

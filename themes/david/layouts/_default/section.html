@@ -15,6 +15,7 @@
         {{ end }}
         <p class="archive-entry">
           <a href="{{ .RelPermalink }}">{{ .LinkTitle | default .Title }}</a>
+          {{ with .Description }}<span class="writing-description">{{ . }}</span>{{ end }}
           <small>{{ .Date.Format "02 Jan" }}{{ with .Params.topics }} · {{ partial "topiclinks.html" . }}{{ end }}</small>
         </p>
       {{ end }}

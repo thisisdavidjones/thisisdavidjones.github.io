@@ -2,6 +2,7 @@
 date: 2026-03-24T08:00:00
 lastmod: 2026-03-24T08:00:00
 title: "Economics and Trust in Veterinary Care"
+description: "Why trust, urgency and corporate ownership complicate the idea that clearer prices will make veterinary care competitive."
 authors: ["david"]
 draft: false
 categories:

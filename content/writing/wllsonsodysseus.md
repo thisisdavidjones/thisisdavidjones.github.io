@@ -2,6 +2,7 @@
 date: 2026-09-07T08:00:00
 lastmod: 2026-09-07T08:00:00
 title: "Emily Wilson's Odyssey"
+description: "What Emily Wilson's 'complicated man' loses from Homer's pattern of turning, wandering and return."
 authors: ["david"]
 draft: false
 categories:

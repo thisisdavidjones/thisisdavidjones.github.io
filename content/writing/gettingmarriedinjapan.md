@@ -2,6 +2,7 @@
 date: 2024-08-16T12:00:00
 lastmod: 2026-03-15T20:50:00
 title: Getting married in Japan
+description: "How we married in Tokyo as two British visitors, from translating documents to registering at the municipal office."
 authors:
   - david
 categories:
