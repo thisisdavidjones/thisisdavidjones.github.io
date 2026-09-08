@@ -617,3 +617,57 @@ nav a[aria-current="page"] {
 #articletopics {
     margin-bottom: 0.2rem;
 }
+
+.article-contents {
+    margin: 0 0 2rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.article-contents summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.article-contents nav {
+    position: static;
+    display: block;
+    width: auto;
+    padding: 0;
+    font: inherit;
+}
+
+.article-contents nav ul {
+    list-style: disc;
+    margin: 0.5rem 0 0;
+    padding: 0 0 0 1.2rem;
+}
+
+.article-contents nav li {
+    float: none;
+    margin: 0.3rem 0;
+}
+
+.article-contents nav li::before,
+.article-contents nav li::after {
+    content: none;
+}
+
+.heading-anchor {
+    font-size: 0.7em;
+    font-weight: normal;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.heading-anchor:hover,
+.heading-anchor:focus-visible {
+    opacity: 1;
+}
+
+article :is(h1, h2, h3, h4, h5, h6)[id] {
+    scroll-margin-top: 1rem;
+}

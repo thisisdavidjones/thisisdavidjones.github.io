@@ -2,6 +2,7 @@
 date: 2024-08-16T12:00:00
 lastmod: 2026-03-15T20:50:00
 title: Getting married in Japan
+toc: true
 description: "How we married in Tokyo as two British visitors, from translating documents to registering at the municipal office."
 authors:
   - david
@@ -21,25 +22,6 @@ lastmodinfo: A few small edits
 {{% pagedescription %}}
 I’m a UK citizen, and a few years ago I  married another UK citizen in Tokyo while we were on holiday. If you're planning to do the same, here’s a  guide to help you through the process. It will involve the preparation of some translations before you travel, a trip to the British Embassy in Tokyo (pre-booked),  and at least one visit to a municipal office in Japan that deals with the registration of births, marriages, deaths, and divorces --- I recommend two visits. 
 {{% / pagedescription %}}
-
-These are the steps involved, described in detail below:
-
-Before you travel:-
-
-1. [Book an appointment with the British Embassy](#step-1-book-an-appointment-at-the-british-embassy).
-2. [Gather and translate documents](#step-2-gather-and-translate-documents)
-
-
-In Japan:-
-
-3. [Get the affidavits from the British Embassy](#step-3-get-the-affidavits-from-the-british-embassy)
-4. [First visit to the municipal office](#step-4-first-visit-to-the-municipal-office)
-5. [Translate additional affidavit content](#step-5-translate-additional-affidavit-content)
-6. [Fill-out the marriage registration form](#step-6-fill-out-the-marriage-registration-form)
-7. [Obtain witnesses](#step-7-obtain-witnesses)
-8. [Final visit to the municipal office](#step-8-final-visit-to-the-municipal-office)
-9. [Approval of marriage registration](#step-9-approval-of-marriage-registration)
-10. [Obtain the Certificate of Acceptance of Notification of Marriage](#step-10-obtain-the-kon-in-todoke-juri-shomeisho)
 
 Note: it might be possible to complete the documents and  registration in one visit to the municipal office if you're on your toes but we took 2 visits over successive days to give use time to sort out the additional translations and the witnesses.
 

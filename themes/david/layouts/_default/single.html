@@ -2,6 +2,7 @@
   {{ if .Content }}
     <article>
       {{ partial "titlestuff.html" . }}
+      {{ partial "contents.html" . }}
       {{ .Content }}
       {{ partial "related.html" . }}
     </article>
