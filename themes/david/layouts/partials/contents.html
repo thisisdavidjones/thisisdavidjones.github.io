@@ -5,9 +5,15 @@
     {{- $show = .Params.toc -}}
   {{- end -}}
   {{- if and $show (gt $headings 0) -}}
-    <details class="article-contents">
-      <summary>On this page</summary>
-      {{ .Fragments.ToHTML 1 3 false }}
-    </details>
+    {{- $startLevel := 2 -}}
+    {{- if findRE `<h1\b` .Content -}}
+      {{- $startLevel = 1 -}}
+    {{- end -}}
+    <div class="article-contents" role="navigation" aria-label="On this page">
+      <p class="contents-label">On this page</p>
+      {{- $contents := .Fragments.ToHTML (int $startLevel) 3 false -}}
+      {{- $contents = replace $contents `<nav id="TableOfContents">` "" -}}
+      {{- replace $contents "</nav>" "" | safeHTML -}}
+    </div>
   {{- end -}}
 {{- end -}}
