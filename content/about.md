@@ -11,57 +11,45 @@ lastmod: 2023-03-10T17:30:00+06:00
 title: "About this website"
 ---
 {{% section %}}
- I've recently revamped this website and I'll be using it to collect links and content I find interesting, and for my own occasional writing, so the important things are speed and readability. I've closely followed the suggestions of [Edward Tufte's stylesheet recommendations](https://edwardtufte.github.io/tufte-css/) for simple and clear text on the web, and a long-standing aim is that markup should be as close to purely semantic as possible. The principles derived by Dave Liepmann from Tufte's writings are *guidelines*, not mandatory diktats, but they're very useful guidelines. I've also been  influenced by [Gwern Branwen's *Gwern.net*](https://gwern.net) in this most recent site revamp, though I hope not to be too copycat as the site evolves. 
 
- This is a static website, generated with [Hugo](https://gohugo.io/) (written in [Go/Golang](https://go.dev/)), and it's served from [GitHub Pages](https://pages.github.com/) with a build action when I push content to the repository. Content is written in [Markdown](https://www.markdownguide.org/) and the custom domain name is registered via Google. I'm beginning to build some AI into the site -- it's limited at the moment
- to automatically generating the brief description of page changes in my [changes](/changes/) section. 
+This is a personal website: somewhere to keep my own writing and links to things I find interesting.
 
- Simplicity and speed is exactly what I wanted for this revamp. I don't have any need for complicated, dynamic, session-based pages so this setup does the job well.
+It is designed above all for speed and readability. The typography and layout owe something to [Edward Tufte's stylesheet recommendations](https://edwardtufte.github.io/tufte-css/) about presenting text on the web, and more recently to [Gwern Branwen's *Gwern.net*](https://gwern.net). I prefer pages in which structure comes from the content rather than from decoration, and markup that remains as close to semantic HTML as practical.
+
+The site is generated with Hugo and hosted on GitHub Pages. The content is written in Markdown. It is deliberately static: I have no particular use for accounts, sessions, databases or most of the machinery that modern websites have acquired. I have begun adding small uses of AI where they are useful rather than ornamental.
 {{% / section %}}
 
 {{% section %}}
 ## About me
 
-I've worked in IT for nearly all of my adult life and I'm currently a Solutions Architect, which means I'm mostly hands-off in my day job. 
+I've worked in IT for most of my adult life and now work as a Solutions Architect. My background is in mathematics and computing, but my interests have always wandered fairly freely across literature, history, art, music, science and technology.
 
-I'm Welsh, though I moved from Wales for university when I was in my teens and I've lived mostly in England ever since. My being Welsh doesn't mean much to me. I was born and brought up in the English-speaking part of Wales and I like to point out to Welsh nationalists that the de facto national language of Wales is English.  
+I was born and brought up in Wales, left for university in my teens and have lived mostly in England since. I've worked very briefly in the United States, France, Belgium, Germany and Japan.
 
+I came relatively late to travel. A cycling holiday in France with my now wife, Helen,  changed that, and since then we have travelled widely in Europe and further afield. Japan has a particular place in my affections: [we were married there](/writing/japanesemarriage). I am also especially fond of Spain, Italy and Greece because of their wonderful histories.
 
-I've worked in the UK and &mdash; briefly &mdash; in the US, France, Belgium, Germany and Japan. I hardly travelled abroad when I was young but got the bug when I met Helen, my partner, who started me off with a cycling holiday in France. Since then we've visited the US many times, all of Europe, Turkey, India, and the Far East. We're yet to explore Africa, South America, and Indonesia.  Favourite countries to date are [Japan, where I got married](/writing/japanesemarriage) and  Spain, Italy and Greece especially for the history. 
+Languages interest me partly for the glimpse they give into other ways of organising thought. My French is ok-ish in favourable weather; my German, Spanish and Italian are considerably less so, and my Japanese and Mandarin are mostly evidence of good intentions.
 
-
-
-{{% sidenote %}}A Japanese friend once gave a presentation complaining that the Japanese had to learn English and suggested Esperanto instead. I don't think she understood Esperanto is an artificial *Romance* language. It's essentially a dialect of Latin. {{% /sidenote %}}
-Like most British people I'm not great at languages - a little French and less German, Spanish and Italian, and *very* little Mandarin and hardly any Japanese. I try to learn languages especially before I travel because of the additional insight it gives into other cultures and it's polite but I don't blame the British in general for their lack of facility with languages, as if it betrayed insularity or xenophobia, a common accusation; we inevitably have an asymmetric relationship with other languages &amp; countries because we're already speaking the  international lingua franca. 
-
-{{% sidenote %}}Years ago, on a TV quiz programme, I asked the  host why they didn't have more science questions and he replied,'Because we don't consider science to be part of general knowledge.'
-
+{{% sidenote %}}Years ago, while appearing on a television quiz, I asked why there were so few science questions. The host replied that they did not regard science as part of general knowledge. I have remembered his answer.
 {{< figure src="https://live.staticflickr.com/65535/52716705602_59b786093a_o.jpg" 
-
 link="https://live.staticflickr.com/65535/52716705602_59b786093a_o.jpg" 
  class="figimg"
 >}}
 {{% /sidenote %}}
+One of my abiding prejudices is against the division of knowledge into respectable compartments. Science, mathematics and technology are as much parts of culture as literature, painting or music. Conversely, technical education is no excuse for incuriosity about the humanities. Almost anything becomes interesting once you know enough about it.
 
-I'm convinced everything can be interesting <a id="test"></a>if you invest time and effort. As someone educated in maths and working in IT I'm very aware of the supposed philistinism of the STEM-trained but I'd turn the accusation around onto the Arts crowd. Next to nobody knows much about, or cares about,  the humanities and arts either, and in any case our culture *includes*  science, maths and technology. This isn't a criticism -- people have their lives to live and that's difficult enough. 
-
-Politically I'm fairly ordinary, starting out on the Left and drifting rightwards as I aged.  I joined Labour when I was 15, just as the entryist Militant group gained a stranglehold on the Labour Party Young Socialists -- so I became a Trotskyist, which had the attraction of annoying my parents. Militant was kicked out and prompted [*that* 1985 speech by Kinnock](https://www.youtube.com/watch?v=XSz3xNxnPsQ), when he berated Liverpool Council leaders, but I'd already dropped my involvement by then. I joined the  party again when Blair took over, left *again*, and now the simplistic arrangement of  policies along a L-R continuum no longer makes sense to me, and I dislike political tribalism. I'm  more conservative now, in an Oakeshottian way.
-
+My politics have changed predictably since I joined the Labour Party at fifteen, and rejoined in the heady year of 1997. These days I'm suspicious of political tribes and increasingly doubtful that a single left-right axis captures the real world. Michael Oakeshott’s formulation appeals to me more now:
 {{% epigraph src="Michael Oakeshott" cite="Rationalism in Politics and other essays" extra="1962" %}}
-To be conservative ... is to prefer the familiar to the unknown, to prefer the tried to the untried, fact to mystery, the actual to the possible, the limited to the unbounded, the near to the distant, the sufficient to the superabundant, the convenient to the perfect, present laughter to utopian bliss
+...to prefer the familiar to the unknown, to prefer the tried to the untried, fact to mystery, the actual to the possible, the limited to the unbounded, the near to the distant, the sufficient to the superabundant, the convenient to the perfect, present laughter to utopian bliss
 {{% / epigraph %}}
 
-I like some music -- 'classical', especially Baroque (which isn't *classical* classical) and the popular  music of my late teens but then,  everyone likes the music of their late teens. 
 
-Unlike almost everyone I've ever met , I've always liked good poetry, though most is bad--to--toe-curlingly terrible. It's very important to memorise poetry.  
+My musical tastes run mosly to classical music, particularly Baroque, and to the popular music I listened to in adolescence and have, like most people, failed to abandon. I like poetry and think other people should too, and should memorise more of it. I like art, literature and history, although with most contemporary work we haven't yet had the benefit of time doing its ruthless editorial work.
 
-I like art of just about any period, though very contemporary stuff is  difficult because the rubbish hasn't been winnowed out and there's so much rubbish. 
+I periodically decide that this is the year in which I shall finally become properly competent at statistics.
 
-I like most kinds and periods of literature with a few exceptions and blind spots but, as with art, the good contemporary stuff is swamped by the bad -- anything younger than about 100 years old is, to quote  Zhou Enlai, too early to tell. 
+I can also be found on  X (Twitter) at [askdavidjones](https://x.com/askdavidjones), on Instagram as [askdavidjones](https://www.instagram.com/askdavidjones) and on LinkedIn as [thisisdavidjones](https://www.linkedin.com/in/thisisdavidjones/)
 
-I like history. I wish I was better at maths, and I keep meaning to teach myself more stats.
-
-You can [read my CV here](/resume/cv/) You can find me on X (Twitter) at [askdavidjones](https://x.com/askdavidjones), on Instagram as [askdavidjones](https://www.instagram.com/askdavidjones) and on LinkedIn as [thisisdavidjones](https://www.linkedin.com/in/thisisdavidjones/)
 
 {{% /section %}}
 
