@@ -15,7 +15,7 @@ tags:
 topics:
   - Literature and language
   - History and culture
-slug: wllsonsodysseus
+slug: wilsonsodysseus
 ---
 {{% pagedescription %}}
 Professor Emily Wilson’s famous opening to her translation of the Odyssey, 'Tell me about a complicated man', may seem a bold modernisation of Homer. But ***Polytropos*** carries the idea of turning, and the Odyssey keeps returning to that idea: in Odysseus’s route home, his disguises and stories, Penelope’s weaving and unweaving, the poem’s own reversals, and finally the rooted marriage bed. 'Complicated' may make Odysseus psychologically interesting, but Wilson's choice severs the opening from one of the poem’s deepest patterns.
