@@ -23,7 +23,7 @@ lastmodinfo: A few small edits
 I’m a UK citizen, and a few years ago I  married another UK citizen in Tokyo while we were on holiday. If you're planning to do the same, here’s a  guide to help you through the process. It will involve the preparation of some translations before you travel, a trip to the British Embassy in Tokyo (pre-booked),  and at least one visit to a municipal office in Japan that deals with the registration of births, marriages, deaths, and divorces --- I recommend two visits. 
 {{% / pagedescription %}}
 
-Note: it might be possible to complete the documents and  registration in one visit to the municipal office if you're on your toes but we took 2 visits over successive days to give use time to sort out the additional translations and the witnesses.
+Note: it might be possible to complete the documents and  registration in one visit to the municipal office if you're on your toes but we took 2 visits over successive days to give us time to sort out the additional translations and the witnesses.
 
 # Before you travel to Japan
 
@@ -101,7 +101,7 @@ Complete the Marriage Registration Form, incorporating the suggestions made by t
 ## Step 7: Obtain Witnesses
 You need two witnesses to fill out a section of the registration form. The witnesses do not need to be present at the municipal office. 
 
-We asked two women staying at our hotel to be our witnesses, but this step may be  challenging if you don’t know anyone in Japan --  but this may be the step you find most challenging or awkward. Approaching random Japanese people to be the witnesses to your marriage is a little odd, after all.
+We asked two women staying at our hotel to be our witnesses, but this step may be  challenging if you don’t know anyone in Japan. Approaching random Japanese people to be the witnesses to your marriage is a little odd, after all.
 
 The legal requirements for witness details differ slightly for Japanese and non-Japanese witnesses, so ask the officials for guidance during Step 4.
 
@@ -143,7 +143,7 @@ We asked for two copies of the ‘Certificate of Acceptance of Notification of M
 # Notes #
 
 * You do not have to be permanently resident in Japan. You do not need to have a residency visa.
-* There is no longer any concept of registering an overseas mariage with the General Records Office back in the UK
+* There is no longer any concept of registering an overseas marriage with the General Records Office back in the UK
 * Under UK legislation marriages involving at least one British citizen taking place abroad, before the competent local authority and which are legally valid in that country, are likely to be recognised as valid in the UK
 * It is remotely *possible* that for some purposes you may need further proof of marriage in the form of an **apostille**, a certification from the Japanese Ministry of Foreign Affairs to prove that the document is official and issued by its government. To get an apostille from Japanese Ministry of foreign affairs, [visit their webpage here](https://www.mofa.go.jp/ca/cs/page22e_000417.html).
 
